@@ -1,0 +1,161 @@
+plugins {
+	id 'java'
+	id 'org.springframework.boot' version '4.0.2'
+	id 'io.spring.dependency-management' version '1.1.7'
+
+	// Code quality
+	id 'com.diffplug.spotless' version '6.25.0'
+	id 'checkstyle'
+	id 'jacoco'
+	id "net.ltgt.errorprone" version "3.1.0"
+	id "org.owasp.dependencycheck" version "12.2.0"
+	id "org.sonarqube" version "7.2.2.6593"
+}
+
+group = 'com.gnovoa'
+version = '0.0.1-SNAPSHOT'
+description = 'Football Engine'
+
+
+// --- Versions ---
+ext {
+	jarName = 'gn-football.jar'
+	springdocVersion = '2.8.5'
+	jaxbApiVersion   = '4.0.1'
+	jaxbImplVersion  = '4.0.4'
+	googleJavaFormatVersion = '1.24.0'
+
+	checkstyleVersion = '10.12.0'
+	errorProneVersion = '2.24.0'
+	nullAwayVersion = '0.10.8'
+	jacocoToolVersion = '0.8.11'
+}
+
+
+java {
+	toolchain {
+		languageVersion = JavaLanguageVersion.of(21)
+	}
+
+	// Explicit for readability; toolchain already enforces this
+	sourceCompatibility = JavaVersion.VERSION_21
+	targetCompatibility = JavaVersion.VERSION_21
+}
+
+repositories {
+	mavenCentral()
+	maven { url = 'https://repo.spring.io/snapshot' }
+}
+
+// --- Spotless (formatting) ---
+spotless {
+	java {
+		target 'src/*/java/**/*.java'
+		googleJavaFormat(googleJavaFormatVersion)
+		removeUnusedImports()
+		trimTrailingWhitespace()
+		endWithNewline()
+//		ratchetFrom 'origin/main'
+	}
+	format 'xml', {
+		target 'src/**/*.xml'
+		indentWithSpaces()
+		trimTrailingWhitespace()
+		endWithNewline()
+	}
+	format 'markdown', {
+		target '**/*.md'
+		trimTrailingWhitespace()
+		endWithNewline()
+	}
+}
+
+//Always run spotless before build
+tasks.named('build') {
+	dependsOn 'spotlessApply'
+}
+
+// --- Checkstyle (optional style rules) ---
+checkstyle {
+	toolVersion = checkstyleVersion
+	configFile = rootProject.file("codequality/checkstyle/checkstyle.xml")
+}
+
+
+tasks.withType(Checkstyle).configureEach {
+	reports {
+		xml.required.set(false)
+		html.required.set(true)
+	}
+}
+
+tasks.check.dependsOn tasks.checkstyleMain
+
+// --- Error Prone + NullAway ---
+dependencies {
+	errorprone "com.google.errorprone:error_prone_core:$errorProneVersion"
+	errorprone "com.uber.nullaway:nullaway:$nullAwayVersion"
+}
+
+tasks.withType(JavaCompile).configureEach {
+	options.errorprone {
+		disableWarningsInGeneratedCode.set(true)
+		check("NullAway", net.ltgt.gradle.errorprone.CheckSeverity.ERROR)
+		option("NullAway:AnnotatedPackages", "com.gnovoa") // <- your root package
+	}
+}
+
+// --- Jacoco Test Coverage ---
+jacoco {
+	toolVersion = jacocoToolVersion
+}
+
+tasks.jacocoTestReport {
+	dependsOn tasks.test
+	reports {
+		csv.required.set(false)
+		xml.required.set(true)
+		html.required.set(true)
+	}
+}
+
+// --- SonarQube ---
+sonarqube {
+	properties {
+		property "sonar.projectKey", "com_gabriel_gn-slot"
+		property "sonar.host.url", "http://localhost:9000"
+		property "sonar.java.source", "21"
+		property "sonar.coverage.jacoco.xmlReportPaths",
+				layout.buildDirectory.file("reports/jacoco/test/jacocoTestReport.xml").asFile.toString()
+	}
+}
+
+// --- Testing ---
+tasks.withType(Test).configureEach {
+	useJUnitPlatform()
+}
+
+dependencies {
+	// Spring Boot Starters
+	implementation 'org.springframework.boot:spring-boot-starter'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-starter-actuator'
+	implementation 'org.springframework.boot:spring-boot-starter-opentelemetry'
+
+	// OpenAPI / Swagger
+	implementation "org.springdoc:springdoc-openapi-starter-webmvc-ui:$springdocVersion"
+
+	// LOMBOK: Use the latest stable versions
+	compileOnly 'org.projectlombok:lombok'
+	annotationProcessor 'org.projectlombok:lombok'
+	testCompileOnly 'org.projectlombok:lombok'
+	testAnnotationProcessor 'org.projectlombok:lombok'
+
+
+	// Testing
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testImplementation 'org.springframework.boot:spring-boot-resttestclient'
+	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+
+}
+

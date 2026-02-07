@@ -1,0 +1,45 @@
+
+info:
+  description: Football Match Engine
+
+spring:
+  application:
+    name: football-engine
+
+logging:
+  structured:
+    # This toggles JSON logging. Options: logstash, ecs (Elastic), gelf
+    format:
+      console: logstash
+  level:
+    root: INFO
+    com.example: DEBUG
+
+
+
+springdoc:
+  swagger-ui:
+    operationsSorter: method
+    groups-order: asc
+
+gnovoab:
+  openapi:
+    dev-url: "http://localhost:8080"
+    prod-url: "https://gnovoab-api.com"
+
+
+management:
+  otlp:
+    logging:
+      export:
+        enabled: true
+    tracing:
+      # Automatically correlates logs with Trace IDs
+      endpoint: http://localhost:4318/v1/traces
+  endpoints:
+    web:
+      exposure:
+        include: "health,info"
+    jmx:
+      exposure:
+        include: "health,info"
