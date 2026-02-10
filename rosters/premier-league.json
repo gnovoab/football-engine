@@ -1,0 +1,4426 @@
+{
+  "league": "PREMIER_LEAGUE",
+  "season": "SIM-2025-2026",
+  "teams": [
+    {
+      "teamId": "pl-ars",
+      "name": "Arsenal",
+      "shortName": "ARS",
+      "strength": {
+        "attack": 85,
+        "midfield": 84,
+        "defense": 83,
+        "keeper": 82,
+        "discipline": 46
+      },
+      "players": [
+        {
+          "playerId": "pl-ars-01",
+          "name": "Arsenal Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 82,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "pl-ars-02",
+          "name": "Arsenal Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 79,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "pl-ars-03",
+          "name": "Arsenal Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 77,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "pl-ars-04",
+          "name": "Arsenal Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 80,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-ars-05",
+          "name": "Arsenal Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 80,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-ars-06",
+          "name": "Arsenal Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 81,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-ars-07",
+          "name": "Arsenal Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 81,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-ars-08",
+          "name": "Arsenal Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 79,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "pl-ars-09",
+          "name": "Arsenal Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 78,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-ars-10",
+          "name": "Arsenal Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 77,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "pl-ars-11",
+          "name": "Arsenal Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 77,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "pl-ars-12",
+          "name": "Arsenal Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 83,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "pl-ars-13",
+          "name": "Arsenal Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 84,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "pl-ars-14",
+          "name": "Arsenal Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 81,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "pl-ars-15",
+          "name": "Arsenal Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 82,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "pl-ars-16",
+          "name": "Arsenal Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 81,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-ars-17",
+          "name": "Arsenal Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 78,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-ars-18",
+          "name": "Arsenal Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 77,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "pl-ars-19",
+          "name": "Arsenal Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 77,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "pl-ars-20",
+          "name": "Arsenal Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 84,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-ars-21",
+          "name": "Arsenal Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 84,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-ars-22",
+          "name": "Arsenal Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 82,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-ars-23",
+          "name": "Arsenal Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 80,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "pl-ast",
+      "name": "Aston Villa",
+      "shortName": "AVL",
+      "strength": {
+        "attack": 81,
+        "midfield": 80,
+        "defense": 79,
+        "keeper": 78,
+        "discipline": 50
+      },
+      "players": [
+        {
+          "playerId": "pl-ast-01",
+          "name": "Aston Villa Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 78,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "pl-ast-02",
+          "name": "Aston Villa Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 75,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "pl-ast-03",
+          "name": "Aston Villa Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 73,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "pl-ast-04",
+          "name": "Aston Villa Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 76,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-ast-05",
+          "name": "Aston Villa Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 76,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-ast-06",
+          "name": "Aston Villa Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 77,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-ast-07",
+          "name": "Aston Villa Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 77,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-ast-08",
+          "name": "Aston Villa Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 75,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "pl-ast-09",
+          "name": "Aston Villa Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 74,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-ast-10",
+          "name": "Aston Villa Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 73,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "pl-ast-11",
+          "name": "Aston Villa Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 73,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "pl-ast-12",
+          "name": "Aston Villa Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 79,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "pl-ast-13",
+          "name": "Aston Villa Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 80,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "pl-ast-14",
+          "name": "Aston Villa Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 77,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "pl-ast-15",
+          "name": "Aston Villa Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 78,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "pl-ast-16",
+          "name": "Aston Villa Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 77,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-ast-17",
+          "name": "Aston Villa Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 74,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-ast-18",
+          "name": "Aston Villa Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 73,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "pl-ast-19",
+          "name": "Aston Villa Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 73,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "pl-ast-20",
+          "name": "Aston Villa Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 80,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-ast-21",
+          "name": "Aston Villa Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 80,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-ast-22",
+          "name": "Aston Villa Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 78,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-ast-23",
+          "name": "Aston Villa Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 76,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "pl-bou",
+      "name": "Bournemouth",
+      "shortName": "BOU",
+      "strength": {
+        "attack": 75,
+        "midfield": 74,
+        "defense": 73,
+        "keeper": 72,
+        "discipline": 56
+      },
+      "players": [
+        {
+          "playerId": "pl-bou-01",
+          "name": "Bournemouth Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 72,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "pl-bou-02",
+          "name": "Bournemouth Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 69,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "pl-bou-03",
+          "name": "Bournemouth Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 67,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "pl-bou-04",
+          "name": "Bournemouth Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 70,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-bou-05",
+          "name": "Bournemouth Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 70,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-bou-06",
+          "name": "Bournemouth Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 71,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-bou-07",
+          "name": "Bournemouth Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 71,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-bou-08",
+          "name": "Bournemouth Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 69,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "pl-bou-09",
+          "name": "Bournemouth Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 68,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-bou-10",
+          "name": "Bournemouth Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 67,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "pl-bou-11",
+          "name": "Bournemouth Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 67,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "pl-bou-12",
+          "name": "Bournemouth Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 73,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "pl-bou-13",
+          "name": "Bournemouth Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 74,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "pl-bou-14",
+          "name": "Bournemouth Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 71,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "pl-bou-15",
+          "name": "Bournemouth Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 72,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "pl-bou-16",
+          "name": "Bournemouth Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 71,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-bou-17",
+          "name": "Bournemouth Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 68,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-bou-18",
+          "name": "Bournemouth Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 67,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "pl-bou-19",
+          "name": "Bournemouth Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 67,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "pl-bou-20",
+          "name": "Bournemouth Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 74,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-bou-21",
+          "name": "Bournemouth Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 74,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-bou-22",
+          "name": "Bournemouth Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 72,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-bou-23",
+          "name": "Bournemouth Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 70,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "pl-bre",
+      "name": "Brentford",
+      "shortName": "BRE",
+      "strength": {
+        "attack": 76,
+        "midfield": 75,
+        "defense": 74,
+        "keeper": 73,
+        "discipline": 55
+      },
+      "players": [
+        {
+          "playerId": "pl-bre-01",
+          "name": "Brentford Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 73,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "pl-bre-02",
+          "name": "Brentford Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 70,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "pl-bre-03",
+          "name": "Brentford Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 68,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "pl-bre-04",
+          "name": "Brentford Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 71,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-bre-05",
+          "name": "Brentford Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 71,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-bre-06",
+          "name": "Brentford Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 72,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-bre-07",
+          "name": "Brentford Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 72,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-bre-08",
+          "name": "Brentford Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 70,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "pl-bre-09",
+          "name": "Brentford Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 69,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-bre-10",
+          "name": "Brentford Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 68,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "pl-bre-11",
+          "name": "Brentford Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 68,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "pl-bre-12",
+          "name": "Brentford Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 74,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "pl-bre-13",
+          "name": "Brentford Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 75,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "pl-bre-14",
+          "name": "Brentford Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 72,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "pl-bre-15",
+          "name": "Brentford Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 73,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "pl-bre-16",
+          "name": "Brentford Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 72,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-bre-17",
+          "name": "Brentford Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 69,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-bre-18",
+          "name": "Brentford Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 68,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "pl-bre-19",
+          "name": "Brentford Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 68,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "pl-bre-20",
+          "name": "Brentford Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 75,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-bre-21",
+          "name": "Brentford Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 75,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-bre-22",
+          "name": "Brentford Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 73,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-bre-23",
+          "name": "Brentford Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 71,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "pl-bha",
+      "name": "Brighton & Hove Albion",
+      "shortName": "BHA",
+      "strength": {
+        "attack": 78,
+        "midfield": 77,
+        "defense": 76,
+        "keeper": 75,
+        "discipline": 53
+      },
+      "players": [
+        {
+          "playerId": "pl-bha-01",
+          "name": "Brighton & Hove Albion Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 75,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "pl-bha-02",
+          "name": "Brighton & Hove Albion Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 72,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "pl-bha-03",
+          "name": "Brighton & Hove Albion Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 70,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "pl-bha-04",
+          "name": "Brighton & Hove Albion Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 73,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-bha-05",
+          "name": "Brighton & Hove Albion Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 73,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-bha-06",
+          "name": "Brighton & Hove Albion Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 74,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-bha-07",
+          "name": "Brighton & Hove Albion Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 74,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-bha-08",
+          "name": "Brighton & Hove Albion Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 72,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "pl-bha-09",
+          "name": "Brighton & Hove Albion Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 71,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-bha-10",
+          "name": "Brighton & Hove Albion Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 70,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "pl-bha-11",
+          "name": "Brighton & Hove Albion Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 70,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "pl-bha-12",
+          "name": "Brighton & Hove Albion Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 76,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "pl-bha-13",
+          "name": "Brighton & Hove Albion Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 77,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "pl-bha-14",
+          "name": "Brighton & Hove Albion Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 74,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "pl-bha-15",
+          "name": "Brighton & Hove Albion Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 75,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "pl-bha-16",
+          "name": "Brighton & Hove Albion Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 74,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-bha-17",
+          "name": "Brighton & Hove Albion Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 71,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-bha-18",
+          "name": "Brighton & Hove Albion Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 70,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "pl-bha-19",
+          "name": "Brighton & Hove Albion Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 70,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "pl-bha-20",
+          "name": "Brighton & Hove Albion Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 77,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-bha-21",
+          "name": "Brighton & Hove Albion Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 77,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-bha-22",
+          "name": "Brighton & Hove Albion Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 75,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-bha-23",
+          "name": "Brighton & Hove Albion Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 73,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "pl-bur",
+      "name": "Burnley",
+      "shortName": "BUR",
+      "strength": {
+        "attack": 73,
+        "midfield": 72,
+        "defense": 71,
+        "keeper": 70,
+        "discipline": 58
+      },
+      "players": [
+        {
+          "playerId": "pl-bur-01",
+          "name": "Burnley Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 70,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "pl-bur-02",
+          "name": "Burnley Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 67,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "pl-bur-03",
+          "name": "Burnley Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 65,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "pl-bur-04",
+          "name": "Burnley Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 68,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-bur-05",
+          "name": "Burnley Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 68,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-bur-06",
+          "name": "Burnley Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 69,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-bur-07",
+          "name": "Burnley Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 69,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-bur-08",
+          "name": "Burnley Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 67,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "pl-bur-09",
+          "name": "Burnley Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 66,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-bur-10",
+          "name": "Burnley Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 65,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "pl-bur-11",
+          "name": "Burnley Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 65,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "pl-bur-12",
+          "name": "Burnley Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 71,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "pl-bur-13",
+          "name": "Burnley Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 72,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "pl-bur-14",
+          "name": "Burnley Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 69,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "pl-bur-15",
+          "name": "Burnley Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 70,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "pl-bur-16",
+          "name": "Burnley Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 69,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-bur-17",
+          "name": "Burnley Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 66,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-bur-18",
+          "name": "Burnley Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 65,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "pl-bur-19",
+          "name": "Burnley Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 65,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "pl-bur-20",
+          "name": "Burnley Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 72,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-bur-21",
+          "name": "Burnley Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 72,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-bur-22",
+          "name": "Burnley Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 70,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-bur-23",
+          "name": "Burnley Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 68,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "pl-che",
+      "name": "Chelsea",
+      "shortName": "CHE",
+      "strength": {
+        "attack": 83,
+        "midfield": 82,
+        "defense": 81,
+        "keeper": 80,
+        "discipline": 48
+      },
+      "players": [
+        {
+          "playerId": "pl-che-01",
+          "name": "Chelsea Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 80,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "pl-che-02",
+          "name": "Chelsea Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 77,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "pl-che-03",
+          "name": "Chelsea Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 75,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "pl-che-04",
+          "name": "Chelsea Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 78,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-che-05",
+          "name": "Chelsea Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 78,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-che-06",
+          "name": "Chelsea Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 79,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-che-07",
+          "name": "Chelsea Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 79,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-che-08",
+          "name": "Chelsea Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 77,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "pl-che-09",
+          "name": "Chelsea Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 76,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-che-10",
+          "name": "Chelsea Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 75,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "pl-che-11",
+          "name": "Chelsea Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 75,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "pl-che-12",
+          "name": "Chelsea Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 81,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "pl-che-13",
+          "name": "Chelsea Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 82,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "pl-che-14",
+          "name": "Chelsea Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 79,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "pl-che-15",
+          "name": "Chelsea Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 80,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "pl-che-16",
+          "name": "Chelsea Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 79,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-che-17",
+          "name": "Chelsea Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 76,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-che-18",
+          "name": "Chelsea Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 75,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "pl-che-19",
+          "name": "Chelsea Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 75,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "pl-che-20",
+          "name": "Chelsea Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 82,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-che-21",
+          "name": "Chelsea Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 82,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-che-22",
+          "name": "Chelsea Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 80,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-che-23",
+          "name": "Chelsea Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 78,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "pl-cry",
+      "name": "Crystal Palace",
+      "shortName": "CRY",
+      "strength": {
+        "attack": 76,
+        "midfield": 75,
+        "defense": 74,
+        "keeper": 73,
+        "discipline": 55
+      },
+      "players": [
+        {
+          "playerId": "pl-cry-01",
+          "name": "Crystal Palace Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 73,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "pl-cry-02",
+          "name": "Crystal Palace Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 70,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "pl-cry-03",
+          "name": "Crystal Palace Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 68,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "pl-cry-04",
+          "name": "Crystal Palace Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 71,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-cry-05",
+          "name": "Crystal Palace Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 71,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-cry-06",
+          "name": "Crystal Palace Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 72,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-cry-07",
+          "name": "Crystal Palace Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 72,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-cry-08",
+          "name": "Crystal Palace Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 70,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "pl-cry-09",
+          "name": "Crystal Palace Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 69,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-cry-10",
+          "name": "Crystal Palace Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 68,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "pl-cry-11",
+          "name": "Crystal Palace Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 68,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "pl-cry-12",
+          "name": "Crystal Palace Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 74,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "pl-cry-13",
+          "name": "Crystal Palace Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 75,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "pl-cry-14",
+          "name": "Crystal Palace Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 72,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "pl-cry-15",
+          "name": "Crystal Palace Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 73,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "pl-cry-16",
+          "name": "Crystal Palace Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 72,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-cry-17",
+          "name": "Crystal Palace Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 69,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-cry-18",
+          "name": "Crystal Palace Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 68,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "pl-cry-19",
+          "name": "Crystal Palace Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 68,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "pl-cry-20",
+          "name": "Crystal Palace Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 75,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-cry-21",
+          "name": "Crystal Palace Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 75,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-cry-22",
+          "name": "Crystal Palace Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 73,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-cry-23",
+          "name": "Crystal Palace Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 71,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "pl-eve",
+      "name": "Everton",
+      "shortName": "EVE",
+      "strength": {
+        "attack": 74,
+        "midfield": 73,
+        "defense": 72,
+        "keeper": 71,
+        "discipline": 57
+      },
+      "players": [
+        {
+          "playerId": "pl-eve-01",
+          "name": "Everton Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 71,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "pl-eve-02",
+          "name": "Everton Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 68,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "pl-eve-03",
+          "name": "Everton Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 66,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "pl-eve-04",
+          "name": "Everton Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 69,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-eve-05",
+          "name": "Everton Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 69,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-eve-06",
+          "name": "Everton Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 70,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-eve-07",
+          "name": "Everton Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 70,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-eve-08",
+          "name": "Everton Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 68,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "pl-eve-09",
+          "name": "Everton Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 67,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-eve-10",
+          "name": "Everton Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 66,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "pl-eve-11",
+          "name": "Everton Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 66,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "pl-eve-12",
+          "name": "Everton Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 72,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "pl-eve-13",
+          "name": "Everton Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 73,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "pl-eve-14",
+          "name": "Everton Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 70,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "pl-eve-15",
+          "name": "Everton Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 71,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "pl-eve-16",
+          "name": "Everton Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 70,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-eve-17",
+          "name": "Everton Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 67,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-eve-18",
+          "name": "Everton Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 66,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "pl-eve-19",
+          "name": "Everton Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 66,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "pl-eve-20",
+          "name": "Everton Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 73,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-eve-21",
+          "name": "Everton Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 73,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-eve-22",
+          "name": "Everton Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 71,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-eve-23",
+          "name": "Everton Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 69,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "pl-ful",
+      "name": "Fulham",
+      "shortName": "FUL",
+      "strength": {
+        "attack": 75,
+        "midfield": 74,
+        "defense": 73,
+        "keeper": 72,
+        "discipline": 56
+      },
+      "players": [
+        {
+          "playerId": "pl-ful-01",
+          "name": "Fulham Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 72,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "pl-ful-02",
+          "name": "Fulham Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 69,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "pl-ful-03",
+          "name": "Fulham Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 67,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "pl-ful-04",
+          "name": "Fulham Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 70,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-ful-05",
+          "name": "Fulham Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 70,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-ful-06",
+          "name": "Fulham Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 71,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-ful-07",
+          "name": "Fulham Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 71,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-ful-08",
+          "name": "Fulham Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 69,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "pl-ful-09",
+          "name": "Fulham Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 68,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-ful-10",
+          "name": "Fulham Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 67,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "pl-ful-11",
+          "name": "Fulham Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 67,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "pl-ful-12",
+          "name": "Fulham Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 73,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "pl-ful-13",
+          "name": "Fulham Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 74,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "pl-ful-14",
+          "name": "Fulham Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 71,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "pl-ful-15",
+          "name": "Fulham Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 72,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "pl-ful-16",
+          "name": "Fulham Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 71,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-ful-17",
+          "name": "Fulham Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 68,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-ful-18",
+          "name": "Fulham Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 67,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "pl-ful-19",
+          "name": "Fulham Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 67,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "pl-ful-20",
+          "name": "Fulham Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 74,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-ful-21",
+          "name": "Fulham Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 74,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-ful-22",
+          "name": "Fulham Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 72,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-ful-23",
+          "name": "Fulham Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 70,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "pl-lee",
+      "name": "Leeds United",
+      "shortName": "LEE",
+      "strength": {
+        "attack": 74,
+        "midfield": 73,
+        "defense": 72,
+        "keeper": 71,
+        "discipline": 57
+      },
+      "players": [
+        {
+          "playerId": "pl-lee-01",
+          "name": "Leeds United Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 71,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "pl-lee-02",
+          "name": "Leeds United Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 68,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "pl-lee-03",
+          "name": "Leeds United Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 66,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "pl-lee-04",
+          "name": "Leeds United Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 69,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-lee-05",
+          "name": "Leeds United Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 69,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-lee-06",
+          "name": "Leeds United Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 70,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-lee-07",
+          "name": "Leeds United Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 70,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-lee-08",
+          "name": "Leeds United Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 68,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "pl-lee-09",
+          "name": "Leeds United Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 67,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-lee-10",
+          "name": "Leeds United Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 66,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "pl-lee-11",
+          "name": "Leeds United Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 66,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "pl-lee-12",
+          "name": "Leeds United Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 72,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "pl-lee-13",
+          "name": "Leeds United Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 73,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "pl-lee-14",
+          "name": "Leeds United Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 70,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "pl-lee-15",
+          "name": "Leeds United Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 71,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "pl-lee-16",
+          "name": "Leeds United Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 70,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-lee-17",
+          "name": "Leeds United Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 67,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-lee-18",
+          "name": "Leeds United Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 66,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "pl-lee-19",
+          "name": "Leeds United Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 66,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "pl-lee-20",
+          "name": "Leeds United Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 73,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-lee-21",
+          "name": "Leeds United Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 73,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-lee-22",
+          "name": "Leeds United Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 71,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-lee-23",
+          "name": "Leeds United Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 69,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "pl-liv",
+      "name": "Liverpool",
+      "shortName": "LIV",
+      "strength": {
+        "attack": 86,
+        "midfield": 85,
+        "defense": 84,
+        "keeper": 83,
+        "discipline": 45
+      },
+      "players": [
+        {
+          "playerId": "pl-liv-01",
+          "name": "Liverpool Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 83,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "pl-liv-02",
+          "name": "Liverpool Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 80,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "pl-liv-03",
+          "name": "Liverpool Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 78,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "pl-liv-04",
+          "name": "Liverpool Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 81,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-liv-05",
+          "name": "Liverpool Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 81,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-liv-06",
+          "name": "Liverpool Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 82,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-liv-07",
+          "name": "Liverpool Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 82,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-liv-08",
+          "name": "Liverpool Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 80,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "pl-liv-09",
+          "name": "Liverpool Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 79,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-liv-10",
+          "name": "Liverpool Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 78,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "pl-liv-11",
+          "name": "Liverpool Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 78,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "pl-liv-12",
+          "name": "Liverpool Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 84,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "pl-liv-13",
+          "name": "Liverpool Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 85,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "pl-liv-14",
+          "name": "Liverpool Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 82,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "pl-liv-15",
+          "name": "Liverpool Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 83,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "pl-liv-16",
+          "name": "Liverpool Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 82,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-liv-17",
+          "name": "Liverpool Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 79,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-liv-18",
+          "name": "Liverpool Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 78,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "pl-liv-19",
+          "name": "Liverpool Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 78,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "pl-liv-20",
+          "name": "Liverpool Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 85,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-liv-21",
+          "name": "Liverpool Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 85,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-liv-22",
+          "name": "Liverpool Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 83,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-liv-23",
+          "name": "Liverpool Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 81,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "pl-mci",
+      "name": "Manchester City",
+      "shortName": "MCI",
+      "strength": {
+        "attack": 87,
+        "midfield": 86,
+        "defense": 85,
+        "keeper": 84,
+        "discipline": 44
+      },
+      "players": [
+        {
+          "playerId": "pl-mci-01",
+          "name": "Manchester City Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 84,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "pl-mci-02",
+          "name": "Manchester City Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 81,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "pl-mci-03",
+          "name": "Manchester City Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 79,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "pl-mci-04",
+          "name": "Manchester City Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 82,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-mci-05",
+          "name": "Manchester City Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 82,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-mci-06",
+          "name": "Manchester City Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 83,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-mci-07",
+          "name": "Manchester City Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 83,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-mci-08",
+          "name": "Manchester City Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 81,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "pl-mci-09",
+          "name": "Manchester City Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 80,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-mci-10",
+          "name": "Manchester City Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 79,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "pl-mci-11",
+          "name": "Manchester City Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 79,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "pl-mci-12",
+          "name": "Manchester City Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 85,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "pl-mci-13",
+          "name": "Manchester City Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 86,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "pl-mci-14",
+          "name": "Manchester City Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 83,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "pl-mci-15",
+          "name": "Manchester City Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 84,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "pl-mci-16",
+          "name": "Manchester City Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 83,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-mci-17",
+          "name": "Manchester City Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 80,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-mci-18",
+          "name": "Manchester City Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 79,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "pl-mci-19",
+          "name": "Manchester City Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 79,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "pl-mci-20",
+          "name": "Manchester City Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 86,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-mci-21",
+          "name": "Manchester City Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 86,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-mci-22",
+          "name": "Manchester City Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 84,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-mci-23",
+          "name": "Manchester City Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 82,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "pl-mun",
+      "name": "Manchester United",
+      "shortName": "MUN",
+      "strength": {
+        "attack": 82,
+        "midfield": 81,
+        "defense": 80,
+        "keeper": 79,
+        "discipline": 49
+      },
+      "players": [
+        {
+          "playerId": "pl-mun-01",
+          "name": "Manchester United Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 79,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "pl-mun-02",
+          "name": "Manchester United Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 76,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "pl-mun-03",
+          "name": "Manchester United Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 74,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "pl-mun-04",
+          "name": "Manchester United Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 77,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-mun-05",
+          "name": "Manchester United Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 77,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-mun-06",
+          "name": "Manchester United Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 78,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-mun-07",
+          "name": "Manchester United Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 78,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-mun-08",
+          "name": "Manchester United Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 76,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "pl-mun-09",
+          "name": "Manchester United Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 75,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-mun-10",
+          "name": "Manchester United Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 74,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "pl-mun-11",
+          "name": "Manchester United Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 74,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "pl-mun-12",
+          "name": "Manchester United Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 80,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "pl-mun-13",
+          "name": "Manchester United Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 81,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "pl-mun-14",
+          "name": "Manchester United Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 78,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "pl-mun-15",
+          "name": "Manchester United Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 79,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "pl-mun-16",
+          "name": "Manchester United Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 78,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-mun-17",
+          "name": "Manchester United Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 75,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-mun-18",
+          "name": "Manchester United Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 74,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "pl-mun-19",
+          "name": "Manchester United Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 74,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "pl-mun-20",
+          "name": "Manchester United Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 81,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-mun-21",
+          "name": "Manchester United Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 81,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-mun-22",
+          "name": "Manchester United Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 79,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-mun-23",
+          "name": "Manchester United Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 77,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "pl-new",
+      "name": "Newcastle United",
+      "shortName": "NEW",
+      "strength": {
+        "attack": 80,
+        "midfield": 79,
+        "defense": 78,
+        "keeper": 77,
+        "discipline": 51
+      },
+      "players": [
+        {
+          "playerId": "pl-new-01",
+          "name": "Newcastle United Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 77,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "pl-new-02",
+          "name": "Newcastle United Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 74,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "pl-new-03",
+          "name": "Newcastle United Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 72,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "pl-new-04",
+          "name": "Newcastle United Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 75,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-new-05",
+          "name": "Newcastle United Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 75,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-new-06",
+          "name": "Newcastle United Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 76,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-new-07",
+          "name": "Newcastle United Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 76,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-new-08",
+          "name": "Newcastle United Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 74,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "pl-new-09",
+          "name": "Newcastle United Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 73,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-new-10",
+          "name": "Newcastle United Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 72,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "pl-new-11",
+          "name": "Newcastle United Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 72,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "pl-new-12",
+          "name": "Newcastle United Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 78,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "pl-new-13",
+          "name": "Newcastle United Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 79,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "pl-new-14",
+          "name": "Newcastle United Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 76,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "pl-new-15",
+          "name": "Newcastle United Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 77,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "pl-new-16",
+          "name": "Newcastle United Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 76,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-new-17",
+          "name": "Newcastle United Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 73,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-new-18",
+          "name": "Newcastle United Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 72,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "pl-new-19",
+          "name": "Newcastle United Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 72,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "pl-new-20",
+          "name": "Newcastle United Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 79,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-new-21",
+          "name": "Newcastle United Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 79,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-new-22",
+          "name": "Newcastle United Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 77,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-new-23",
+          "name": "Newcastle United Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 75,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "pl-nfo",
+      "name": "Nottingham Forest",
+      "shortName": "NFO",
+      "strength": {
+        "attack": 73,
+        "midfield": 72,
+        "defense": 71,
+        "keeper": 70,
+        "discipline": 58
+      },
+      "players": [
+        {
+          "playerId": "pl-nfo-01",
+          "name": "Nottingham Forest Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 70,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "pl-nfo-02",
+          "name": "Nottingham Forest Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 67,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "pl-nfo-03",
+          "name": "Nottingham Forest Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 65,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "pl-nfo-04",
+          "name": "Nottingham Forest Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 68,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-nfo-05",
+          "name": "Nottingham Forest Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 68,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-nfo-06",
+          "name": "Nottingham Forest Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 69,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-nfo-07",
+          "name": "Nottingham Forest Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 69,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-nfo-08",
+          "name": "Nottingham Forest Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 67,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "pl-nfo-09",
+          "name": "Nottingham Forest Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 66,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-nfo-10",
+          "name": "Nottingham Forest Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 65,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "pl-nfo-11",
+          "name": "Nottingham Forest Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 65,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "pl-nfo-12",
+          "name": "Nottingham Forest Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 71,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "pl-nfo-13",
+          "name": "Nottingham Forest Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 72,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "pl-nfo-14",
+          "name": "Nottingham Forest Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 69,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "pl-nfo-15",
+          "name": "Nottingham Forest Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 70,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "pl-nfo-16",
+          "name": "Nottingham Forest Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 69,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-nfo-17",
+          "name": "Nottingham Forest Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 66,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-nfo-18",
+          "name": "Nottingham Forest Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 65,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "pl-nfo-19",
+          "name": "Nottingham Forest Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 65,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "pl-nfo-20",
+          "name": "Nottingham Forest Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 72,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-nfo-21",
+          "name": "Nottingham Forest Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 72,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-nfo-22",
+          "name": "Nottingham Forest Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 70,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-nfo-23",
+          "name": "Nottingham Forest Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 68,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "pl-sun",
+      "name": "Sunderland",
+      "shortName": "SUN",
+      "strength": {
+        "attack": 72,
+        "midfield": 71,
+        "defense": 70,
+        "keeper": 69,
+        "discipline": 59
+      },
+      "players": [
+        {
+          "playerId": "pl-sun-01",
+          "name": "Sunderland Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 69,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "pl-sun-02",
+          "name": "Sunderland Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 66,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "pl-sun-03",
+          "name": "Sunderland Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 64,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "pl-sun-04",
+          "name": "Sunderland Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 67,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-sun-05",
+          "name": "Sunderland Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 67,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-sun-06",
+          "name": "Sunderland Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 68,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-sun-07",
+          "name": "Sunderland Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 68,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-sun-08",
+          "name": "Sunderland Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 66,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "pl-sun-09",
+          "name": "Sunderland Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 65,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-sun-10",
+          "name": "Sunderland Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 64,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "pl-sun-11",
+          "name": "Sunderland Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 64,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "pl-sun-12",
+          "name": "Sunderland Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 70,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "pl-sun-13",
+          "name": "Sunderland Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 71,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "pl-sun-14",
+          "name": "Sunderland Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 68,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "pl-sun-15",
+          "name": "Sunderland Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 69,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "pl-sun-16",
+          "name": "Sunderland Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 68,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-sun-17",
+          "name": "Sunderland Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 65,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-sun-18",
+          "name": "Sunderland Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 64,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "pl-sun-19",
+          "name": "Sunderland Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 64,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "pl-sun-20",
+          "name": "Sunderland Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 71,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-sun-21",
+          "name": "Sunderland Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 71,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-sun-22",
+          "name": "Sunderland Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 69,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-sun-23",
+          "name": "Sunderland Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 67,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "pl-tot",
+      "name": "Tottenham Hotspur",
+      "shortName": "TOT",
+      "strength": {
+        "attack": 83,
+        "midfield": 82,
+        "defense": 81,
+        "keeper": 80,
+        "discipline": 48
+      },
+      "players": [
+        {
+          "playerId": "pl-tot-01",
+          "name": "Tottenham Hotspur Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 80,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "pl-tot-02",
+          "name": "Tottenham Hotspur Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 77,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "pl-tot-03",
+          "name": "Tottenham Hotspur Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 75,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "pl-tot-04",
+          "name": "Tottenham Hotspur Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 78,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-tot-05",
+          "name": "Tottenham Hotspur Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 78,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-tot-06",
+          "name": "Tottenham Hotspur Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 79,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-tot-07",
+          "name": "Tottenham Hotspur Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 79,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-tot-08",
+          "name": "Tottenham Hotspur Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 77,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "pl-tot-09",
+          "name": "Tottenham Hotspur Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 76,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-tot-10",
+          "name": "Tottenham Hotspur Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 75,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "pl-tot-11",
+          "name": "Tottenham Hotspur Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 75,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "pl-tot-12",
+          "name": "Tottenham Hotspur Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 81,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "pl-tot-13",
+          "name": "Tottenham Hotspur Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 82,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "pl-tot-14",
+          "name": "Tottenham Hotspur Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 79,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "pl-tot-15",
+          "name": "Tottenham Hotspur Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 80,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "pl-tot-16",
+          "name": "Tottenham Hotspur Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 79,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-tot-17",
+          "name": "Tottenham Hotspur Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 76,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-tot-18",
+          "name": "Tottenham Hotspur Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 75,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "pl-tot-19",
+          "name": "Tottenham Hotspur Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 75,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "pl-tot-20",
+          "name": "Tottenham Hotspur Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 82,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-tot-21",
+          "name": "Tottenham Hotspur Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 82,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-tot-22",
+          "name": "Tottenham Hotspur Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 80,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-tot-23",
+          "name": "Tottenham Hotspur Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 78,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "pl-whu",
+      "name": "West Ham United",
+      "shortName": "WHU",
+      "strength": {
+        "attack": 77,
+        "midfield": 76,
+        "defense": 75,
+        "keeper": 74,
+        "discipline": 54
+      },
+      "players": [
+        {
+          "playerId": "pl-whu-01",
+          "name": "West Ham United Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 74,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "pl-whu-02",
+          "name": "West Ham United Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 71,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "pl-whu-03",
+          "name": "West Ham United Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 69,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "pl-whu-04",
+          "name": "West Ham United Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 72,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-whu-05",
+          "name": "West Ham United Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 72,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-whu-06",
+          "name": "West Ham United Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 73,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-whu-07",
+          "name": "West Ham United Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 73,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-whu-08",
+          "name": "West Ham United Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 71,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "pl-whu-09",
+          "name": "West Ham United Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 70,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-whu-10",
+          "name": "West Ham United Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 69,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "pl-whu-11",
+          "name": "West Ham United Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 69,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "pl-whu-12",
+          "name": "West Ham United Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 75,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "pl-whu-13",
+          "name": "West Ham United Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 76,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "pl-whu-14",
+          "name": "West Ham United Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 73,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "pl-whu-15",
+          "name": "West Ham United Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 74,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "pl-whu-16",
+          "name": "West Ham United Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 73,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-whu-17",
+          "name": "West Ham United Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 70,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-whu-18",
+          "name": "West Ham United Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 69,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "pl-whu-19",
+          "name": "West Ham United Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 69,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "pl-whu-20",
+          "name": "West Ham United Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 76,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-whu-21",
+          "name": "West Ham United Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 76,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-whu-22",
+          "name": "West Ham United Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 74,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-whu-23",
+          "name": "West Ham United Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 72,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "pl-wol",
+      "name": "Wolverhampton Wanderers",
+      "shortName": "WOL",
+      "strength": {
+        "attack": 75,
+        "midfield": 74,
+        "defense": 73,
+        "keeper": 72,
+        "discipline": 56
+      },
+      "players": [
+        {
+          "playerId": "pl-wol-01",
+          "name": "Wolverhampton Wanderers Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 72,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "pl-wol-02",
+          "name": "Wolverhampton Wanderers Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 69,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "pl-wol-03",
+          "name": "Wolverhampton Wanderers Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 67,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "pl-wol-04",
+          "name": "Wolverhampton Wanderers Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 70,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-wol-05",
+          "name": "Wolverhampton Wanderers Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 70,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-wol-06",
+          "name": "Wolverhampton Wanderers Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 71,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-wol-07",
+          "name": "Wolverhampton Wanderers Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 71,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-wol-08",
+          "name": "Wolverhampton Wanderers Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 69,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "pl-wol-09",
+          "name": "Wolverhampton Wanderers Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 68,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "pl-wol-10",
+          "name": "Wolverhampton Wanderers Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 67,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "pl-wol-11",
+          "name": "Wolverhampton Wanderers Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 67,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "pl-wol-12",
+          "name": "Wolverhampton Wanderers Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 73,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "pl-wol-13",
+          "name": "Wolverhampton Wanderers Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 74,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "pl-wol-14",
+          "name": "Wolverhampton Wanderers Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 71,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "pl-wol-15",
+          "name": "Wolverhampton Wanderers Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 72,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "pl-wol-16",
+          "name": "Wolverhampton Wanderers Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 71,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-wol-17",
+          "name": "Wolverhampton Wanderers Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 68,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-wol-18",
+          "name": "Wolverhampton Wanderers Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 67,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "pl-wol-19",
+          "name": "Wolverhampton Wanderers Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 67,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "pl-wol-20",
+          "name": "Wolverhampton Wanderers Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 74,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-wol-21",
+          "name": "Wolverhampton Wanderers Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 74,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "pl-wol-22",
+          "name": "Wolverhampton Wanderers Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 72,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "pl-wol-23",
+          "name": "Wolverhampton Wanderers Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 70,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    }
+  ]
+}

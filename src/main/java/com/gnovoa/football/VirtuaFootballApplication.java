@@ -10,7 +10,7 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 
 /** The Main app */
 @SpringBootApplication
-//@EnableConfigurationProperties({SimProperties.class, RunnerProperties.class})
+@EnableConfigurationProperties({SimProperties.class, RunnerProperties.class})
 public class VirtuaFootballApplication {
 
   public static void main(String[] args) {

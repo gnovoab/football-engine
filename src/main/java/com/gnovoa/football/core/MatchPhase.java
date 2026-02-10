@@ -1,3 +1,8 @@
 package com.gnovoa.football.core;
 
-public class MatchPhase {}
+public enum MatchPhase {
+    FIRST_HALF,
+    HALF_TIME,
+    SECOND_HALF,
+    FINISHED
+}

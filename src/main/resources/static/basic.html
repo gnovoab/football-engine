@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>Football Simulator</title>
+    <style>
+        body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 16px; }
+        .row { display: flex; gap: 12px; flex-wrap: wrap; }
+        .card { border: 1px solid #ddd; border-radius: 10px; padding: 12px; min-width: 320px; flex: 1; }
+        .muted { color: #666; font-size: 12px; }
+        pre { background:#f6f8fa; padding:10px; border-radius:10px; overflow:auto; max-height: 320px; }
+        button { padding: 8px 10px; border-radius: 10px; border: 1px solid #ddd; background: white; cursor: pointer; }
+    </style>
+</head>
+<body>
+<h1>Football Simulator UI</h1>
+<div class="muted">If you can see this, Spring Boot static files are working.</div>
+
+<div style="margin: 10px 0;">
+    <label>
+        League:
+        <select id="league">
+            <option value="PREMIER_LEAGUE">PREMIER_LEAGUE</option>
+            <option value="SERIE_A">SERIE_A</option>
+            <option value="LA_LIGA">LA_LIGA</option>
+        </select>
+    </label>
+    <button id="connectBtn">Connect</button>
+    <span id="status" class="muted" style="margin-left:10px;">disconnected</span>
+</div>
+
+<div class="row">
+    <div class="card">
+        <h2 style="margin:0 0 8px;">/running-fixture</h2>
+        <pre id="rf">Click Connect…</pre>
+    </div>
+
+    <div class="card">
+        <h2 style="margin:0 0 8px;">WebSocket messages</h2>
+        <div class="muted">Shows first messages received from fixture WS.</div>
+        <pre id="wslog">(none)</pre>
+    </div>
+</div>
+
+<script>
+    (() => {
+      const leagueEl = document.getElementById('league');
+      const statusEl = document.getElementById('status');
+      const rfEl = document.getElementById('rf');
+      const wslogEl = document.getElementById('wslog');
+
+      let ws = null;
+      let lines = [];
+
+      function wsUrl(path) {
+        const proto = location.protocol === "https:" ? "wss:" : "ws:";
+        return `${proto}//${location.host}${path}`;
+      }
+
+      function logWs(line) {
+        lines.unshift(line);
+        lines = lines.slice(0, 30);
+        wslogEl.textContent = lines.join("\n");
+      }
+
+      async function connect() {
+        statusEl.textContent = "connecting…";
+        rfEl.textContent = "Loading…";
+        wslogEl.textContent = "(none)";
+        lines = [];
+
+        if (ws) { try { ws.close(); } catch(e) {} ws = null; }
+
+        const league = leagueEl.value;
+        const res = await fetch(`/api/runners/${league}/running-fixture`);
+        const data = await res.json();
+        rfEl.textContent = JSON.stringify(data, null, 2);
+
+        if (data.status !== "RUNNING") {
+          statusEl.textContent = `not running: ${data.status}`;
+          return;
+        }
+
+        const url = wsUrl(data.ws.fixture);
+        ws = new WebSocket(url);
+
+        ws.onopen = () => statusEl.textContent = "ws connected";
+        ws.onclose = () => statusEl.textContent = "ws closed";
+        ws.onerror = () => statusEl.textContent = "ws error";
+        ws.onmessage = (m) => {
+          logWs(m.data);
+        };
+      }
+
+      document.getElementById('connectBtn').addEventListener('click', () => {
+        connect().catch(err => {
+          statusEl.textContent = "error";
+          rfEl.textContent = String(err);
+        });
+      });
+    })();
+</script>
+</body>
+</html>

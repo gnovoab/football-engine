@@ -1,3 +1,10 @@
 package com.gnovoa.football.events;
 
-public class MatchClockSnapshot {}
+public record MatchClockSnapshot(
+        String phase,
+        int second,
+        int minute,
+        int stoppageSecond,
+        int homeScore,
+        int awayScore
+) {}

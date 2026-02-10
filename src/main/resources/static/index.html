@@ -1,0 +1,565 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>Football Simulator</title>
+    <style>
+        :root {
+          --bg: #0b1220;
+          --panel: #101a2e;
+          --line: rgba(255,255,255,0.10);
+          --text: rgba(255,255,255,0.92);
+          --muted: rgba(255,255,255,0.65);
+          --accent: #4dd4ff;
+          --good: #2ecc71;
+          --warn: #f1c40f;
+          --bad: #e74c3c;
+        }
+        body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; }
+        header {
+          padding: 14px 16px; border-bottom: 1px solid var(--line);
+          display: flex; align-items: center; gap: 12px;
+          position: sticky; top: 0; background: rgba(11,18,32,0.96); backdrop-filter: blur(8px);
+          z-index: 5;
+        }
+        header h1 { font-size: 16px; margin: 0; letter-spacing: 0.2px; }
+        .tabs { display: flex; gap: 8px; margin-left: 8px; }
+        .tab {
+          border: 1px solid var(--line); background: transparent; color: var(--text);
+          padding: 8px 10px; border-radius: 10px; cursor: pointer; font-size: 12px;
+        }
+        .tab.active { border-color: rgba(77,212,255,0.35); background: rgba(77,212,255,0.08); }
+        .spacer { flex: 1; }
+        .pill { font-size: 12px; padding: 6px 10px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); }
+        .pill.ok { border-color: rgba(46,204,113,0.35); color: rgba(46,204,113,0.95); }
+        .pill.warn { border-color: rgba(241,196,15,0.35); color: rgba(241,196,15,0.95); }
+        .pill.bad { border-color: rgba(231,76,60,0.35); color: rgba(231,76,60,0.95); }
+        .btn {
+          border: 1px solid var(--line); background: transparent; color: var(--text);
+          padding: 8px 10px; border-radius: 10px; cursor: pointer; font-size: 12px;
+        }
+        .btn:hover { border-color: rgba(77,212,255,0.35); }
+
+        main { padding: 16px; display: grid; grid-template-columns: 2fr 1fr; gap: 14px; }
+        .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
+        .panel-head { padding: 12px; border-bottom: 1px solid var(--line); display: flex; align-items: baseline; gap: 10px; }
+        .panel-title { font-size: 13px; margin: 0; }
+        .meta { font-size: 12px; color: var(--muted); }
+
+        table { width: 100%; border-collapse: collapse; }
+        th, td { padding: 10px 12px; border-bottom: 1px solid var(--line); font-size: 13px; vertical-align: top; }
+        th { color: var(--muted); font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; }
+        tr:hover { background: rgba(255,255,255,0.03); }
+        tr.clickable { cursor: pointer; }
+        tr.pinned { outline: 2px solid rgba(77,212,255,0.25); outline-offset: -2px; background: rgba(77,212,255,0.06); }
+
+        .match { display: flex; flex-direction: column; gap: 4px; }
+        .ids { font-size: 11px; color: var(--muted); }
+        .score { font-weight: 700; font-size: 14px; }
+        .time { font-variant-numeric: tabular-nums; color: var(--muted); }
+        .small { font-size: 12px; color: var(--muted); }
+
+        .feed {
+          max-height: 560px; overflow: auto;
+          font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+          font-size: 12px; padding: 10px 12px;
+        }
+        .feed-line { padding: 6px 0; border-bottom: 1px dashed rgba(255,255,255,0.10); }
+        .feed-line:last-child { border-bottom: none; }
+
+        /* Modal */
+        .modal-backdrop {
+          position: fixed; inset: 0;
+          background: rgba(0,0,0,0.55);
+          display: none;
+          align-items: center;
+          justify-content: center;
+          z-index: 10;
+          padding: 16px;
+        }
+        .modal-backdrop.open { display: flex; }
+        .modal {
+          width: min(980px, 96vw);
+          max-height: min(84vh, 900px);
+          background: var(--panel);
+          border: 1px solid var(--line);
+          border-radius: 14px;
+          overflow: hidden;
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+        }
+        .modal-head {
+          grid-column: 1 / -1;
+          display: flex;
+          gap: 10px;
+          align-items: center;
+          padding: 12px;
+          border-bottom: 1px solid var(--line);
+        }
+        .modal-title { font-size: 13px; margin: 0; }
+        .modal-body { display: grid; grid-template-columns: 1fr 1fr; }
+        .modal-pane { border-right: 1px solid var(--line); }
+        .modal-pane:last-child { border-right: none; }
+        .modal-section-head { padding: 10px 12px; border-bottom: 1px solid var(--line); display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+        .modal-section-title { margin: 0; font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; }
+        .modal-feed {
+          max-height: calc(min(84vh, 900px) - 100px);
+          overflow: auto;
+          padding: 10px 12px;
+          font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+          font-size: 12px;
+        }
+        .kv { display: grid; grid-template-columns: 120px 1fr; gap: 6px 10px; padding: 10px 12px; }
+        .k { color: var(--muted); font-size: 12px; }
+        .v { font-variant-numeric: tabular-nums; font-size: 12px; }
+
+        @media (max-width: 980px) {
+          main { grid-template-columns: 1fr; }
+          .modal { grid-template-columns: 1fr; }
+          .modal-body { grid-template-columns: 1fr; }
+          .modal-pane { border-right: none; border-bottom: 1px solid var(--line); }
+          .modal-pane:last-child { border-bottom: none; }
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Football Simulator</h1>
+
+    <div class="tabs" id="tabs">
+        <button class="tab active" data-league="PREMIER_LEAGUE">Premier League</button>
+        <button class="tab" data-league="SERIE_A">Serie A</button>
+        <button class="tab" data-league="LA_LIGA">La Liga</button>
+    </div>
+
+    <button class="btn" id="reconnectBtn">Reconnect</button>
+
+    <div class="spacer"></div>
+    <div id="connPill" class="pill">disconnected</div>
+</header>
+
+<main>
+    <section class="panel">
+        <div class="panel-head">
+            <h2 class="panel-title">Live Fixture</h2>
+            <div class="meta" id="fixtureMeta">—</div>
+        </div>
+
+        <table>
+            <thead>
+            <tr>
+                <th>Match</th>
+                <th>Score</th>
+                <th>Status</th>
+                <th>Time</th>
+            </tr>
+            </thead>
+            <tbody id="matchesBody"></tbody>
+        </table>
+
+        <div style="padding: 10px 12px;">
+            <div class="small">
+                Click a match row to open the match modal. Click the same row again to <b>pin</b> it (saved in your browser).
+            </div>
+        </div>
+    </section>
+
+    <aside class="panel">
+        <div class="panel-head">
+            <h2 class="panel-title">Event Feed</h2>
+            <div class="meta">latest first</div>
+        </div>
+        <div class="feed" id="feed"></div>
+    </aside>
+</main>
+
+<!-- Match Modal -->
+<div class="modal-backdrop" id="modalBackdrop" aria-hidden="true">
+    <div class="modal" role="dialog" aria-modal="true" aria-label="Match details">
+        <div class="modal-head">
+            <h3 class="modal-title" id="modalTitle">Match</h3>
+            <div class="meta" id="modalMeta">—</div>
+            <div class="spacer"></div>
+            <div id="modalConn" class="pill">disconnected</div>
+            <button class="btn" id="modalCloseBtn">Close</button>
+        </div>
+
+        <div class="modal-body">
+            <div class="modal-pane">
+                <div class="modal-section-head">
+                    <div class="modal-section-title">Match Snapshot</div>
+                    <div class="small" id="modalClock">—</div>
+                </div>
+                <div class="kv">
+                    <div class="k">Score</div><div class="v" id="modalScore">—</div>
+                    <div class="k">Phase</div><div class="v" id="modalPhase">—</div>
+                    <div class="k">Minute</div><div class="v" id="modalMinute">—</div>
+                    <div class="k">Shots</div><div class="v" id="modalShots">—</div>
+                    <div class="k">SOT</div><div class="v" id="modalSot">—</div>
+                    <div class="k">Corners</div><div class="v" id="modalCorners">—</div>
+                    <div class="k">Match ID</div><div class="v" id="modalMatchId">—</div>
+                    <div class="k">Pinned</div><div class="v" id="modalPinned">No</div>
+                </div>
+            </div>
+
+            <div class="modal-pane">
+                <div class="modal-section-head">
+                    <div class="modal-section-title">Match Events</div>
+                    <div class="small">latest first</div>
+                </div>
+                <div class="modal-feed" id="modalFeed"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    (() => {
+      // --- State ---
+      let league = "PREMIER_LEAGUE";
+      let fixtureWs = null;
+
+      let matchWs = null;
+      let selectedMatch = null;
+
+      let pinnedMatchId = null;
+
+      const PIN_KEY = (lg) => `footballSim:pinnedMatchId:${lg}`;
+
+      // --- Elements ---
+      const connPill = document.getElementById("connPill");
+      const fixtureMeta = document.getElementById("fixtureMeta");
+      const matchesBody = document.getElementById("matchesBody");
+      const feed = document.getElementById("feed");
+
+      const modalBackdrop = document.getElementById("modalBackdrop");
+      const modalTitle = document.getElementById("modalTitle");
+      const modalMeta = document.getElementById("modalMeta");
+      const modalConn = document.getElementById("modalConn");
+      const modalClock = document.getElementById("modalClock");
+      const modalFeed = document.getElementById("modalFeed");
+      const modalScore = document.getElementById("modalScore");
+      const modalPhase = document.getElementById("modalPhase");
+      const modalMinute = document.getElementById("modalMinute");
+      const modalShots = document.getElementById("modalShots");
+      const modalSot = document.getElementById("modalSot");
+      const modalCorners = document.getElementById("modalCorners");
+      const modalMatchId = document.getElementById("modalMatchId");
+      const modalPinned = document.getElementById("modalPinned");
+
+      if (!matchesBody) throw new Error('Missing element with id="matchesBody"');
+
+      // matchId -> {homeTeam, awayTeam, wsPath}
+      const matchIndex = new Map();
+
+      // --- Helpers ---
+      function setConn(state, kind) {
+        connPill.textContent = state;
+        connPill.className = "pill " + (kind || "");
+      }
+
+      function setModalConn(state, kind) {
+        modalConn.textContent = state;
+        modalConn.className = "pill " + (kind || "");
+      }
+
+      function wsUrl(path) {
+        const proto = location.protocol === "https:" ? "wss:" : "ws:";
+        return proto + "//" + location.host + path;
+      }
+
+      function clearUI() {
+        fixtureMeta.textContent = "—";
+        matchesBody.innerHTML = "";
+        feed.innerHTML = "";
+        matchIndex.clear();
+      }
+
+      function addFeed(line) {
+        const div = document.createElement("div");
+        div.className = "feed-line";
+        div.textContent = line;
+        feed.prepend(div);
+      }
+
+      function addModalFeed(line) {
+        const div = document.createElement("div");
+        div.className = "feed-line";
+        div.textContent = line;
+        modalFeed.prepend(div);
+      }
+
+      function loadPinned() {
+        const v = localStorage.getItem(PIN_KEY(league));
+        pinnedMatchId = v && v.trim() ? v : null;
+      }
+
+      function savePinned() {
+        if (pinnedMatchId) localStorage.setItem(PIN_KEY(league), pinnedMatchId);
+        else localStorage.removeItem(PIN_KEY(league));
+      }
+
+      function applyPinnedHighlight() {
+        for (const tr of matchesBody.querySelectorAll("tr[data-match-id]")) {
+          const id = tr.getAttribute("data-match-id");
+          tr.classList.toggle("pinned", pinnedMatchId !== null && id === pinnedMatchId);
+        }
+        modalPinned.textContent = (selectedMatch && pinnedMatchId === selectedMatch) ? "Yes" : "No";
+      }
+
+      function renderMatches(matches) {
+        matchesBody.innerHTML = "";
+        for (const m of matches) {
+          matchIndex.set(m.matchId, { homeTeam: m.homeTeam, awayTeam: m.awayTeam, wsPath: m.ws.match });
+
+          const tr = document.createElement("tr");
+          tr.id = "row-" + m.matchId;
+          tr.className = "clickable";
+          tr.setAttribute("data-match-id", m.matchId);
+
+          tr.innerHTML = `
+            <td>
+              <div class="match">
+                <div><b>${m.homeTeam}</b> vs <b>${m.awayTeam}</b></div>
+                <div class="ids">${m.matchId}</div>
+              </div>
+            </td>
+            <td class="score" id="score-${m.matchId}">0 - 0</td>
+            <td id="phase-${m.matchId}">?</td>
+            <td class="time" id="time-${m.matchId}">0'</td>
+          `;
+          matchesBody.appendChild(tr);
+        }
+
+        applyPinnedHighlight();
+      }
+
+      function updateRow(ev) {
+        const matchId = ev.matchId;
+        const s = ev.match;
+
+        const scoreEl = document.getElementById("score-" + matchId);
+        const phaseEl = document.getElementById("phase-" + matchId);
+        const timeEl  = document.getElementById("time-" + matchId);
+
+        if (!scoreEl || !phaseEl || !timeEl) return;
+
+        scoreEl.textContent = `${s.homeScore} - ${s.awayScore}`;
+        phaseEl.textContent = s.phase;
+
+        const min = Math.floor((s.second || 0) / 60);
+        timeEl.textContent = `${min}'`;
+      }
+
+      function updateModalSnapshot(ev) {
+        const s = ev.match;
+        const min = Math.floor((s.second || 0) / 60);
+
+        modalScore.textContent = `${s.homeScore} - ${s.awayScore}`;
+        modalPhase.textContent = s.phase;
+        modalMinute.textContent = `${min}'`;
+        modalClock.textContent = `t=${s.second}s`;
+
+        const stats = (ev.data && ev.data.stats) ? ev.data.stats : null;
+        if (stats) {
+          modalShots.textContent = `${stats.shotsHome ?? "?"} / ${stats.shotsAway ?? "?"}`;
+          modalSot.textContent = `${stats.sotHome ?? "?"} / ${stats.sotAway ?? "?"}`;
+          modalCorners.textContent = `${stats.cornersHome ?? "?"} / ${stats.cornersAway ?? "?"}`;
+        }
+
+        modalPinned.textContent = (selectedMatch && pinnedMatchId === selectedMatch) ? "Yes" : "No";
+      }
+
+      // --- Connections ---
+      async function connectFixture() {
+        setConn("connecting…", "warn");
+        clearUI();
+
+        loadPinned();
+
+        if (fixtureWs) { try { fixtureWs.close(); } catch (_) {} fixtureWs = null; }
+
+        const rfRes = await fetch(`/api/runners/${league}/running-fixture`);
+        if (!rfRes.ok) {
+          setConn("REST error " + rfRes.status, "bad");
+          fixtureMeta.textContent = "Failed to load running fixture.";
+          return;
+        }
+
+        const rf = await rfRes.json();
+
+        if (rf.status !== "RUNNING") {
+          setConn(rf.status, "warn");
+          fixtureMeta.textContent = rf.next
+            ? `Not running. Next: ${rf.next.action} in ${rf.next.startsInSeconds}s`
+            : `Not running. Status: ${rf.status}`;
+          return;
+        }
+
+        fixtureMeta.textContent = `Season ${rf.seasonIndex} · Round ${rf.round} · Fixture ${rf.fixtureId}`;
+        renderMatches(rf.matches);
+
+        fixtureWs = new WebSocket(wsUrl(rf.ws.fixture));
+
+        fixtureWs.onopen = () => setConn("connected", "ok");
+        fixtureWs.onclose = () => setConn("disconnected", "warn");
+        fixtureWs.onerror = () => setConn("ws error", "bad");
+
+        fixtureWs.onmessage = (m) => {
+          let ev;
+          try { ev = JSON.parse(m.data); } catch (_) { return; }
+
+          if (ev.type === "MATCH_SNAPSHOT" ||
+              ev.type === "GOAL" ||
+              ev.type === "HALF_TIME" ||
+              ev.type === "SECOND_HALF_KICK_OFF" ||
+              ev.type === "FULL_TIME") {
+            updateRow(ev);
+
+            // if pinned match is also selected, keep modal snapshot updating even if match ws lags
+            if (selectedMatch && pinnedMatchId === selectedMatch && ev.matchId === selectedMatch && ev.match) {
+              updateModalSnapshot(ev);
+            }
+          }
+
+          if (ev.type !== "MATCH_SNAPSHOT") {
+            const min = Math.floor((ev.match?.second || 0) / 60);
+            const teams = matchIndex.get(ev.matchId);
+            const label = teams ? `${teams.homeTeam} vs ${teams.awayTeam}` : ev.matchId;
+            addFeed(`[${league}] ${min}' ${label} · ${ev.type}`);
+          }
+        };
+      }
+
+      function connectMatchWs(matchId) {
+        const m = matchIndex.get(matchId);
+        if (!m) return;
+
+        setModalConn("connecting…", "warn");
+
+        if (matchWs) { try { matchWs.close(); } catch (_) {} matchWs = null; }
+
+        matchWs = new WebSocket(wsUrl(m.wsPath));
+
+        matchWs.onopen = () => setModalConn("connected", "ok");
+        matchWs.onclose = () => setModalConn("disconnected", "warn");
+        matchWs.onerror = () => setModalConn("ws error", "bad");
+
+        matchWs.onmessage = (msg) => {
+          let ev;
+          try { ev = JSON.parse(msg.data); } catch (_) { return; }
+
+          if (ev.type === "MATCH_SNAPSHOT") {
+            updateModalSnapshot(ev);
+            return;
+          }
+
+          if (ev.match) updateModalSnapshot(ev);
+
+          const min = Math.floor((ev.match?.second || 0) / 60);
+          addModalFeed(`${min}' · ${ev.type}${ev.data ? " · " + JSON.stringify(ev.data) : ""}`);
+        };
+      }
+
+      // --- Modal controls ---
+      function openModalForMatch(matchId) {
+        const m = matchIndex.get(matchId);
+        if (!m) return;
+
+        selectedMatch = matchId;
+        modalBackdrop.classList.add("open");
+        modalBackdrop.setAttribute("aria-hidden", "false");
+        modalFeed.innerHTML = "";
+
+        modalTitle.textContent = `${m.homeTeam} vs ${m.awayTeam}`;
+        modalMeta.textContent = league;
+        modalMatchId.textContent = matchId;
+
+        modalScore.textContent = "—";
+        modalPhase.textContent = "—";
+        modalMinute.textContent = "—";
+        modalShots.textContent = "—";
+        modalSot.textContent = "—";
+        modalCorners.textContent = "—";
+        modalClock.textContent = "—";
+        modalPinned.textContent = (pinnedMatchId === matchId) ? "Yes" : "No";
+
+        connectMatchWs(matchId);
+      }
+
+      function closeModal() {
+        modalBackdrop.classList.remove("open");
+        modalBackdrop.setAttribute("aria-hidden", "true");
+        selectedMatch = null;
+
+        if (matchWs) { try { matchWs.close(); } catch (_) {} matchWs = null; }
+        setModalConn("disconnected", "warn");
+        applyPinnedHighlight();
+      }
+
+      // --- Click behavior ---
+      // Click a row:
+      //   - if it's already the selected match -> toggle pin
+      //   - otherwise -> open modal for that match
+      matchesBody.addEventListener("click", (e) => {
+        const tr = e.target.closest("tr[data-match-id]");
+        if (!tr) return;
+
+        const matchId = tr.getAttribute("data-match-id");
+
+        if (selectedMatch && selectedMatch === matchId) {
+          pinnedMatchId = (pinnedMatchId === matchId) ? null : matchId;
+          savePinned();
+          applyPinnedHighlight();
+          return;
+        }
+
+        openModalForMatch(matchId);
+        applyPinnedHighlight();
+      });
+
+      document.getElementById("modalCloseBtn").addEventListener("click", closeModal);
+      modalBackdrop.addEventListener("click", (e) => { if (e.target === modalBackdrop) closeModal(); });
+      document.addEventListener("keydown", (e) => { if (e.key === "Escape" && modalBackdrop.classList.contains("open")) closeModal(); });
+
+      // --- Tabs / reconnect ---
+      document.getElementById("tabs").addEventListener("click", (e) => {
+        const btn = e.target.closest("button[data-league]");
+        if (!btn) return;
+
+        for (const b of document.querySelectorAll(".tab")) b.classList.remove("active");
+        btn.classList.add("active");
+
+        league = btn.getAttribute("data-league");
+
+        // close modal on league switch
+        if (modalBackdrop.classList.contains("open")) closeModal();
+
+        loadPinned();
+
+        connectFixture().catch(err => {
+          setConn("error", "bad");
+          fixtureMeta.textContent = String(err);
+        });
+      });
+
+      document.getElementById("reconnectBtn").addEventListener("click", () => {
+        if (modalBackdrop.classList.contains("open")) closeModal();
+        connectFixture().catch(err => {
+          setConn("error", "bad");
+          fixtureMeta.textContent = String(err);
+        });
+      });
+
+      // --- Start ---
+      setModalConn("disconnected", "warn");
+      loadPinned();
+      connectFixture().catch(err => {
+        setConn("error", "bad");
+        fixtureMeta.textContent = String(err);
+      });
+    })();
+</script>
+</body>
+</html>

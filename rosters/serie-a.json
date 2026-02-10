@@ -1,0 +1,4426 @@
+{
+  "league": "SERIE_A",
+  "season": "SIM-2025-2026",
+  "teams": [
+    {
+      "teamId": "sa-ata",
+      "name": "Atalanta",
+      "shortName": "ATA",
+      "strength": {
+        "attack": 81,
+        "midfield": 80,
+        "defense": 79,
+        "keeper": 78,
+        "discipline": 50
+      },
+      "players": [
+        {
+          "playerId": "sa-ata-01",
+          "name": "Atalanta Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 78,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "sa-ata-02",
+          "name": "Atalanta Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 75,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "sa-ata-03",
+          "name": "Atalanta Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 73,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "sa-ata-04",
+          "name": "Atalanta Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 76,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-ata-05",
+          "name": "Atalanta Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 76,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-ata-06",
+          "name": "Atalanta Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 77,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-ata-07",
+          "name": "Atalanta Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 77,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-ata-08",
+          "name": "Atalanta Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 75,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "sa-ata-09",
+          "name": "Atalanta Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 74,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-ata-10",
+          "name": "Atalanta Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 73,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "sa-ata-11",
+          "name": "Atalanta Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 73,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "sa-ata-12",
+          "name": "Atalanta Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 79,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "sa-ata-13",
+          "name": "Atalanta Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 80,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "sa-ata-14",
+          "name": "Atalanta Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 77,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "sa-ata-15",
+          "name": "Atalanta Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 78,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "sa-ata-16",
+          "name": "Atalanta Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 77,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-ata-17",
+          "name": "Atalanta Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 74,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-ata-18",
+          "name": "Atalanta Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 73,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "sa-ata-19",
+          "name": "Atalanta Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 73,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "sa-ata-20",
+          "name": "Atalanta Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 80,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-ata-21",
+          "name": "Atalanta Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 80,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-ata-22",
+          "name": "Atalanta Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 78,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-ata-23",
+          "name": "Atalanta Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 76,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "sa-bol",
+      "name": "Bologna",
+      "shortName": "BOL",
+      "strength": {
+        "attack": 79,
+        "midfield": 78,
+        "defense": 77,
+        "keeper": 76,
+        "discipline": 52
+      },
+      "players": [
+        {
+          "playerId": "sa-bol-01",
+          "name": "Bologna Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 76,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "sa-bol-02",
+          "name": "Bologna Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 73,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "sa-bol-03",
+          "name": "Bologna Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 71,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "sa-bol-04",
+          "name": "Bologna Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 74,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-bol-05",
+          "name": "Bologna Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 74,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-bol-06",
+          "name": "Bologna Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 75,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-bol-07",
+          "name": "Bologna Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 75,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-bol-08",
+          "name": "Bologna Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 73,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "sa-bol-09",
+          "name": "Bologna Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 72,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-bol-10",
+          "name": "Bologna Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 71,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "sa-bol-11",
+          "name": "Bologna Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 71,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "sa-bol-12",
+          "name": "Bologna Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 77,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "sa-bol-13",
+          "name": "Bologna Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 78,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "sa-bol-14",
+          "name": "Bologna Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 75,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "sa-bol-15",
+          "name": "Bologna Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 76,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "sa-bol-16",
+          "name": "Bologna Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 75,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-bol-17",
+          "name": "Bologna Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 72,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-bol-18",
+          "name": "Bologna Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 71,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "sa-bol-19",
+          "name": "Bologna Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 71,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "sa-bol-20",
+          "name": "Bologna Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 78,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-bol-21",
+          "name": "Bologna Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 78,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-bol-22",
+          "name": "Bologna Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 76,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-bol-23",
+          "name": "Bologna Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 74,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "sa-cag",
+      "name": "Cagliari",
+      "shortName": "CAG",
+      "strength": {
+        "attack": 73,
+        "midfield": 72,
+        "defense": 71,
+        "keeper": 70,
+        "discipline": 58
+      },
+      "players": [
+        {
+          "playerId": "sa-cag-01",
+          "name": "Cagliari Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 70,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "sa-cag-02",
+          "name": "Cagliari Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 67,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "sa-cag-03",
+          "name": "Cagliari Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 65,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "sa-cag-04",
+          "name": "Cagliari Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 68,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-cag-05",
+          "name": "Cagliari Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 68,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-cag-06",
+          "name": "Cagliari Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 69,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-cag-07",
+          "name": "Cagliari Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 69,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-cag-08",
+          "name": "Cagliari Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 67,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "sa-cag-09",
+          "name": "Cagliari Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 66,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-cag-10",
+          "name": "Cagliari Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 65,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "sa-cag-11",
+          "name": "Cagliari Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 65,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "sa-cag-12",
+          "name": "Cagliari Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 71,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "sa-cag-13",
+          "name": "Cagliari Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 72,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "sa-cag-14",
+          "name": "Cagliari Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 69,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "sa-cag-15",
+          "name": "Cagliari Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 70,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "sa-cag-16",
+          "name": "Cagliari Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 69,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-cag-17",
+          "name": "Cagliari Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 66,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-cag-18",
+          "name": "Cagliari Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 65,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "sa-cag-19",
+          "name": "Cagliari Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 65,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "sa-cag-20",
+          "name": "Cagliari Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 72,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-cag-21",
+          "name": "Cagliari Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 72,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-cag-22",
+          "name": "Cagliari Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 70,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-cag-23",
+          "name": "Cagliari Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 68,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "sa-com",
+      "name": "Como",
+      "shortName": "COM",
+      "strength": {
+        "attack": 74,
+        "midfield": 73,
+        "defense": 72,
+        "keeper": 71,
+        "discipline": 57
+      },
+      "players": [
+        {
+          "playerId": "sa-com-01",
+          "name": "Como Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 71,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "sa-com-02",
+          "name": "Como Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 68,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "sa-com-03",
+          "name": "Como Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 66,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "sa-com-04",
+          "name": "Como Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 69,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-com-05",
+          "name": "Como Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 69,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-com-06",
+          "name": "Como Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 70,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-com-07",
+          "name": "Como Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 70,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-com-08",
+          "name": "Como Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 68,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "sa-com-09",
+          "name": "Como Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 67,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-com-10",
+          "name": "Como Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 66,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "sa-com-11",
+          "name": "Como Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 66,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "sa-com-12",
+          "name": "Como Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 72,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "sa-com-13",
+          "name": "Como Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 73,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "sa-com-14",
+          "name": "Como Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 70,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "sa-com-15",
+          "name": "Como Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 71,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "sa-com-16",
+          "name": "Como Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 70,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-com-17",
+          "name": "Como Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 67,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-com-18",
+          "name": "Como Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 66,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "sa-com-19",
+          "name": "Como Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 66,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "sa-com-20",
+          "name": "Como Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 73,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-com-21",
+          "name": "Como Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 73,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-com-22",
+          "name": "Como Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 71,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-com-23",
+          "name": "Como Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 69,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "sa-cre",
+      "name": "Cremonese",
+      "shortName": "CRE",
+      "strength": {
+        "attack": 72,
+        "midfield": 71,
+        "defense": 70,
+        "keeper": 69,
+        "discipline": 59
+      },
+      "players": [
+        {
+          "playerId": "sa-cre-01",
+          "name": "Cremonese Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 69,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "sa-cre-02",
+          "name": "Cremonese Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 66,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "sa-cre-03",
+          "name": "Cremonese Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 64,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "sa-cre-04",
+          "name": "Cremonese Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 67,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-cre-05",
+          "name": "Cremonese Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 67,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-cre-06",
+          "name": "Cremonese Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 68,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-cre-07",
+          "name": "Cremonese Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 68,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-cre-08",
+          "name": "Cremonese Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 66,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "sa-cre-09",
+          "name": "Cremonese Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 65,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-cre-10",
+          "name": "Cremonese Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 64,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "sa-cre-11",
+          "name": "Cremonese Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 64,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "sa-cre-12",
+          "name": "Cremonese Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 70,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "sa-cre-13",
+          "name": "Cremonese Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 71,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "sa-cre-14",
+          "name": "Cremonese Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 68,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "sa-cre-15",
+          "name": "Cremonese Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 69,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "sa-cre-16",
+          "name": "Cremonese Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 68,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-cre-17",
+          "name": "Cremonese Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 65,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-cre-18",
+          "name": "Cremonese Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 64,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "sa-cre-19",
+          "name": "Cremonese Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 64,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "sa-cre-20",
+          "name": "Cremonese Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 71,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-cre-21",
+          "name": "Cremonese Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 71,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-cre-22",
+          "name": "Cremonese Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 69,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-cre-23",
+          "name": "Cremonese Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 67,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "sa-fio",
+      "name": "Fiorentina",
+      "shortName": "FIO",
+      "strength": {
+        "attack": 80,
+        "midfield": 79,
+        "defense": 78,
+        "keeper": 77,
+        "discipline": 51
+      },
+      "players": [
+        {
+          "playerId": "sa-fio-01",
+          "name": "Fiorentina Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 77,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "sa-fio-02",
+          "name": "Fiorentina Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 74,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "sa-fio-03",
+          "name": "Fiorentina Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 72,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "sa-fio-04",
+          "name": "Fiorentina Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 75,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-fio-05",
+          "name": "Fiorentina Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 75,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-fio-06",
+          "name": "Fiorentina Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 76,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-fio-07",
+          "name": "Fiorentina Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 76,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-fio-08",
+          "name": "Fiorentina Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 74,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "sa-fio-09",
+          "name": "Fiorentina Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 73,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-fio-10",
+          "name": "Fiorentina Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 72,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "sa-fio-11",
+          "name": "Fiorentina Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 72,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "sa-fio-12",
+          "name": "Fiorentina Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 78,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "sa-fio-13",
+          "name": "Fiorentina Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 79,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "sa-fio-14",
+          "name": "Fiorentina Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 76,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "sa-fio-15",
+          "name": "Fiorentina Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 77,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "sa-fio-16",
+          "name": "Fiorentina Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 76,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-fio-17",
+          "name": "Fiorentina Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 73,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-fio-18",
+          "name": "Fiorentina Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 72,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "sa-fio-19",
+          "name": "Fiorentina Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 72,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "sa-fio-20",
+          "name": "Fiorentina Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 79,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-fio-21",
+          "name": "Fiorentina Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 79,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-fio-22",
+          "name": "Fiorentina Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 77,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-fio-23",
+          "name": "Fiorentina Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 75,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "sa-gen",
+      "name": "Genoa",
+      "shortName": "GEN",
+      "strength": {
+        "attack": 74,
+        "midfield": 73,
+        "defense": 72,
+        "keeper": 71,
+        "discipline": 57
+      },
+      "players": [
+        {
+          "playerId": "sa-gen-01",
+          "name": "Genoa Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 71,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "sa-gen-02",
+          "name": "Genoa Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 68,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "sa-gen-03",
+          "name": "Genoa Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 66,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "sa-gen-04",
+          "name": "Genoa Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 69,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-gen-05",
+          "name": "Genoa Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 69,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-gen-06",
+          "name": "Genoa Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 70,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-gen-07",
+          "name": "Genoa Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 70,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-gen-08",
+          "name": "Genoa Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 68,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "sa-gen-09",
+          "name": "Genoa Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 67,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-gen-10",
+          "name": "Genoa Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 66,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "sa-gen-11",
+          "name": "Genoa Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 66,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "sa-gen-12",
+          "name": "Genoa Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 72,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "sa-gen-13",
+          "name": "Genoa Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 73,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "sa-gen-14",
+          "name": "Genoa Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 70,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "sa-gen-15",
+          "name": "Genoa Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 71,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "sa-gen-16",
+          "name": "Genoa Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 70,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-gen-17",
+          "name": "Genoa Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 67,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-gen-18",
+          "name": "Genoa Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 66,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "sa-gen-19",
+          "name": "Genoa Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 66,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "sa-gen-20",
+          "name": "Genoa Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 73,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-gen-21",
+          "name": "Genoa Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 73,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-gen-22",
+          "name": "Genoa Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 71,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-gen-23",
+          "name": "Genoa Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 69,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "sa-hel",
+      "name": "Hellas Verona",
+      "shortName": "VER",
+      "strength": {
+        "attack": 73,
+        "midfield": 72,
+        "defense": 71,
+        "keeper": 70,
+        "discipline": 58
+      },
+      "players": [
+        {
+          "playerId": "sa-hel-01",
+          "name": "Hellas Verona Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 70,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "sa-hel-02",
+          "name": "Hellas Verona Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 67,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "sa-hel-03",
+          "name": "Hellas Verona Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 65,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "sa-hel-04",
+          "name": "Hellas Verona Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 68,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-hel-05",
+          "name": "Hellas Verona Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 68,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-hel-06",
+          "name": "Hellas Verona Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 69,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-hel-07",
+          "name": "Hellas Verona Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 69,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-hel-08",
+          "name": "Hellas Verona Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 67,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "sa-hel-09",
+          "name": "Hellas Verona Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 66,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-hel-10",
+          "name": "Hellas Verona Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 65,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "sa-hel-11",
+          "name": "Hellas Verona Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 65,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "sa-hel-12",
+          "name": "Hellas Verona Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 71,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "sa-hel-13",
+          "name": "Hellas Verona Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 72,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "sa-hel-14",
+          "name": "Hellas Verona Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 69,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "sa-hel-15",
+          "name": "Hellas Verona Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 70,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "sa-hel-16",
+          "name": "Hellas Verona Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 69,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-hel-17",
+          "name": "Hellas Verona Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 66,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-hel-18",
+          "name": "Hellas Verona Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 65,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "sa-hel-19",
+          "name": "Hellas Verona Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 65,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "sa-hel-20",
+          "name": "Hellas Verona Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 72,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-hel-21",
+          "name": "Hellas Verona Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 72,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-hel-22",
+          "name": "Hellas Verona Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 70,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-hel-23",
+          "name": "Hellas Verona Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 68,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "sa-int",
+      "name": "Inter",
+      "shortName": "INT",
+      "strength": {
+        "attack": 87,
+        "midfield": 86,
+        "defense": 85,
+        "keeper": 84,
+        "discipline": 44
+      },
+      "players": [
+        {
+          "playerId": "sa-int-01",
+          "name": "Inter Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 84,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "sa-int-02",
+          "name": "Inter Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 81,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "sa-int-03",
+          "name": "Inter Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 79,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "sa-int-04",
+          "name": "Inter Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 82,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-int-05",
+          "name": "Inter Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 82,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-int-06",
+          "name": "Inter Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 83,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-int-07",
+          "name": "Inter Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 83,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-int-08",
+          "name": "Inter Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 81,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "sa-int-09",
+          "name": "Inter Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 80,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-int-10",
+          "name": "Inter Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 79,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "sa-int-11",
+          "name": "Inter Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 79,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "sa-int-12",
+          "name": "Inter Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 85,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "sa-int-13",
+          "name": "Inter Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 86,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "sa-int-14",
+          "name": "Inter Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 83,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "sa-int-15",
+          "name": "Inter Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 84,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "sa-int-16",
+          "name": "Inter Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 83,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-int-17",
+          "name": "Inter Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 80,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-int-18",
+          "name": "Inter Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 79,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "sa-int-19",
+          "name": "Inter Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 79,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "sa-int-20",
+          "name": "Inter Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 86,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-int-21",
+          "name": "Inter Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 86,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-int-22",
+          "name": "Inter Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 84,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-int-23",
+          "name": "Inter Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 82,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "sa-juv",
+      "name": "Juventus",
+      "shortName": "JUV",
+      "strength": {
+        "attack": 85,
+        "midfield": 84,
+        "defense": 83,
+        "keeper": 82,
+        "discipline": 46
+      },
+      "players": [
+        {
+          "playerId": "sa-juv-01",
+          "name": "Juventus Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 82,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "sa-juv-02",
+          "name": "Juventus Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 79,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "sa-juv-03",
+          "name": "Juventus Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 77,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "sa-juv-04",
+          "name": "Juventus Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 80,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-juv-05",
+          "name": "Juventus Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 80,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-juv-06",
+          "name": "Juventus Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 81,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-juv-07",
+          "name": "Juventus Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 81,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-juv-08",
+          "name": "Juventus Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 79,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "sa-juv-09",
+          "name": "Juventus Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 78,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-juv-10",
+          "name": "Juventus Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 77,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "sa-juv-11",
+          "name": "Juventus Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 77,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "sa-juv-12",
+          "name": "Juventus Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 83,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "sa-juv-13",
+          "name": "Juventus Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 84,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "sa-juv-14",
+          "name": "Juventus Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 81,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "sa-juv-15",
+          "name": "Juventus Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 82,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "sa-juv-16",
+          "name": "Juventus Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 81,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-juv-17",
+          "name": "Juventus Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 78,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-juv-18",
+          "name": "Juventus Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 77,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "sa-juv-19",
+          "name": "Juventus Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 77,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "sa-juv-20",
+          "name": "Juventus Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 84,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-juv-21",
+          "name": "Juventus Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 84,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-juv-22",
+          "name": "Juventus Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 82,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-juv-23",
+          "name": "Juventus Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 80,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "sa-laz",
+      "name": "Lazio",
+      "shortName": "LAZ",
+      "strength": {
+        "attack": 81,
+        "midfield": 80,
+        "defense": 79,
+        "keeper": 78,
+        "discipline": 50
+      },
+      "players": [
+        {
+          "playerId": "sa-laz-01",
+          "name": "Lazio Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 78,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "sa-laz-02",
+          "name": "Lazio Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 75,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "sa-laz-03",
+          "name": "Lazio Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 73,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "sa-laz-04",
+          "name": "Lazio Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 76,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-laz-05",
+          "name": "Lazio Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 76,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-laz-06",
+          "name": "Lazio Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 77,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-laz-07",
+          "name": "Lazio Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 77,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-laz-08",
+          "name": "Lazio Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 75,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "sa-laz-09",
+          "name": "Lazio Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 74,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-laz-10",
+          "name": "Lazio Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 73,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "sa-laz-11",
+          "name": "Lazio Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 73,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "sa-laz-12",
+          "name": "Lazio Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 79,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "sa-laz-13",
+          "name": "Lazio Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 80,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "sa-laz-14",
+          "name": "Lazio Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 77,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "sa-laz-15",
+          "name": "Lazio Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 78,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "sa-laz-16",
+          "name": "Lazio Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 77,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-laz-17",
+          "name": "Lazio Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 74,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-laz-18",
+          "name": "Lazio Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 73,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "sa-laz-19",
+          "name": "Lazio Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 73,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "sa-laz-20",
+          "name": "Lazio Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 80,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-laz-21",
+          "name": "Lazio Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 80,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-laz-22",
+          "name": "Lazio Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 78,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-laz-23",
+          "name": "Lazio Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 76,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "sa-lec",
+      "name": "Lecce",
+      "shortName": "LEC",
+      "strength": {
+        "attack": 72,
+        "midfield": 71,
+        "defense": 70,
+        "keeper": 69,
+        "discipline": 59
+      },
+      "players": [
+        {
+          "playerId": "sa-lec-01",
+          "name": "Lecce Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 69,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "sa-lec-02",
+          "name": "Lecce Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 66,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "sa-lec-03",
+          "name": "Lecce Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 64,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "sa-lec-04",
+          "name": "Lecce Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 67,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-lec-05",
+          "name": "Lecce Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 67,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-lec-06",
+          "name": "Lecce Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 68,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-lec-07",
+          "name": "Lecce Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 68,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-lec-08",
+          "name": "Lecce Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 66,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "sa-lec-09",
+          "name": "Lecce Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 65,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-lec-10",
+          "name": "Lecce Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 64,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "sa-lec-11",
+          "name": "Lecce Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 64,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "sa-lec-12",
+          "name": "Lecce Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 70,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "sa-lec-13",
+          "name": "Lecce Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 71,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "sa-lec-14",
+          "name": "Lecce Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 68,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "sa-lec-15",
+          "name": "Lecce Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 69,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "sa-lec-16",
+          "name": "Lecce Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 68,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-lec-17",
+          "name": "Lecce Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 65,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-lec-18",
+          "name": "Lecce Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 64,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "sa-lec-19",
+          "name": "Lecce Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 64,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "sa-lec-20",
+          "name": "Lecce Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 71,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-lec-21",
+          "name": "Lecce Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 71,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-lec-22",
+          "name": "Lecce Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 69,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-lec-23",
+          "name": "Lecce Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 67,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "sa-mil",
+      "name": "AC Milan",
+      "shortName": "MIL",
+      "strength": {
+        "attack": 84,
+        "midfield": 83,
+        "defense": 82,
+        "keeper": 81,
+        "discipline": 47
+      },
+      "players": [
+        {
+          "playerId": "sa-mil-01",
+          "name": "AC Milan Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 81,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "sa-mil-02",
+          "name": "AC Milan Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 78,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "sa-mil-03",
+          "name": "AC Milan Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 76,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "sa-mil-04",
+          "name": "AC Milan Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 79,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-mil-05",
+          "name": "AC Milan Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 79,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-mil-06",
+          "name": "AC Milan Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 80,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-mil-07",
+          "name": "AC Milan Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 80,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-mil-08",
+          "name": "AC Milan Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 78,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "sa-mil-09",
+          "name": "AC Milan Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 77,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-mil-10",
+          "name": "AC Milan Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 76,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "sa-mil-11",
+          "name": "AC Milan Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 76,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "sa-mil-12",
+          "name": "AC Milan Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 82,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "sa-mil-13",
+          "name": "AC Milan Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 83,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "sa-mil-14",
+          "name": "AC Milan Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 80,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "sa-mil-15",
+          "name": "AC Milan Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 81,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "sa-mil-16",
+          "name": "AC Milan Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 80,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-mil-17",
+          "name": "AC Milan Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 77,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-mil-18",
+          "name": "AC Milan Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 76,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "sa-mil-19",
+          "name": "AC Milan Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 76,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "sa-mil-20",
+          "name": "AC Milan Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 83,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-mil-21",
+          "name": "AC Milan Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 83,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-mil-22",
+          "name": "AC Milan Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 81,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-mil-23",
+          "name": "AC Milan Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 79,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "sa-nap",
+      "name": "Napoli",
+      "shortName": "NAP",
+      "strength": {
+        "attack": 85,
+        "midfield": 84,
+        "defense": 83,
+        "keeper": 82,
+        "discipline": 46
+      },
+      "players": [
+        {
+          "playerId": "sa-nap-01",
+          "name": "Napoli Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 82,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "sa-nap-02",
+          "name": "Napoli Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 79,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "sa-nap-03",
+          "name": "Napoli Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 77,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "sa-nap-04",
+          "name": "Napoli Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 80,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-nap-05",
+          "name": "Napoli Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 80,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-nap-06",
+          "name": "Napoli Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 81,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-nap-07",
+          "name": "Napoli Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 81,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-nap-08",
+          "name": "Napoli Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 79,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "sa-nap-09",
+          "name": "Napoli Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 78,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-nap-10",
+          "name": "Napoli Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 77,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "sa-nap-11",
+          "name": "Napoli Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 77,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "sa-nap-12",
+          "name": "Napoli Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 83,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "sa-nap-13",
+          "name": "Napoli Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 84,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "sa-nap-14",
+          "name": "Napoli Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 81,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "sa-nap-15",
+          "name": "Napoli Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 82,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "sa-nap-16",
+          "name": "Napoli Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 81,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-nap-17",
+          "name": "Napoli Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 78,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-nap-18",
+          "name": "Napoli Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 77,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "sa-nap-19",
+          "name": "Napoli Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 77,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "sa-nap-20",
+          "name": "Napoli Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 84,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-nap-21",
+          "name": "Napoli Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 84,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-nap-22",
+          "name": "Napoli Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 82,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-nap-23",
+          "name": "Napoli Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 80,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "sa-par",
+      "name": "Parma",
+      "shortName": "PAR",
+      "strength": {
+        "attack": 73,
+        "midfield": 72,
+        "defense": 71,
+        "keeper": 70,
+        "discipline": 58
+      },
+      "players": [
+        {
+          "playerId": "sa-par-01",
+          "name": "Parma Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 70,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "sa-par-02",
+          "name": "Parma Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 67,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "sa-par-03",
+          "name": "Parma Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 65,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "sa-par-04",
+          "name": "Parma Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 68,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-par-05",
+          "name": "Parma Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 68,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-par-06",
+          "name": "Parma Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 69,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-par-07",
+          "name": "Parma Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 69,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-par-08",
+          "name": "Parma Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 67,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "sa-par-09",
+          "name": "Parma Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 66,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-par-10",
+          "name": "Parma Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 65,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "sa-par-11",
+          "name": "Parma Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 65,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "sa-par-12",
+          "name": "Parma Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 71,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "sa-par-13",
+          "name": "Parma Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 72,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "sa-par-14",
+          "name": "Parma Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 69,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "sa-par-15",
+          "name": "Parma Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 70,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "sa-par-16",
+          "name": "Parma Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 69,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-par-17",
+          "name": "Parma Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 66,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-par-18",
+          "name": "Parma Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 65,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "sa-par-19",
+          "name": "Parma Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 65,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "sa-par-20",
+          "name": "Parma Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 72,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-par-21",
+          "name": "Parma Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 72,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-par-22",
+          "name": "Parma Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 70,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-par-23",
+          "name": "Parma Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 68,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "sa-pis",
+      "name": "Pisa",
+      "shortName": "PIS",
+      "strength": {
+        "attack": 71,
+        "midfield": 70,
+        "defense": 69,
+        "keeper": 68,
+        "discipline": 60
+      },
+      "players": [
+        {
+          "playerId": "sa-pis-01",
+          "name": "Pisa Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 68,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "sa-pis-02",
+          "name": "Pisa Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 65,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "sa-pis-03",
+          "name": "Pisa Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 63,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "sa-pis-04",
+          "name": "Pisa Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 66,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-pis-05",
+          "name": "Pisa Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 66,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-pis-06",
+          "name": "Pisa Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 67,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-pis-07",
+          "name": "Pisa Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 67,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-pis-08",
+          "name": "Pisa Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 65,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "sa-pis-09",
+          "name": "Pisa Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 64,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-pis-10",
+          "name": "Pisa Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 63,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "sa-pis-11",
+          "name": "Pisa Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 63,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "sa-pis-12",
+          "name": "Pisa Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 69,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "sa-pis-13",
+          "name": "Pisa Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 70,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "sa-pis-14",
+          "name": "Pisa Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 67,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "sa-pis-15",
+          "name": "Pisa Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 68,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "sa-pis-16",
+          "name": "Pisa Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 67,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-pis-17",
+          "name": "Pisa Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 64,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-pis-18",
+          "name": "Pisa Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 63,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "sa-pis-19",
+          "name": "Pisa Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 63,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "sa-pis-20",
+          "name": "Pisa Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 70,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-pis-21",
+          "name": "Pisa Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 70,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-pis-22",
+          "name": "Pisa Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 68,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-pis-23",
+          "name": "Pisa Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 66,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "sa-rom",
+      "name": "Roma",
+      "shortName": "ROM",
+      "strength": {
+        "attack": 83,
+        "midfield": 82,
+        "defense": 81,
+        "keeper": 80,
+        "discipline": 48
+      },
+      "players": [
+        {
+          "playerId": "sa-rom-01",
+          "name": "Roma Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 80,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "sa-rom-02",
+          "name": "Roma Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 77,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "sa-rom-03",
+          "name": "Roma Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 75,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "sa-rom-04",
+          "name": "Roma Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 78,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-rom-05",
+          "name": "Roma Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 78,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-rom-06",
+          "name": "Roma Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 79,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-rom-07",
+          "name": "Roma Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 79,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-rom-08",
+          "name": "Roma Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 77,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "sa-rom-09",
+          "name": "Roma Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 76,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-rom-10",
+          "name": "Roma Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 75,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "sa-rom-11",
+          "name": "Roma Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 75,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "sa-rom-12",
+          "name": "Roma Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 81,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "sa-rom-13",
+          "name": "Roma Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 82,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "sa-rom-14",
+          "name": "Roma Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 79,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "sa-rom-15",
+          "name": "Roma Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 80,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "sa-rom-16",
+          "name": "Roma Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 79,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-rom-17",
+          "name": "Roma Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 76,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-rom-18",
+          "name": "Roma Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 75,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "sa-rom-19",
+          "name": "Roma Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 75,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "sa-rom-20",
+          "name": "Roma Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 82,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-rom-21",
+          "name": "Roma Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 82,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-rom-22",
+          "name": "Roma Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 80,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-rom-23",
+          "name": "Roma Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 78,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "sa-sas",
+      "name": "Sassuolo",
+      "shortName": "SAS",
+      "strength": {
+        "attack": 74,
+        "midfield": 73,
+        "defense": 72,
+        "keeper": 71,
+        "discipline": 57
+      },
+      "players": [
+        {
+          "playerId": "sa-sas-01",
+          "name": "Sassuolo Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 71,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "sa-sas-02",
+          "name": "Sassuolo Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 68,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "sa-sas-03",
+          "name": "Sassuolo Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 66,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "sa-sas-04",
+          "name": "Sassuolo Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 69,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-sas-05",
+          "name": "Sassuolo Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 69,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-sas-06",
+          "name": "Sassuolo Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 70,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-sas-07",
+          "name": "Sassuolo Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 70,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-sas-08",
+          "name": "Sassuolo Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 68,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "sa-sas-09",
+          "name": "Sassuolo Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 67,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-sas-10",
+          "name": "Sassuolo Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 66,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "sa-sas-11",
+          "name": "Sassuolo Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 66,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "sa-sas-12",
+          "name": "Sassuolo Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 72,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "sa-sas-13",
+          "name": "Sassuolo Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 73,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "sa-sas-14",
+          "name": "Sassuolo Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 70,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "sa-sas-15",
+          "name": "Sassuolo Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 71,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "sa-sas-16",
+          "name": "Sassuolo Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 70,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-sas-17",
+          "name": "Sassuolo Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 67,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-sas-18",
+          "name": "Sassuolo Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 66,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "sa-sas-19",
+          "name": "Sassuolo Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 66,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "sa-sas-20",
+          "name": "Sassuolo Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 73,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-sas-21",
+          "name": "Sassuolo Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 73,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-sas-22",
+          "name": "Sassuolo Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 71,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-sas-23",
+          "name": "Sassuolo Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 69,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "sa-tor",
+      "name": "Torino",
+      "shortName": "TOR",
+      "strength": {
+        "attack": 75,
+        "midfield": 74,
+        "defense": 73,
+        "keeper": 72,
+        "discipline": 56
+      },
+      "players": [
+        {
+          "playerId": "sa-tor-01",
+          "name": "Torino Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 72,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "sa-tor-02",
+          "name": "Torino Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 69,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "sa-tor-03",
+          "name": "Torino Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 67,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "sa-tor-04",
+          "name": "Torino Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 70,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-tor-05",
+          "name": "Torino Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 70,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-tor-06",
+          "name": "Torino Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 71,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-tor-07",
+          "name": "Torino Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 71,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-tor-08",
+          "name": "Torino Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 69,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "sa-tor-09",
+          "name": "Torino Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 68,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-tor-10",
+          "name": "Torino Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 67,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "sa-tor-11",
+          "name": "Torino Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 67,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "sa-tor-12",
+          "name": "Torino Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 73,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "sa-tor-13",
+          "name": "Torino Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 74,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "sa-tor-14",
+          "name": "Torino Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 71,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "sa-tor-15",
+          "name": "Torino Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 72,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "sa-tor-16",
+          "name": "Torino Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 71,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-tor-17",
+          "name": "Torino Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 68,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-tor-18",
+          "name": "Torino Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 67,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "sa-tor-19",
+          "name": "Torino Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 67,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "sa-tor-20",
+          "name": "Torino Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 74,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-tor-21",
+          "name": "Torino Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 74,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-tor-22",
+          "name": "Torino Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 72,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-tor-23",
+          "name": "Torino Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 70,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "sa-udi",
+      "name": "Udinese",
+      "shortName": "UDI",
+      "strength": {
+        "attack": 75,
+        "midfield": 74,
+        "defense": 73,
+        "keeper": 72,
+        "discipline": 56
+      },
+      "players": [
+        {
+          "playerId": "sa-udi-01",
+          "name": "Udinese Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 72,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "sa-udi-02",
+          "name": "Udinese Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 69,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "sa-udi-03",
+          "name": "Udinese Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 67,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "sa-udi-04",
+          "name": "Udinese Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 70,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-udi-05",
+          "name": "Udinese Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 70,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-udi-06",
+          "name": "Udinese Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 71,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-udi-07",
+          "name": "Udinese Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 71,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-udi-08",
+          "name": "Udinese Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 69,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "sa-udi-09",
+          "name": "Udinese Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 68,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "sa-udi-10",
+          "name": "Udinese Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 67,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "sa-udi-11",
+          "name": "Udinese Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 67,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "sa-udi-12",
+          "name": "Udinese Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 73,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "sa-udi-13",
+          "name": "Udinese Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 74,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "sa-udi-14",
+          "name": "Udinese Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 71,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "sa-udi-15",
+          "name": "Udinese Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 72,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "sa-udi-16",
+          "name": "Udinese Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 71,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-udi-17",
+          "name": "Udinese Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 68,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-udi-18",
+          "name": "Udinese Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 67,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "sa-udi-19",
+          "name": "Udinese Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 67,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "sa-udi-20",
+          "name": "Udinese Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 74,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-udi-21",
+          "name": "Udinese Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 74,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "sa-udi-22",
+          "name": "Udinese Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 72,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "sa-udi-23",
+          "name": "Udinese Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 70,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    }
+  ]
+}

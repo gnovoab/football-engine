@@ -1,3 +1,7 @@
 package com.gnovoa.football.out;
 
-public class EventPublisher {}
+import com.gnovoa.football.events.MatchEvent;
+
+public interface EventPublisher {
+    void publish(MatchEvent event);
+}

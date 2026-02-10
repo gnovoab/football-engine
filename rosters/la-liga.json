@@ -1,0 +1,4426 @@
+{
+  "league": "LA_LIGA",
+  "season": "SIM-2025-2026",
+  "teams": [
+    {
+      "teamId": "ll-ath",
+      "name": "Athletic Club",
+      "shortName": "ATH",
+      "strength": {
+        "attack": 79,
+        "midfield": 78,
+        "defense": 77,
+        "keeper": 76,
+        "discipline": 52
+      },
+      "players": [
+        {
+          "playerId": "ll-ath-01",
+          "name": "Athletic Club Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 76,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "ll-ath-02",
+          "name": "Athletic Club Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 73,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "ll-ath-03",
+          "name": "Athletic Club Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 71,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "ll-ath-04",
+          "name": "Athletic Club Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 74,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-ath-05",
+          "name": "Athletic Club Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 74,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-ath-06",
+          "name": "Athletic Club Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 75,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-ath-07",
+          "name": "Athletic Club Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 75,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-ath-08",
+          "name": "Athletic Club Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 73,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "ll-ath-09",
+          "name": "Athletic Club Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 72,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-ath-10",
+          "name": "Athletic Club Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 71,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "ll-ath-11",
+          "name": "Athletic Club Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 71,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "ll-ath-12",
+          "name": "Athletic Club Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 77,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "ll-ath-13",
+          "name": "Athletic Club Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 78,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "ll-ath-14",
+          "name": "Athletic Club Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 75,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "ll-ath-15",
+          "name": "Athletic Club Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 76,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "ll-ath-16",
+          "name": "Athletic Club Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 75,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-ath-17",
+          "name": "Athletic Club Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 72,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-ath-18",
+          "name": "Athletic Club Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 71,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "ll-ath-19",
+          "name": "Athletic Club Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 71,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "ll-ath-20",
+          "name": "Athletic Club Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 78,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-ath-21",
+          "name": "Athletic Club Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 78,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-ath-22",
+          "name": "Athletic Club Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 76,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-ath-23",
+          "name": "Athletic Club Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 74,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "ll-atm",
+      "name": "Atlético de Madrid",
+      "shortName": "ATM",
+      "strength": {
+        "attack": 85,
+        "midfield": 84,
+        "defense": 83,
+        "keeper": 82,
+        "discipline": 46
+      },
+      "players": [
+        {
+          "playerId": "ll-atm-01",
+          "name": "Atlético de Madrid Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 82,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "ll-atm-02",
+          "name": "Atlético de Madrid Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 79,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "ll-atm-03",
+          "name": "Atlético de Madrid Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 77,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "ll-atm-04",
+          "name": "Atlético de Madrid Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 80,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-atm-05",
+          "name": "Atlético de Madrid Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 80,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-atm-06",
+          "name": "Atlético de Madrid Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 81,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-atm-07",
+          "name": "Atlético de Madrid Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 81,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-atm-08",
+          "name": "Atlético de Madrid Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 79,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "ll-atm-09",
+          "name": "Atlético de Madrid Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 78,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-atm-10",
+          "name": "Atlético de Madrid Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 77,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "ll-atm-11",
+          "name": "Atlético de Madrid Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 77,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "ll-atm-12",
+          "name": "Atlético de Madrid Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 83,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "ll-atm-13",
+          "name": "Atlético de Madrid Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 84,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "ll-atm-14",
+          "name": "Atlético de Madrid Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 81,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "ll-atm-15",
+          "name": "Atlético de Madrid Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 82,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "ll-atm-16",
+          "name": "Atlético de Madrid Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 81,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-atm-17",
+          "name": "Atlético de Madrid Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 78,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-atm-18",
+          "name": "Atlético de Madrid Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 77,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "ll-atm-19",
+          "name": "Atlético de Madrid Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 77,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "ll-atm-20",
+          "name": "Atlético de Madrid Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 84,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-atm-21",
+          "name": "Atlético de Madrid Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 84,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-atm-22",
+          "name": "Atlético de Madrid Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 82,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-atm-23",
+          "name": "Atlético de Madrid Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 80,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "ll-osa",
+      "name": "CA Osasuna",
+      "shortName": "OSA",
+      "strength": {
+        "attack": 74,
+        "midfield": 73,
+        "defense": 72,
+        "keeper": 71,
+        "discipline": 57
+      },
+      "players": [
+        {
+          "playerId": "ll-osa-01",
+          "name": "CA Osasuna Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 71,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "ll-osa-02",
+          "name": "CA Osasuna Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 68,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "ll-osa-03",
+          "name": "CA Osasuna Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 66,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "ll-osa-04",
+          "name": "CA Osasuna Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 69,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-osa-05",
+          "name": "CA Osasuna Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 69,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-osa-06",
+          "name": "CA Osasuna Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 70,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-osa-07",
+          "name": "CA Osasuna Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 70,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-osa-08",
+          "name": "CA Osasuna Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 68,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "ll-osa-09",
+          "name": "CA Osasuna Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 67,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-osa-10",
+          "name": "CA Osasuna Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 66,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "ll-osa-11",
+          "name": "CA Osasuna Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 66,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "ll-osa-12",
+          "name": "CA Osasuna Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 72,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "ll-osa-13",
+          "name": "CA Osasuna Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 73,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "ll-osa-14",
+          "name": "CA Osasuna Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 70,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "ll-osa-15",
+          "name": "CA Osasuna Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 71,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "ll-osa-16",
+          "name": "CA Osasuna Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 70,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-osa-17",
+          "name": "CA Osasuna Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 67,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-osa-18",
+          "name": "CA Osasuna Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 66,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "ll-osa-19",
+          "name": "CA Osasuna Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 66,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "ll-osa-20",
+          "name": "CA Osasuna Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 73,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-osa-21",
+          "name": "CA Osasuna Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 73,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-osa-22",
+          "name": "CA Osasuna Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 71,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-osa-23",
+          "name": "CA Osasuna Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 69,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "ll-cel",
+      "name": "Celta",
+      "shortName": "CEL",
+      "strength": {
+        "attack": 75,
+        "midfield": 74,
+        "defense": 73,
+        "keeper": 72,
+        "discipline": 56
+      },
+      "players": [
+        {
+          "playerId": "ll-cel-01",
+          "name": "Celta Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 72,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "ll-cel-02",
+          "name": "Celta Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 69,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "ll-cel-03",
+          "name": "Celta Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 67,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "ll-cel-04",
+          "name": "Celta Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 70,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-cel-05",
+          "name": "Celta Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 70,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-cel-06",
+          "name": "Celta Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 71,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-cel-07",
+          "name": "Celta Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 71,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-cel-08",
+          "name": "Celta Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 69,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "ll-cel-09",
+          "name": "Celta Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 68,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-cel-10",
+          "name": "Celta Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 67,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "ll-cel-11",
+          "name": "Celta Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 67,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "ll-cel-12",
+          "name": "Celta Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 73,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "ll-cel-13",
+          "name": "Celta Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 74,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "ll-cel-14",
+          "name": "Celta Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 71,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "ll-cel-15",
+          "name": "Celta Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 72,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "ll-cel-16",
+          "name": "Celta Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 71,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-cel-17",
+          "name": "Celta Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 68,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-cel-18",
+          "name": "Celta Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 67,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "ll-cel-19",
+          "name": "Celta Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 67,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "ll-cel-20",
+          "name": "Celta Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 74,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-cel-21",
+          "name": "Celta Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 74,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-cel-22",
+          "name": "Celta Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 72,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-cel-23",
+          "name": "Celta Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 70,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "ll-ala",
+      "name": "Deportivo Alavés",
+      "shortName": "ALA",
+      "strength": {
+        "attack": 73,
+        "midfield": 72,
+        "defense": 71,
+        "keeper": 70,
+        "discipline": 58
+      },
+      "players": [
+        {
+          "playerId": "ll-ala-01",
+          "name": "Deportivo Alavés Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 70,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "ll-ala-02",
+          "name": "Deportivo Alavés Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 67,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "ll-ala-03",
+          "name": "Deportivo Alavés Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 65,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "ll-ala-04",
+          "name": "Deportivo Alavés Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 68,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-ala-05",
+          "name": "Deportivo Alavés Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 68,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-ala-06",
+          "name": "Deportivo Alavés Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 69,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-ala-07",
+          "name": "Deportivo Alavés Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 69,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-ala-08",
+          "name": "Deportivo Alavés Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 67,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "ll-ala-09",
+          "name": "Deportivo Alavés Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 66,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-ala-10",
+          "name": "Deportivo Alavés Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 65,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "ll-ala-11",
+          "name": "Deportivo Alavés Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 65,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "ll-ala-12",
+          "name": "Deportivo Alavés Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 71,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "ll-ala-13",
+          "name": "Deportivo Alavés Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 72,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "ll-ala-14",
+          "name": "Deportivo Alavés Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 69,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "ll-ala-15",
+          "name": "Deportivo Alavés Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 70,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "ll-ala-16",
+          "name": "Deportivo Alavés Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 69,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-ala-17",
+          "name": "Deportivo Alavés Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 66,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-ala-18",
+          "name": "Deportivo Alavés Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 65,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "ll-ala-19",
+          "name": "Deportivo Alavés Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 65,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "ll-ala-20",
+          "name": "Deportivo Alavés Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 72,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-ala-21",
+          "name": "Deportivo Alavés Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 72,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-ala-22",
+          "name": "Deportivo Alavés Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 70,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-ala-23",
+          "name": "Deportivo Alavés Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 68,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "ll-elc",
+      "name": "Elche CF",
+      "shortName": "ELC",
+      "strength": {
+        "attack": 73,
+        "midfield": 72,
+        "defense": 71,
+        "keeper": 70,
+        "discipline": 58
+      },
+      "players": [
+        {
+          "playerId": "ll-elc-01",
+          "name": "Elche CF Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 70,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "ll-elc-02",
+          "name": "Elche CF Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 67,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "ll-elc-03",
+          "name": "Elche CF Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 65,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "ll-elc-04",
+          "name": "Elche CF Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 68,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-elc-05",
+          "name": "Elche CF Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 68,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-elc-06",
+          "name": "Elche CF Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 69,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-elc-07",
+          "name": "Elche CF Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 69,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-elc-08",
+          "name": "Elche CF Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 67,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "ll-elc-09",
+          "name": "Elche CF Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 66,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-elc-10",
+          "name": "Elche CF Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 65,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "ll-elc-11",
+          "name": "Elche CF Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 65,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "ll-elc-12",
+          "name": "Elche CF Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 71,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "ll-elc-13",
+          "name": "Elche CF Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 72,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "ll-elc-14",
+          "name": "Elche CF Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 69,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "ll-elc-15",
+          "name": "Elche CF Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 70,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "ll-elc-16",
+          "name": "Elche CF Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 69,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-elc-17",
+          "name": "Elche CF Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 66,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-elc-18",
+          "name": "Elche CF Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 65,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "ll-elc-19",
+          "name": "Elche CF Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 65,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "ll-elc-20",
+          "name": "Elche CF Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 72,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-elc-21",
+          "name": "Elche CF Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 72,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-elc-22",
+          "name": "Elche CF Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 70,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-elc-23",
+          "name": "Elche CF Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 68,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "ll-bar",
+      "name": "FC Barcelona",
+      "shortName": "BAR",
+      "strength": {
+        "attack": 87,
+        "midfield": 86,
+        "defense": 85,
+        "keeper": 84,
+        "discipline": 44
+      },
+      "players": [
+        {
+          "playerId": "ll-bar-01",
+          "name": "FC Barcelona Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 84,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "ll-bar-02",
+          "name": "FC Barcelona Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 81,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "ll-bar-03",
+          "name": "FC Barcelona Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 79,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "ll-bar-04",
+          "name": "FC Barcelona Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 82,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-bar-05",
+          "name": "FC Barcelona Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 82,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-bar-06",
+          "name": "FC Barcelona Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 83,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-bar-07",
+          "name": "FC Barcelona Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 83,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-bar-08",
+          "name": "FC Barcelona Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 81,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "ll-bar-09",
+          "name": "FC Barcelona Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 80,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-bar-10",
+          "name": "FC Barcelona Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 79,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "ll-bar-11",
+          "name": "FC Barcelona Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 79,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "ll-bar-12",
+          "name": "FC Barcelona Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 85,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "ll-bar-13",
+          "name": "FC Barcelona Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 86,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "ll-bar-14",
+          "name": "FC Barcelona Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 83,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "ll-bar-15",
+          "name": "FC Barcelona Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 84,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "ll-bar-16",
+          "name": "FC Barcelona Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 83,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-bar-17",
+          "name": "FC Barcelona Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 80,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-bar-18",
+          "name": "FC Barcelona Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 79,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "ll-bar-19",
+          "name": "FC Barcelona Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 79,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "ll-bar-20",
+          "name": "FC Barcelona Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 86,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-bar-21",
+          "name": "FC Barcelona Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 86,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-bar-22",
+          "name": "FC Barcelona Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 84,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-bar-23",
+          "name": "FC Barcelona Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 82,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "ll-get",
+      "name": "Getafe CF",
+      "shortName": "GET",
+      "strength": {
+        "attack": 74,
+        "midfield": 73,
+        "defense": 72,
+        "keeper": 71,
+        "discipline": 57
+      },
+      "players": [
+        {
+          "playerId": "ll-get-01",
+          "name": "Getafe CF Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 71,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "ll-get-02",
+          "name": "Getafe CF Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 68,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "ll-get-03",
+          "name": "Getafe CF Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 66,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "ll-get-04",
+          "name": "Getafe CF Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 69,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-get-05",
+          "name": "Getafe CF Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 69,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-get-06",
+          "name": "Getafe CF Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 70,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-get-07",
+          "name": "Getafe CF Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 70,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-get-08",
+          "name": "Getafe CF Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 68,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "ll-get-09",
+          "name": "Getafe CF Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 67,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-get-10",
+          "name": "Getafe CF Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 66,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "ll-get-11",
+          "name": "Getafe CF Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 66,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "ll-get-12",
+          "name": "Getafe CF Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 72,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "ll-get-13",
+          "name": "Getafe CF Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 73,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "ll-get-14",
+          "name": "Getafe CF Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 70,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "ll-get-15",
+          "name": "Getafe CF Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 71,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "ll-get-16",
+          "name": "Getafe CF Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 70,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-get-17",
+          "name": "Getafe CF Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 67,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-get-18",
+          "name": "Getafe CF Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 66,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "ll-get-19",
+          "name": "Getafe CF Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 66,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "ll-get-20",
+          "name": "Getafe CF Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 73,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-get-21",
+          "name": "Getafe CF Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 73,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-get-22",
+          "name": "Getafe CF Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 71,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-get-23",
+          "name": "Getafe CF Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 69,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "ll-gir",
+      "name": "Girona FC",
+      "shortName": "GIR",
+      "strength": {
+        "attack": 77,
+        "midfield": 76,
+        "defense": 75,
+        "keeper": 74,
+        "discipline": 54
+      },
+      "players": [
+        {
+          "playerId": "ll-gir-01",
+          "name": "Girona FC Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 74,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "ll-gir-02",
+          "name": "Girona FC Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 71,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "ll-gir-03",
+          "name": "Girona FC Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 69,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "ll-gir-04",
+          "name": "Girona FC Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 72,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-gir-05",
+          "name": "Girona FC Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 72,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-gir-06",
+          "name": "Girona FC Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 73,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-gir-07",
+          "name": "Girona FC Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 73,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-gir-08",
+          "name": "Girona FC Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 71,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "ll-gir-09",
+          "name": "Girona FC Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 70,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-gir-10",
+          "name": "Girona FC Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 69,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "ll-gir-11",
+          "name": "Girona FC Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 69,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "ll-gir-12",
+          "name": "Girona FC Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 75,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "ll-gir-13",
+          "name": "Girona FC Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 76,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "ll-gir-14",
+          "name": "Girona FC Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 73,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "ll-gir-15",
+          "name": "Girona FC Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 74,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "ll-gir-16",
+          "name": "Girona FC Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 73,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-gir-17",
+          "name": "Girona FC Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 70,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-gir-18",
+          "name": "Girona FC Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 69,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "ll-gir-19",
+          "name": "Girona FC Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 69,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "ll-gir-20",
+          "name": "Girona FC Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 76,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-gir-21",
+          "name": "Girona FC Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 76,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-gir-22",
+          "name": "Girona FC Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 74,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-gir-23",
+          "name": "Girona FC Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 72,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "ll-lev",
+      "name": "Levante UD",
+      "shortName": "LEV",
+      "strength": {
+        "attack": 72,
+        "midfield": 71,
+        "defense": 70,
+        "keeper": 69,
+        "discipline": 59
+      },
+      "players": [
+        {
+          "playerId": "ll-lev-01",
+          "name": "Levante UD Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 69,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "ll-lev-02",
+          "name": "Levante UD Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 66,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "ll-lev-03",
+          "name": "Levante UD Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 64,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "ll-lev-04",
+          "name": "Levante UD Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 67,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-lev-05",
+          "name": "Levante UD Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 67,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-lev-06",
+          "name": "Levante UD Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 68,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-lev-07",
+          "name": "Levante UD Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 68,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-lev-08",
+          "name": "Levante UD Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 66,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "ll-lev-09",
+          "name": "Levante UD Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 65,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-lev-10",
+          "name": "Levante UD Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 64,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "ll-lev-11",
+          "name": "Levante UD Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 64,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "ll-lev-12",
+          "name": "Levante UD Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 70,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "ll-lev-13",
+          "name": "Levante UD Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 71,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "ll-lev-14",
+          "name": "Levante UD Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 68,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "ll-lev-15",
+          "name": "Levante UD Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 69,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "ll-lev-16",
+          "name": "Levante UD Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 68,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-lev-17",
+          "name": "Levante UD Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 65,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-lev-18",
+          "name": "Levante UD Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 64,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "ll-lev-19",
+          "name": "Levante UD Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 64,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "ll-lev-20",
+          "name": "Levante UD Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 71,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-lev-21",
+          "name": "Levante UD Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 71,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-lev-22",
+          "name": "Levante UD Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 69,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-lev-23",
+          "name": "Levante UD Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 67,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "ll-ray",
+      "name": "Rayo Vallecano",
+      "shortName": "RAY",
+      "strength": {
+        "attack": 74,
+        "midfield": 73,
+        "defense": 72,
+        "keeper": 71,
+        "discipline": 57
+      },
+      "players": [
+        {
+          "playerId": "ll-ray-01",
+          "name": "Rayo Vallecano Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 71,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "ll-ray-02",
+          "name": "Rayo Vallecano Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 68,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "ll-ray-03",
+          "name": "Rayo Vallecano Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 66,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "ll-ray-04",
+          "name": "Rayo Vallecano Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 69,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-ray-05",
+          "name": "Rayo Vallecano Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 69,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-ray-06",
+          "name": "Rayo Vallecano Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 70,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-ray-07",
+          "name": "Rayo Vallecano Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 70,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-ray-08",
+          "name": "Rayo Vallecano Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 68,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "ll-ray-09",
+          "name": "Rayo Vallecano Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 67,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-ray-10",
+          "name": "Rayo Vallecano Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 66,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "ll-ray-11",
+          "name": "Rayo Vallecano Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 66,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "ll-ray-12",
+          "name": "Rayo Vallecano Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 72,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "ll-ray-13",
+          "name": "Rayo Vallecano Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 73,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "ll-ray-14",
+          "name": "Rayo Vallecano Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 70,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "ll-ray-15",
+          "name": "Rayo Vallecano Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 71,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "ll-ray-16",
+          "name": "Rayo Vallecano Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 70,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-ray-17",
+          "name": "Rayo Vallecano Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 67,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-ray-18",
+          "name": "Rayo Vallecano Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 66,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "ll-ray-19",
+          "name": "Rayo Vallecano Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 66,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "ll-ray-20",
+          "name": "Rayo Vallecano Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 73,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-ray-21",
+          "name": "Rayo Vallecano Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 73,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-ray-22",
+          "name": "Rayo Vallecano Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 71,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-ray-23",
+          "name": "Rayo Vallecano Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 69,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "ll-esp",
+      "name": "RCD Espanyol de Barcelona",
+      "shortName": "ESP",
+      "strength": {
+        "attack": 73,
+        "midfield": 72,
+        "defense": 71,
+        "keeper": 70,
+        "discipline": 58
+      },
+      "players": [
+        {
+          "playerId": "ll-esp-01",
+          "name": "RCD Espanyol de Barcelona Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 70,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "ll-esp-02",
+          "name": "RCD Espanyol de Barcelona Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 67,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "ll-esp-03",
+          "name": "RCD Espanyol de Barcelona Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 65,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "ll-esp-04",
+          "name": "RCD Espanyol de Barcelona Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 68,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-esp-05",
+          "name": "RCD Espanyol de Barcelona Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 68,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-esp-06",
+          "name": "RCD Espanyol de Barcelona Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 69,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-esp-07",
+          "name": "RCD Espanyol de Barcelona Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 69,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-esp-08",
+          "name": "RCD Espanyol de Barcelona Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 67,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "ll-esp-09",
+          "name": "RCD Espanyol de Barcelona Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 66,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-esp-10",
+          "name": "RCD Espanyol de Barcelona Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 65,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "ll-esp-11",
+          "name": "RCD Espanyol de Barcelona Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 65,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "ll-esp-12",
+          "name": "RCD Espanyol de Barcelona Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 71,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "ll-esp-13",
+          "name": "RCD Espanyol de Barcelona Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 72,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "ll-esp-14",
+          "name": "RCD Espanyol de Barcelona Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 69,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "ll-esp-15",
+          "name": "RCD Espanyol de Barcelona Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 70,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "ll-esp-16",
+          "name": "RCD Espanyol de Barcelona Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 69,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-esp-17",
+          "name": "RCD Espanyol de Barcelona Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 66,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-esp-18",
+          "name": "RCD Espanyol de Barcelona Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 65,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "ll-esp-19",
+          "name": "RCD Espanyol de Barcelona Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 65,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "ll-esp-20",
+          "name": "RCD Espanyol de Barcelona Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 72,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-esp-21",
+          "name": "RCD Espanyol de Barcelona Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 72,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-esp-22",
+          "name": "RCD Espanyol de Barcelona Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 70,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-esp-23",
+          "name": "RCD Espanyol de Barcelona Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 68,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "ll-mal",
+      "name": "RCD Mallorca",
+      "shortName": "MLL",
+      "strength": {
+        "attack": 74,
+        "midfield": 73,
+        "defense": 72,
+        "keeper": 71,
+        "discipline": 57
+      },
+      "players": [
+        {
+          "playerId": "ll-mal-01",
+          "name": "RCD Mallorca Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 71,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "ll-mal-02",
+          "name": "RCD Mallorca Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 68,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "ll-mal-03",
+          "name": "RCD Mallorca Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 66,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "ll-mal-04",
+          "name": "RCD Mallorca Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 69,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-mal-05",
+          "name": "RCD Mallorca Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 69,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-mal-06",
+          "name": "RCD Mallorca Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 70,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-mal-07",
+          "name": "RCD Mallorca Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 70,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-mal-08",
+          "name": "RCD Mallorca Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 68,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "ll-mal-09",
+          "name": "RCD Mallorca Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 67,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-mal-10",
+          "name": "RCD Mallorca Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 66,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "ll-mal-11",
+          "name": "RCD Mallorca Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 66,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "ll-mal-12",
+          "name": "RCD Mallorca Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 72,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "ll-mal-13",
+          "name": "RCD Mallorca Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 73,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "ll-mal-14",
+          "name": "RCD Mallorca Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 70,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "ll-mal-15",
+          "name": "RCD Mallorca Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 71,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "ll-mal-16",
+          "name": "RCD Mallorca Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 70,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-mal-17",
+          "name": "RCD Mallorca Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 67,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-mal-18",
+          "name": "RCD Mallorca Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 66,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "ll-mal-19",
+          "name": "RCD Mallorca Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 66,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "ll-mal-20",
+          "name": "RCD Mallorca Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 73,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-mal-21",
+          "name": "RCD Mallorca Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 73,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-mal-22",
+          "name": "RCD Mallorca Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 71,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-mal-23",
+          "name": "RCD Mallorca Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 69,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "ll-bet",
+      "name": "Real Betis",
+      "shortName": "BET",
+      "strength": {
+        "attack": 79,
+        "midfield": 78,
+        "defense": 77,
+        "keeper": 76,
+        "discipline": 52
+      },
+      "players": [
+        {
+          "playerId": "ll-bet-01",
+          "name": "Real Betis Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 76,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "ll-bet-02",
+          "name": "Real Betis Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 73,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "ll-bet-03",
+          "name": "Real Betis Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 71,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "ll-bet-04",
+          "name": "Real Betis Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 74,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-bet-05",
+          "name": "Real Betis Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 74,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-bet-06",
+          "name": "Real Betis Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 75,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-bet-07",
+          "name": "Real Betis Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 75,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-bet-08",
+          "name": "Real Betis Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 73,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "ll-bet-09",
+          "name": "Real Betis Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 72,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-bet-10",
+          "name": "Real Betis Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 71,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "ll-bet-11",
+          "name": "Real Betis Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 71,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "ll-bet-12",
+          "name": "Real Betis Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 77,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "ll-bet-13",
+          "name": "Real Betis Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 78,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "ll-bet-14",
+          "name": "Real Betis Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 75,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "ll-bet-15",
+          "name": "Real Betis Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 76,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "ll-bet-16",
+          "name": "Real Betis Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 75,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-bet-17",
+          "name": "Real Betis Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 72,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-bet-18",
+          "name": "Real Betis Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 71,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "ll-bet-19",
+          "name": "Real Betis Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 71,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "ll-bet-20",
+          "name": "Real Betis Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 78,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-bet-21",
+          "name": "Real Betis Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 78,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-bet-22",
+          "name": "Real Betis Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 76,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-bet-23",
+          "name": "Real Betis Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 74,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "ll-rma",
+      "name": "Real Madrid",
+      "shortName": "RMA",
+      "strength": {
+        "attack": 88,
+        "midfield": 87,
+        "defense": 86,
+        "keeper": 85,
+        "discipline": 43
+      },
+      "players": [
+        {
+          "playerId": "ll-rma-01",
+          "name": "Real Madrid Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 85,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "ll-rma-02",
+          "name": "Real Madrid Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 82,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "ll-rma-03",
+          "name": "Real Madrid Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 80,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "ll-rma-04",
+          "name": "Real Madrid Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 83,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-rma-05",
+          "name": "Real Madrid Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 83,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-rma-06",
+          "name": "Real Madrid Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 84,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-rma-07",
+          "name": "Real Madrid Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 84,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-rma-08",
+          "name": "Real Madrid Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 82,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "ll-rma-09",
+          "name": "Real Madrid Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 81,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-rma-10",
+          "name": "Real Madrid Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 80,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "ll-rma-11",
+          "name": "Real Madrid Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 80,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "ll-rma-12",
+          "name": "Real Madrid Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 86,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "ll-rma-13",
+          "name": "Real Madrid Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 87,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "ll-rma-14",
+          "name": "Real Madrid Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 84,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "ll-rma-15",
+          "name": "Real Madrid Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 85,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "ll-rma-16",
+          "name": "Real Madrid Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 84,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-rma-17",
+          "name": "Real Madrid Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 81,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-rma-18",
+          "name": "Real Madrid Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 80,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "ll-rma-19",
+          "name": "Real Madrid Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 80,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "ll-rma-20",
+          "name": "Real Madrid Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 87,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-rma-21",
+          "name": "Real Madrid Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 87,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-rma-22",
+          "name": "Real Madrid Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 85,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-rma-23",
+          "name": "Real Madrid Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 83,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "ll-ovi",
+      "name": "Real Oviedo",
+      "shortName": "OVI",
+      "strength": {
+        "attack": 71,
+        "midfield": 70,
+        "defense": 69,
+        "keeper": 68,
+        "discipline": 60
+      },
+      "players": [
+        {
+          "playerId": "ll-ovi-01",
+          "name": "Real Oviedo Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 68,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "ll-ovi-02",
+          "name": "Real Oviedo Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 65,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "ll-ovi-03",
+          "name": "Real Oviedo Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 63,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "ll-ovi-04",
+          "name": "Real Oviedo Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 66,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-ovi-05",
+          "name": "Real Oviedo Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 66,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-ovi-06",
+          "name": "Real Oviedo Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 67,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-ovi-07",
+          "name": "Real Oviedo Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 67,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-ovi-08",
+          "name": "Real Oviedo Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 65,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "ll-ovi-09",
+          "name": "Real Oviedo Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 64,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-ovi-10",
+          "name": "Real Oviedo Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 63,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "ll-ovi-11",
+          "name": "Real Oviedo Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 63,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "ll-ovi-12",
+          "name": "Real Oviedo Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 69,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "ll-ovi-13",
+          "name": "Real Oviedo Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 70,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "ll-ovi-14",
+          "name": "Real Oviedo Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 67,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "ll-ovi-15",
+          "name": "Real Oviedo Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 68,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "ll-ovi-16",
+          "name": "Real Oviedo Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 67,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-ovi-17",
+          "name": "Real Oviedo Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 64,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-ovi-18",
+          "name": "Real Oviedo Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 63,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "ll-ovi-19",
+          "name": "Real Oviedo Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 63,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "ll-ovi-20",
+          "name": "Real Oviedo Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 70,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-ovi-21",
+          "name": "Real Oviedo Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 70,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-ovi-22",
+          "name": "Real Oviedo Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 68,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-ovi-23",
+          "name": "Real Oviedo Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 66,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "ll-rso",
+      "name": "Real Sociedad",
+      "shortName": "RSO",
+      "strength": {
+        "attack": 79,
+        "midfield": 78,
+        "defense": 77,
+        "keeper": 76,
+        "discipline": 52
+      },
+      "players": [
+        {
+          "playerId": "ll-rso-01",
+          "name": "Real Sociedad Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 76,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "ll-rso-02",
+          "name": "Real Sociedad Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 73,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "ll-rso-03",
+          "name": "Real Sociedad Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 71,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "ll-rso-04",
+          "name": "Real Sociedad Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 74,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-rso-05",
+          "name": "Real Sociedad Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 74,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-rso-06",
+          "name": "Real Sociedad Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 75,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-rso-07",
+          "name": "Real Sociedad Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 75,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-rso-08",
+          "name": "Real Sociedad Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 73,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "ll-rso-09",
+          "name": "Real Sociedad Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 72,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-rso-10",
+          "name": "Real Sociedad Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 71,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "ll-rso-11",
+          "name": "Real Sociedad Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 71,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "ll-rso-12",
+          "name": "Real Sociedad Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 77,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "ll-rso-13",
+          "name": "Real Sociedad Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 78,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "ll-rso-14",
+          "name": "Real Sociedad Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 75,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "ll-rso-15",
+          "name": "Real Sociedad Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 76,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "ll-rso-16",
+          "name": "Real Sociedad Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 75,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-rso-17",
+          "name": "Real Sociedad Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 72,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-rso-18",
+          "name": "Real Sociedad Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 71,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "ll-rso-19",
+          "name": "Real Sociedad Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 71,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "ll-rso-20",
+          "name": "Real Sociedad Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 78,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-rso-21",
+          "name": "Real Sociedad Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 78,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-rso-22",
+          "name": "Real Sociedad Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 76,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-rso-23",
+          "name": "Real Sociedad Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 74,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "ll-sev",
+      "name": "Sevilla FC",
+      "shortName": "SEV",
+      "strength": {
+        "attack": 77,
+        "midfield": 76,
+        "defense": 75,
+        "keeper": 74,
+        "discipline": 54
+      },
+      "players": [
+        {
+          "playerId": "ll-sev-01",
+          "name": "Sevilla FC Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 74,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "ll-sev-02",
+          "name": "Sevilla FC Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 71,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "ll-sev-03",
+          "name": "Sevilla FC Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 69,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "ll-sev-04",
+          "name": "Sevilla FC Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 72,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-sev-05",
+          "name": "Sevilla FC Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 72,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-sev-06",
+          "name": "Sevilla FC Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 73,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-sev-07",
+          "name": "Sevilla FC Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 73,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-sev-08",
+          "name": "Sevilla FC Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 71,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "ll-sev-09",
+          "name": "Sevilla FC Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 70,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-sev-10",
+          "name": "Sevilla FC Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 69,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "ll-sev-11",
+          "name": "Sevilla FC Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 69,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "ll-sev-12",
+          "name": "Sevilla FC Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 75,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "ll-sev-13",
+          "name": "Sevilla FC Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 76,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "ll-sev-14",
+          "name": "Sevilla FC Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 73,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "ll-sev-15",
+          "name": "Sevilla FC Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 74,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "ll-sev-16",
+          "name": "Sevilla FC Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 73,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-sev-17",
+          "name": "Sevilla FC Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 70,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-sev-18",
+          "name": "Sevilla FC Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 69,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "ll-sev-19",
+          "name": "Sevilla FC Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 69,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "ll-sev-20",
+          "name": "Sevilla FC Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 76,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-sev-21",
+          "name": "Sevilla FC Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 76,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-sev-22",
+          "name": "Sevilla FC Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 74,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-sev-23",
+          "name": "Sevilla FC Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 72,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "ll-val",
+      "name": "Valencia CF",
+      "shortName": "VAL",
+      "strength": {
+        "attack": 76,
+        "midfield": 75,
+        "defense": 74,
+        "keeper": 73,
+        "discipline": 55
+      },
+      "players": [
+        {
+          "playerId": "ll-val-01",
+          "name": "Valencia CF Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 73,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "ll-val-02",
+          "name": "Valencia CF Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 70,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "ll-val-03",
+          "name": "Valencia CF Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 68,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "ll-val-04",
+          "name": "Valencia CF Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 71,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-val-05",
+          "name": "Valencia CF Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 71,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-val-06",
+          "name": "Valencia CF Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 72,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-val-07",
+          "name": "Valencia CF Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 72,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-val-08",
+          "name": "Valencia CF Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 70,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "ll-val-09",
+          "name": "Valencia CF Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 69,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-val-10",
+          "name": "Valencia CF Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 68,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "ll-val-11",
+          "name": "Valencia CF Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 68,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "ll-val-12",
+          "name": "Valencia CF Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 74,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "ll-val-13",
+          "name": "Valencia CF Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 75,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "ll-val-14",
+          "name": "Valencia CF Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 72,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "ll-val-15",
+          "name": "Valencia CF Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 73,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "ll-val-16",
+          "name": "Valencia CF Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 72,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-val-17",
+          "name": "Valencia CF Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 69,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-val-18",
+          "name": "Valencia CF Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 68,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "ll-val-19",
+          "name": "Valencia CF Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 68,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "ll-val-20",
+          "name": "Valencia CF Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 75,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-val-21",
+          "name": "Valencia CF Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 75,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-val-22",
+          "name": "Valencia CF Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 73,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-val-23",
+          "name": "Valencia CF Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 71,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    },
+    {
+      "teamId": "ll-vil",
+      "name": "Villarreal CF",
+      "shortName": "VIL",
+      "strength": {
+        "attack": 80,
+        "midfield": 79,
+        "defense": 78,
+        "keeper": 77,
+        "discipline": 51
+      },
+      "players": [
+        {
+          "playerId": "ll-vil-01",
+          "name": "Villarreal CF Player 1",
+          "position": "GK",
+          "shirt": 1,
+          "rating": 77,
+          "discipline": 60,
+          "stamina": 72
+        },
+        {
+          "playerId": "ll-vil-02",
+          "name": "Villarreal CF Player 2",
+          "position": "GK",
+          "shirt": 13,
+          "rating": 74,
+          "discipline": 62,
+          "stamina": 70
+        },
+        {
+          "playerId": "ll-vil-03",
+          "name": "Villarreal CF Player 3",
+          "position": "GK",
+          "shirt": 31,
+          "rating": 72,
+          "discipline": 64,
+          "stamina": 68
+        },
+        {
+          "playerId": "ll-vil-04",
+          "name": "Villarreal CF Player 4",
+          "position": "FB",
+          "shirt": 2,
+          "rating": 75,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-vil-05",
+          "name": "Villarreal CF Player 5",
+          "position": "FB",
+          "shirt": 3,
+          "rating": 75,
+          "discipline": 58,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-vil-06",
+          "name": "Villarreal CF Player 6",
+          "position": "CB",
+          "shirt": 4,
+          "rating": 76,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-vil-07",
+          "name": "Villarreal CF Player 7",
+          "position": "CB",
+          "shirt": 5,
+          "rating": 76,
+          "discipline": 60,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-vil-08",
+          "name": "Villarreal CF Player 8",
+          "position": "CB",
+          "shirt": 6,
+          "rating": 74,
+          "discipline": 61,
+          "stamina": 75
+        },
+        {
+          "playerId": "ll-vil-09",
+          "name": "Villarreal CF Player 9",
+          "position": "FB",
+          "shirt": 12,
+          "rating": 73,
+          "discipline": 59,
+          "stamina": 76
+        },
+        {
+          "playerId": "ll-vil-10",
+          "name": "Villarreal CF Player 10",
+          "position": "FB",
+          "shirt": 22,
+          "rating": 72,
+          "discipline": 59,
+          "stamina": 75
+        },
+        {
+          "playerId": "ll-vil-11",
+          "name": "Villarreal CF Player 11",
+          "position": "CB",
+          "shirt": 23,
+          "rating": 72,
+          "discipline": 61,
+          "stamina": 74
+        },
+        {
+          "playerId": "ll-vil-12",
+          "name": "Villarreal CF Player 12",
+          "position": "CM",
+          "shirt": 8,
+          "rating": 78,
+          "discipline": 54,
+          "stamina": 82
+        },
+        {
+          "playerId": "ll-vil-13",
+          "name": "Villarreal CF Player 13",
+          "position": "AM",
+          "shirt": 10,
+          "rating": 79,
+          "discipline": 52,
+          "stamina": 80
+        },
+        {
+          "playerId": "ll-vil-14",
+          "name": "Villarreal CF Player 14",
+          "position": "CM",
+          "shirt": 14,
+          "rating": 76,
+          "discipline": 55,
+          "stamina": 80
+        },
+        {
+          "playerId": "ll-vil-15",
+          "name": "Villarreal CF Player 15",
+          "position": "DM",
+          "shirt": 16,
+          "rating": 77,
+          "discipline": 57,
+          "stamina": 81
+        },
+        {
+          "playerId": "ll-vil-16",
+          "name": "Villarreal CF Player 16",
+          "position": "W",
+          "shirt": 18,
+          "rating": 76,
+          "discipline": 52,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-vil-17",
+          "name": "Villarreal CF Player 17",
+          "position": "CM",
+          "shirt": 20,
+          "rating": 73,
+          "discipline": 56,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-vil-18",
+          "name": "Villarreal CF Player 18",
+          "position": "DM",
+          "shirt": 24,
+          "rating": 72,
+          "discipline": 58,
+          "stamina": 77
+        },
+        {
+          "playerId": "ll-vil-19",
+          "name": "Villarreal CF Player 19",
+          "position": "AM",
+          "shirt": 25,
+          "rating": 72,
+          "discipline": 54,
+          "stamina": 77
+        },
+        {
+          "playerId": "ll-vil-20",
+          "name": "Villarreal CF Player 20",
+          "position": "W",
+          "shirt": 7,
+          "rating": 79,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-vil-21",
+          "name": "Villarreal CF Player 21",
+          "position": "ST",
+          "shirt": 9,
+          "rating": 79,
+          "discipline": 49,
+          "stamina": 78
+        },
+        {
+          "playerId": "ll-vil-22",
+          "name": "Villarreal CF Player 22",
+          "position": "W",
+          "shirt": 11,
+          "rating": 77,
+          "discipline": 50,
+          "stamina": 79
+        },
+        {
+          "playerId": "ll-vil-23",
+          "name": "Villarreal CF Player 23",
+          "position": "ST",
+          "shirt": 15,
+          "rating": 75,
+          "discipline": 51,
+          "stamina": 76
+        }
+      ]
+    }
+  ]
+}

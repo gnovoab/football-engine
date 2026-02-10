@@ -1,3 +1,6 @@
 package com.gnovoa.football.sim;
 
-public class RandomSource {}
+public interface RandomSource {
+    int nextIntInclusive(int fromInclusive, int toInclusive);
+    double nextDouble();
+}

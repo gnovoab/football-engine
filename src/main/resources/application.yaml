@@ -33,12 +33,16 @@ gnovoab:
 
 management:
   otlp:
-    logging:
+    metrics:
       export:
-        enabled: true
+        enabled: false
+    logging:
+        export:
+          enabled: false
     tracing:
       # Automatically correlates logs with Trace IDs
       endpoint: http://localhost:4318/v1/traces
+      enabled: false
   endpoints:
     web:
       exposure:

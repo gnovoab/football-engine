@@ -18,7 +18,7 @@ import org.springframework.stereotype.Component;
  * <p>This component keeps all rosters in memory (no DB). It is constructed once at application
  * startup and fails fast if any roster file is missing or invalid.
  */
-//@Component
+@Component
 public final class RosterCatalog {
 
   /** In-memory roster cache by league. */
