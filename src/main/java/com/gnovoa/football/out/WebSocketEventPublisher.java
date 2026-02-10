@@ -3,6 +3,8 @@ package com.gnovoa.football.out;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.gnovoa.football.events.MatchEvent;
 import com.gnovoa.football.ws.WsRouter;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 import org.springframework.web.socket.TextMessage;
 import org.springframework.web.socket.WebSocketSession;
@@ -10,6 +12,8 @@ import org.springframework.web.socket.WebSocketSession;
 @Component
 public final class WebSocketEventPublisher implements EventPublisher {
 
+    private static final Logger log = LoggerFactory.getLogger(WebSocketEventPublisher.class);
+    
     private final WsRouter router;
     private final ObjectMapper mapper;
 
@@ -23,6 +27,9 @@ public final class WebSocketEventPublisher implements EventPublisher {
         try {
             String json = mapper.writeValueAsString(event);
             TextMessage msg = new TextMessage(json);
+            
+            // Log each event being sent
+            log.info("Publishing event: {} - {}", event.getClass().getSimpleName(), json);
 
             for (WebSocketSession s : router.forKey("match:" + event.matchId())) {
                 if (s.isOpen()) s.sendMessage(msg);
@@ -33,7 +40,7 @@ public final class WebSocketEventPublisher implements EventPublisher {
                 if (s.isOpen()) s.sendMessage(msg);
             }
         } catch (Exception ignored) {
-            // add logging if needed
+            log.error("Failed to publish event: {}", event.getClass().getSimpleName(), ignored);
         }
     }
 }

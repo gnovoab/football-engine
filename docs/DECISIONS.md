@@ -1,0 +1,33 @@
+# Decisions (Football Simulator)
+
+- Tech: Spring Boot, Java 21, Gradle.
+- Leagues: PREMIER_LEAGUE, SERIE_A, LA_LIGA.
+- Rosters: loaded from ./rosters/*.json (external folder).
+- Each league:
+    - 20 teams
+    - 38 rounds (double round-robin), second leg reshuffled, avoid immediate rematches.
+- Fixture:
+    - 10 matches concurrently (20 teams play at the same time)
+- Match timing:
+    - Real-time: 45m + 30s HT + 45m + stoppage time (basic)
+- Snapshots:
+    - MATCH_SNAPSHOT every 10 seconds
+- Orchestration:
+    - one fixture at a time per league
+    - 10 minutes between fixtures
+    - 1 hour between seasons
+    - 2 seasons per league
+- APIs:
+    - /api/runners/{league}/pause
+    - /api/runners/{league}/stop (immediate)
+    - /api/runners/{league}/resume
+    - /api/runners/{league}/running-fixture (always 200; next countdown only when waiting; next=null if paused/stopped)
+    - /api/runners/{league}/schedule (includes currentRound/nextRound; shows upcoming season schedule during season gap)
+- WebSockets:
+    - /ws/matches/*
+    - /ws/leagues/*/fixtures/*
+- UI:
+    - served from Spring Boot static resources
+    - simple dashboard + modal (match WS) + pin in localStorage
+- Dummy roster generation:
+    - tools/RosterGenerator.java generates all 3 leagues in one run
