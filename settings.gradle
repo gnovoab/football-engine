@@ -4,4 +4,4 @@ pluginManagement {
 		gradlePluginPortal()
 	}
 }
-rootProject.name = 'sportsbook'
+rootProject.name = 'virtua-football'

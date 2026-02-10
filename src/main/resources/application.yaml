@@ -2,6 +2,9 @@
 info:
   description: Football Match Engine
 
+server:
+  port: 8080
+
 spring:
   application:
     name: football-engine
@@ -43,3 +46,20 @@ management:
     jmx:
       exposure:
         include: "health,info"
+
+sim:
+  tickMillis: 250
+  snapshotEverySeconds: 10
+  halfTimeRealSeconds: 30
+  rosters:
+    baseDir: "./rosters"
+    files:
+      PREMIER_LEAGUE: "premier-league.json"
+      SERIE_A: "serie-a.json"
+      LA_LIGA: "la-liga.json"
+
+runner:
+  seasonsToRun: 2
+  gapBetweenFixturesMinutes: 10
+  gapBetweenSeasonsMinutes: 60
+  autoStartOnBoot: true

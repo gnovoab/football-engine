@@ -1,4 +1,4 @@
-package com.gnovoa.sportsbook.controller;
+package com.gnovoa.football.controller;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.RestController;

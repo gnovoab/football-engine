@@ -14,12 +14,12 @@ plugins {
 
 group = 'com.gnovoa'
 version = '0.0.1-SNAPSHOT'
-description = 'Football Engine'
+description = 'Virtua Football Engine'
 
 
 // --- Versions ---
 ext {
-	jarName = 'gn-football.jar'
+	jarName = 'virtua-football.jar'
 	springdocVersion = '2.8.5'
 	jaxbApiVersion   = '4.0.1'
 	jaxbImplVersion  = '4.0.4'
@@ -141,6 +141,9 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.boot:spring-boot-starter-actuator'
 	implementation 'org.springframework.boot:spring-boot-starter-opentelemetry'
+
+	implementation 'org.springframework.boot:spring-boot-starter-websocket'
+	implementation 'com.fasterxml.jackson.core:jackson-databind'
 
 	// OpenAPI / Swagger
 	implementation "org.springdoc:springdoc-openapi-starter-webmvc-ui:$springdocVersion"

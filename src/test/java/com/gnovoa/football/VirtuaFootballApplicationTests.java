@@ -1,4 +1,4 @@
-package com.gnovoa.sportsbook;
+package com.gnovoa.football;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
@@ -14,7 +14,7 @@ import org.springframework.test.web.servlet.client.RestTestClient;
 @ActiveProfiles("integrationTest")
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @AutoConfigureRestTestClient
-class SportsbookApplicationTests {
+class VirtuaFootballApplicationTests {
 
   @Autowired private RestTestClient restTestClient;
 
