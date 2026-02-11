@@ -5,67 +5,156 @@
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <title>Football Simulator</title>
     <style>
+        @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@400;500;600;700&display=swap");
         :root {
-          --bg: #0b1220;
-          --panel: #101a2e;
-          --line: rgba(255,255,255,0.10);
-          --text: rgba(255,255,255,0.92);
-          --muted: rgba(255,255,255,0.65);
-          --accent: #4dd4ff;
-          --good: #2ecc71;
-          --warn: #f1c40f;
-          --bad: #e74c3c;
+          --bg: #0a0f1c;
+          --bg-2: #0d1a2f;
+          --surface: #111b2d;
+          --surface-2: #0f1726;
+          --line: rgba(255,255,255,0.08);
+          --text: #f1f5f9;
+          --muted: rgba(226,232,240,0.66);
+          --accent: #37d7d0;
+          --accent-2: #ff9c66;
+          --good: #27d17d;
+          --warn: #f6c343;
+          --bad: #ff6b6b;
+          --shadow: 0 18px 40px rgba(4, 10, 24, 0.55);
         }
-        body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; }
+        * { box-sizing: border-box; }
+        body {
+          margin: 0;
+          min-height: 100vh;
+          color: var(--text);
+          font-family: "Space Grotesk", "Sora", "Avenir Next", "Helvetica Neue", sans-serif;
+          background: radial-gradient(1200px 600px at 12% -10%, rgba(55, 215, 208, 0.18), transparent 60%),
+                      radial-gradient(900px 700px at 90% 10%, rgba(255, 156, 102, 0.16), transparent 55%),
+                      linear-gradient(160deg, var(--bg), var(--bg-2));
+        }
+        body::before {
+          content: "";
+          position: fixed;
+          inset: -10% 0 auto -20%;
+          height: 420px;
+          background: radial-gradient(closest-side, rgba(62, 217, 209, 0.12), transparent 72%);
+          filter: blur(12px);
+          pointer-events: none;
+          z-index: -1;
+        }
         header {
-          padding: 14px 16px; border-bottom: 1px solid var(--line);
-          display: flex; align-items: center; gap: 12px;
-          position: sticky; top: 0; background: rgba(11,18,32,0.96); backdrop-filter: blur(8px);
+          padding: 16px 20px;
+          border-bottom: 1px solid var(--line);
+          display: flex;
+          align-items: center;
+          gap: 16px;
+          position: sticky;
+          top: 0;
+          background: rgba(9, 14, 26, 0.85);
+          backdrop-filter: blur(10px);
           z-index: 5;
         }
-        header h1 { font-size: 16px; margin: 0; letter-spacing: 0.2px; }
-        .tabs { display: flex; gap: 8px; margin-left: 8px; }
+        .brand { display: flex; flex-direction: column; }
+        .brand-title { font-size: 18px; font-weight: 700; letter-spacing: 0.3px; }
+        .brand-sub { font-size: 11px; text-transform: uppercase; letter-spacing: 0.16em; color: var(--muted); }
+        .tabs { display: flex; gap: 8px; margin-left: 6px; }
         .tab {
-          border: 1px solid var(--line); background: transparent; color: var(--text);
-          padding: 8px 10px; border-radius: 10px; cursor: pointer; font-size: 12px;
+          border: 1px solid rgba(255,255,255,0.12);
+          background: rgba(255,255,255,0.02);
+          color: var(--text);
+          padding: 8px 12px;
+          border-radius: 999px;
+          cursor: pointer;
+          font-size: 12px;
+          transition: all 160ms ease;
         }
-        .tab.active { border-color: rgba(77,212,255,0.35); background: rgba(77,212,255,0.08); }
+        .tab.active {
+          border-color: rgba(55, 215, 208, 0.5);
+          background: linear-gradient(120deg, rgba(55, 215, 208, 0.2), rgba(255, 156, 102, 0.2));
+          box-shadow: 0 10px 22px rgba(55, 215, 208, 0.18);
+        }
         .spacer { flex: 1; }
-        .pill { font-size: 12px; padding: 6px 10px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); }
-        .pill.ok { border-color: rgba(46,204,113,0.35); color: rgba(46,204,113,0.95); }
-        .pill.warn { border-color: rgba(241,196,15,0.35); color: rgba(241,196,15,0.95); }
-        .pill.bad { border-color: rgba(231,76,60,0.35); color: rgba(231,76,60,0.95); }
-        .btn {
-          border: 1px solid var(--line); background: transparent; color: var(--text);
-          padding: 8px 10px; border-radius: 10px; cursor: pointer; font-size: 12px;
+        .pill {
+          font-size: 12px;
+          padding: 6px 12px;
+          border-radius: 999px;
+          border: 1px solid var(--line);
+          color: var(--muted);
+          background: rgba(8, 14, 25, 0.45);
         }
-        .btn:hover { border-color: rgba(77,212,255,0.35); }
+        .pill.ok { border-color: rgba(39, 209, 125, 0.5); color: rgba(39, 209, 125, 0.95); }
+        .pill.warn { border-color: rgba(246, 195, 67, 0.55); color: rgba(246, 195, 67, 0.95); }
+        .pill.bad { border-color: rgba(255, 107, 107, 0.6); color: rgba(255, 107, 107, 0.98); }
+        .btn {
+          border: 1px solid rgba(255,255,255,0.16);
+          background: rgba(12, 19, 32, 0.8);
+          color: var(--text);
+          padding: 8px 12px;
+          border-radius: 10px;
+          cursor: pointer;
+          font-size: 12px;
+          transition: all 160ms ease;
+        }
+        .btn:hover { border-color: rgba(55, 215, 208, 0.5); transform: translateY(-1px); }
 
-        main { padding: 16px; display: grid; grid-template-columns: 2fr 1fr; gap: 14px; }
-        .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
-        .panel-head { padding: 12px; border-bottom: 1px solid var(--line); display: flex; align-items: baseline; gap: 10px; }
-        .panel-title { font-size: 13px; margin: 0; }
+        main { padding: 18px 20px 26px; display: grid; grid-template-columns: 2fr 1fr; gap: 16px; }
+        .panel {
+          background: linear-gradient(160deg, rgba(18, 27, 45, 0.96), rgba(14, 20, 34, 0.96));
+          border: 1px solid var(--line);
+          border-radius: 16px;
+          overflow: hidden;
+          box-shadow: var(--shadow);
+          animation: panelIn 420ms ease;
+        }
+        .panel-head { padding: 14px 16px; border-bottom: 1px solid var(--line); display: flex; align-items: baseline; gap: 10px; }
+        .panel-title { font-size: 14px; margin: 0; letter-spacing: 0.4px; }
         .meta { font-size: 12px; color: var(--muted); }
 
+        .summary { grid-column: 1 / -1; }
+        .summary-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 10px; padding: 12px; }
+        .summary-item {
+          border: 1px solid var(--line);
+          background: var(--surface-2);
+          border-radius: 12px;
+          padding: 10px 12px;
+          min-height: 64px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+        }
+        .summary-item .label {
+          font-size: 10px;
+          text-transform: uppercase;
+          letter-spacing: 0.14em;
+          color: var(--muted);
+        }
+        .summary-item .value { font-size: 15px; font-weight: 600; }
+
         table { width: 100%; border-collapse: collapse; }
-        th, td { padding: 10px 12px; border-bottom: 1px solid var(--line); font-size: 13px; vertical-align: top; }
-        th { color: var(--muted); font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; }
+        th, td { padding: 12px 14px; border-bottom: 1px solid var(--line); font-size: 13px; vertical-align: top; }
+        th { color: var(--muted); font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.12em; }
         tr:hover { background: rgba(255,255,255,0.03); }
         tr.clickable { cursor: pointer; }
-        tr.pinned { outline: 2px solid rgba(77,212,255,0.25); outline-offset: -2px; background: rgba(77,212,255,0.06); }
+        tr.pinned {
+          outline: 2px solid rgba(55, 215, 208, 0.32);
+          outline-offset: -2px;
+          background: rgba(55, 215, 208, 0.08);
+        }
 
         .match { display: flex; flex-direction: column; gap: 4px; }
         .ids { font-size: 11px; color: var(--muted); }
-        .score { font-weight: 700; font-size: 14px; }
+        .score { font-weight: 700; font-size: 15px; }
         .time { font-variant-numeric: tabular-nums; color: var(--muted); }
         .small { font-size: 12px; color: var(--muted); }
 
         .feed {
-          max-height: 560px; overflow: auto;
-          font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
-          font-size: 12px; padding: 10px 12px;
+          max-height: 560px;
+          overflow: auto;
+          font-family: "JetBrains Mono", "SF Mono", Menlo, Monaco, Consolas, monospace;
+          font-size: 12px;
+          padding: 12px 14px;
         }
-        .feed-line { padding: 6px 0; border-bottom: 1px dashed rgba(255,255,255,0.10); }
+        .feed-line { padding: 7px 0; border-bottom: 1px dashed rgba(255,255,255,0.12); animation: fadeIn 140ms ease; }
+        .feed-line.subtle { color: var(--muted); }
         .feed-line:last-child { border-bottom: none; }
 
         /* Modal */
@@ -82,9 +171,9 @@
         .modal {
           width: min(980px, 96vw);
           max-height: min(84vh, 900px);
-          background: var(--panel);
+          background: linear-gradient(180deg, rgba(18, 27, 45, 0.98), rgba(11, 17, 29, 0.98));
           border: 1px solid var(--line);
-          border-radius: 14px;
+          border-radius: 16px;
           overflow: hidden;
           display: grid;
           grid-template-columns: 1fr 1fr;
@@ -106,15 +195,48 @@
         .modal-feed {
           max-height: calc(min(84vh, 900px) - 100px);
           overflow: auto;
-          padding: 10px 12px;
-          font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+          padding: 12px 14px;
+          font-family: "JetBrains Mono", "SF Mono", Menlo, Monaco, Consolas, monospace;
           font-size: 12px;
+        }
+        .loading {
+          display: inline-flex;
+          align-items: center;
+          gap: 8px;
+          padding: 4px 10px;
+          border-radius: 999px;
+          border: 1px solid rgba(255,255,255,0.14);
+          background: rgba(10, 16, 28, 0.6);
+          color: var(--muted);
+          font-size: 11px;
+          letter-spacing: 0.04em;
+        }
+        .loading-dot {
+          width: 6px;
+          height: 6px;
+          border-radius: 50%;
+          background: var(--accent);
+          box-shadow: 0 0 10px rgba(55, 215, 208, 0.7);
+          animation: pulse 1.2s ease-in-out infinite;
+        }
+        @keyframes pulse {
+          0%, 100% { transform: scale(0.8); opacity: 0.6; }
+          50% { transform: scale(1); opacity: 1; }
         }
         .kv { display: grid; grid-template-columns: 120px 1fr; gap: 6px 10px; padding: 10px 12px; }
         .k { color: var(--muted); font-size: 12px; }
         .v { font-variant-numeric: tabular-nums; font-size: 12px; }
 
+        @keyframes panelIn {
+          from { opacity: 0; transform: translateY(10px); }
+          to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes fadeIn {
+          from { opacity: 0; transform: translateY(6px); }
+          to { opacity: 1; transform: translateY(0); }
+        }
         @media (max-width: 980px) {
+          header { flex-wrap: wrap; }
           main { grid-template-columns: 1fr; }
           .modal { grid-template-columns: 1fr; }
           .modal-body { grid-template-columns: 1fr; }
@@ -125,7 +247,10 @@
 </head>
 <body>
 <header>
-    <h1>Football Simulator</h1>
+    <div class="brand">
+        <div class="brand-title">Football Simulator</div>
+        <div class="brand-sub">Realtime match engine</div>
+    </div>
 
     <div class="tabs" id="tabs">
         <button class="tab active" data-league="PREMIER_LEAGUE">Premier League</button>
@@ -140,6 +265,31 @@
 </header>
 
 <main>
+    <section class="panel summary">
+        <div class="summary-row">
+            <div class="summary-item">
+                <div class="label">League</div>
+                <div class="value" id="summaryLeague">—</div>
+            </div>
+            <div class="summary-item">
+                <div class="label">Fixture</div>
+                <div class="value" id="summaryFixture">—</div>
+            </div>
+            <div class="summary-item">
+                <div class="label">Round</div>
+                <div class="value" id="summaryRound">—</div>
+            </div>
+            <div class="summary-item">
+                <div class="label">Matches</div>
+                <div class="value" id="summaryMatches">—</div>
+            </div>
+            <div class="summary-item">
+                <div class="label">Status</div>
+                <div class="value" id="summaryStatus">—</div>
+            </div>
+        </div>
+    </section>
+
     <section class="panel">
         <div class="panel-head">
             <h2 class="panel-title">Live Fixture</h2>
@@ -190,6 +340,10 @@
                 <div class="modal-section-head">
                     <div class="modal-section-title">Match Snapshot</div>
                     <div class="small" id="modalClock">—</div>
+                    <div class="loading" id="modalLoading" style="display: none;">
+                        <span class="loading-dot"></span>
+                        Connecting…
+                    </div>
                 </div>
                 <div class="kv">
                     <div class="k">Score</div><div class="v" id="modalScore">—</div>
@@ -232,12 +386,18 @@
       const fixtureMeta = document.getElementById("fixtureMeta");
       const matchesBody = document.getElementById("matchesBody");
       const feed = document.getElementById("feed");
+      const summaryLeague = document.getElementById("summaryLeague");
+      const summaryFixture = document.getElementById("summaryFixture");
+      const summaryRound = document.getElementById("summaryRound");
+      const summaryMatches = document.getElementById("summaryMatches");
+      const summaryStatus = document.getElementById("summaryStatus");
 
       const modalBackdrop = document.getElementById("modalBackdrop");
       const modalTitle = document.getElementById("modalTitle");
       const modalMeta = document.getElementById("modalMeta");
       const modalConn = document.getElementById("modalConn");
       const modalClock = document.getElementById("modalClock");
+      const modalLoading = document.getElementById("modalLoading");
       const modalFeed = document.getElementById("modalFeed");
       const modalScore = document.getElementById("modalScore");
       const modalPhase = document.getElementById("modalPhase");
@@ -252,6 +412,12 @@
 
       // matchId -> {homeTeam, awayTeam, wsPath}
       const matchIndex = new Map();
+      // matchId -> last event with match snapshot
+      const lastMatchEvent = new Map();
+      // matchId -> [incident line, ...] (latest first)
+      const incidentCache = new Map();
+      // league -> [line, ...] (latest first)
+      const feedCache = new Map();
 
       // --- Helpers ---
       function setConn(state, kind) {
@@ -262,6 +428,11 @@
       function setModalConn(state, kind) {
         modalConn.textContent = state;
         modalConn.className = "pill " + (kind || "");
+        if (state === "connecting…") {
+          modalLoading.style.display = "inline-flex";
+        } else {
+          modalLoading.style.display = "none";
+        }
       }
 
       function wsUrl(path) {
@@ -269,11 +440,33 @@
         return proto + "//" + location.host + path;
       }
 
+      function formatLeague(lg) {
+        return lg
+          .toLowerCase()
+          .split("_")
+          .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+          .join(" ");
+      }
+
+      function renderFeedFromCache() {
+        feed.innerHTML = "";
+        const cached = feedCache.get(league) || [];
+        for (const line of cached) {
+          const div = document.createElement("div");
+          div.className = "feed-line";
+          div.textContent = line;
+          feed.appendChild(div);
+        }
+      }
+
       function clearUI() {
         fixtureMeta.textContent = "—";
         matchesBody.innerHTML = "";
-        feed.innerHTML = "";
+        renderFeedFromCache();
         matchIndex.clear();
+        summaryFixture.textContent = "—";
+        summaryRound.textContent = "—";
+        summaryMatches.textContent = "—";
       }
 
       function addFeed(line) {
@@ -281,13 +474,26 @@
         div.className = "feed-line";
         div.textContent = line;
         feed.prepend(div);
+
+        const bucket = feedCache.get(league) || [];
+        bucket.unshift(line);
+        if (bucket.length > 200) bucket.length = 200;
+        feedCache.set(league, bucket);
       }
 
-      function addModalFeed(line) {
+      function addModalFeed(line, subtle = false) {
         const div = document.createElement("div");
-        div.className = "feed-line";
+        div.className = subtle ? "feed-line subtle" : "feed-line";
         div.textContent = line;
         modalFeed.prepend(div);
+      }
+
+      function addIncidentCache(matchId, line) {
+        if (!matchId) return;
+        const bucket = incidentCache.get(matchId) || [];
+        bucket.unshift(line);
+        if (bucket.length > 120) bucket.length = 120;
+        incidentCache.set(matchId, bucket);
       }
 
       function loadPinned() {
@@ -377,6 +583,7 @@
         clearUI();
 
         loadPinned();
+        summaryLeague.textContent = formatLeague(league);
 
         if (fixtureWs) { try { fixtureWs.close(); } catch (_) {} fixtureWs = null; }
 
@@ -384,6 +591,7 @@
         if (!rfRes.ok) {
           setConn("REST error " + rfRes.status, "bad");
           fixtureMeta.textContent = "Failed to load running fixture.";
+          summaryStatus.textContent = "REST error";
           return;
         }
 
@@ -394,10 +602,18 @@
           fixtureMeta.textContent = rf.next
             ? `Not running. Next: ${rf.next.action} in ${rf.next.startsInSeconds}s`
             : `Not running. Status: ${rf.status}`;
+          summaryStatus.textContent = rf.status;
+          summaryFixture.textContent = rf.fixtureId || "—";
+          summaryRound.textContent = rf.round || "—";
+          summaryMatches.textContent = rf.matches ? String(rf.matches.length) : "—";
           return;
         }
 
         fixtureMeta.textContent = `Season ${rf.seasonIndex} · Round ${rf.round} · Fixture ${rf.fixtureId}`;
+        summaryStatus.textContent = "RUNNING";
+        summaryFixture.textContent = rf.fixtureId;
+        summaryRound.textContent = String(rf.round);
+        summaryMatches.textContent = String(rf.matches.length);
         renderMatches(rf.matches);
 
         fixtureWs = new WebSocket(wsUrl(rf.ws.fixture));
@@ -415,6 +631,7 @@
               ev.type === "HALF_TIME" ||
               ev.type === "SECOND_HALF_KICK_OFF" ||
               ev.type === "FULL_TIME") {
+            if (ev.matchId && ev.match) lastMatchEvent.set(ev.matchId, ev);
             updateRow(ev);
 
             // if pinned match is also selected, keep modal snapshot updating even if match ws lags
@@ -427,7 +644,18 @@
             const min = Math.floor((ev.match?.second || 0) / 60);
             const teams = matchIndex.get(ev.matchId);
             const label = teams ? `${teams.homeTeam} vs ${teams.awayTeam}` : ev.matchId;
-            addFeed(`[${league}] ${min}' ${label} · ${ev.type}`);
+            const line = `[${league}] ${min}' ${label} · ${ev.type}`;
+            addFeed(line);
+            addIncidentCache(ev.matchId, `${min}' · ${ev.type}${ev.data ? " · " + JSON.stringify(ev.data) : ""}`);
+
+            if (selectedMatch && ev.matchId === selectedMatch) {
+              if (modalFeed.firstChild && modalFeed.firstChild.textContent &&
+                  (modalFeed.firstChild.textContent === "Waiting for match events…" ||
+                   modalFeed.firstChild.textContent === "Live snapshots only (no incidents yet)")) {
+                modalFeed.innerHTML = "";
+              }
+              addModalFeed(`${min}' · ${ev.type}${ev.data ? " · " + JSON.stringify(ev.data) : ""}`);
+            }
           }
         };
       }
@@ -452,12 +680,20 @@
 
           if (ev.type === "MATCH_SNAPSHOT") {
             updateModalSnapshot(ev);
+            if (modalFeed.firstChild && modalFeed.firstChild.textContent === "Waiting for match events…") {
+              modalFeed.firstChild.textContent = "Live snapshots only (no incidents yet)";
+            }
             return;
           }
 
           if (ev.match) updateModalSnapshot(ev);
 
           const min = Math.floor((ev.match?.second || 0) / 60);
+          if (modalFeed.firstChild && modalFeed.firstChild.textContent !== null &&
+              (modalFeed.firstChild.textContent === "Waiting for match events…" ||
+               modalFeed.firstChild.textContent === "Live snapshots only (no incidents yet)")) {
+            modalFeed.innerHTML = "";
+          }
           addModalFeed(`${min}' · ${ev.type}${ev.data ? " · " + JSON.stringify(ev.data) : ""}`);
         };
       }
@@ -471,6 +707,7 @@
         modalBackdrop.classList.add("open");
         modalBackdrop.setAttribute("aria-hidden", "false");
         modalFeed.innerHTML = "";
+        addModalFeed("Waiting for match events…", true);
 
         modalTitle.textContent = `${m.homeTeam} vs ${m.awayTeam}`;
         modalMeta.textContent = league;
@@ -484,6 +721,17 @@
         modalCorners.textContent = "—";
         modalClock.textContent = "—";
         modalPinned.textContent = (pinnedMatchId === matchId) ? "Yes" : "No";
+
+        const cachedIncidents = incidentCache.get(matchId) || [];
+        if (cachedIncidents.length > 0) {
+          modalFeed.innerHTML = "";
+          for (const line of cachedIncidents) addModalFeed(line);
+        }
+
+        const cached = lastMatchEvent.get(matchId);
+        if (cached && cached.match) {
+          updateModalSnapshot(cached);
+        }
 
         connectMatchWs(matchId);
       }
