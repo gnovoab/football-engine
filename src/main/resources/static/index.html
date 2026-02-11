@@ -6,807 +6,320 @@
     <title>Football Simulator</title>
     <style>
         @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@400;500;600;700&display=swap");
+
         :root {
-          --bg: #0a0f1c;
-          --bg-2: #0d1a2f;
-          --surface: #111b2d;
-          --surface-2: #0f1726;
-          --line: rgba(255,255,255,0.08);
-          --text: #f1f5f9;
-          --muted: rgba(226,232,240,0.66);
-          --accent: #37d7d0;
-          --accent-2: #ff9c66;
-          --good: #27d17d;
-          --warn: #f6c343;
-          --bad: #ff6b6b;
-          --shadow: 0 18px 40px rgba(4, 10, 24, 0.55);
+            --bg: #0a0f1c; --bg-2: #0d1a2f; --surface: #111b2d; --surface-2: #0f1726;
+            --line: rgba(255,255,255,0.08); --text: #f1f5f9; --muted: rgba(226,232,240,0.66);
+            --accent: #37d7d0; --accent-2: #ff9c66; --good: #27d17d; --warn: #f6c343;
+            --bad: #ff6b6b; --shadow: 0 18px 40px rgba(4, 10, 24, 0.55);
         }
+        :root.light {
+            --bg: #f8fafc; --bg-2: #f1f5f9; --surface: #ffffff; --surface-2: #fdfdfd;
+            --line: rgba(0,0,0,0.1); --text: #0f172a; --muted: #64748b; --shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+        }
+
         * { box-sizing: border-box; }
-        body {
-          margin: 0;
-          min-height: 100vh;
-          color: var(--text);
-          font-family: "Space Grotesk", "Sora", "Avenir Next", "Helvetica Neue", sans-serif;
-          background: radial-gradient(1200px 600px at 12% -10%, rgba(55, 215, 208, 0.18), transparent 60%),
-                      radial-gradient(900px 700px at 90% 10%, rgba(255, 156, 102, 0.16), transparent 55%),
-                      linear-gradient(160deg, var(--bg), var(--bg-2));
-        }
-        body::before {
-          content: "";
-          position: fixed;
-          inset: -10% 0 auto -20%;
-          height: 420px;
-          background: radial-gradient(closest-side, rgba(62, 217, 209, 0.12), transparent 72%);
-          filter: blur(12px);
-          pointer-events: none;
-          z-index: -1;
-        }
-        header {
-          padding: 16px 20px;
-          border-bottom: 1px solid var(--line);
-          display: flex;
-          align-items: center;
-          gap: 16px;
-          position: sticky;
-          top: 0;
-          background: rgba(9, 14, 26, 0.85);
-          backdrop-filter: blur(10px);
-          z-index: 5;
-        }
-        .brand { display: flex; flex-direction: column; }
-        .brand-title { font-size: 18px; font-weight: 700; letter-spacing: 0.3px; }
-        .brand-sub { font-size: 11px; text-transform: uppercase; letter-spacing: 0.16em; color: var(--muted); }
-        .tabs { display: flex; gap: 8px; margin-left: 6px; }
-        .tab {
-          border: 1px solid rgba(255,255,255,0.12);
-          background: rgba(255,255,255,0.02);
-          color: var(--text);
-          padding: 8px 12px;
-          border-radius: 999px;
-          cursor: pointer;
-          font-size: 12px;
-          transition: all 160ms ease;
-        }
-        .tab.active {
-          border-color: rgba(55, 215, 208, 0.5);
-          background: linear-gradient(120deg, rgba(55, 215, 208, 0.2), rgba(255, 156, 102, 0.2));
-          box-shadow: 0 10px 22px rgba(55, 215, 208, 0.18);
-        }
-        .spacer { flex: 1; }
-        .pill {
-          font-size: 12px;
-          padding: 6px 12px;
-          border-radius: 999px;
-          border: 1px solid var(--line);
-          color: var(--muted);
-          background: rgba(8, 14, 25, 0.45);
-        }
-        .pill.ok { border-color: rgba(39, 209, 125, 0.5); color: rgba(39, 209, 125, 0.95); }
-        .pill.warn { border-color: rgba(246, 195, 67, 0.55); color: rgba(246, 195, 67, 0.95); }
-        .pill.bad { border-color: rgba(255, 107, 107, 0.6); color: rgba(255, 107, 107, 0.98); }
-        .btn {
-          border: 1px solid rgba(255,255,255,0.16);
-          background: rgba(12, 19, 32, 0.8);
-          color: var(--text);
-          padding: 8px 12px;
-          border-radius: 10px;
-          cursor: pointer;
-          font-size: 12px;
-          transition: all 160ms ease;
-        }
-        .btn:hover { border-color: rgba(55, 215, 208, 0.5); transform: translateY(-1px); }
+        body { margin: 0; min-height: 100vh; color: var(--text); font-family: "Space Grotesk", sans-serif; background: linear-gradient(160deg, var(--bg), var(--bg-2)); transition: 0.3s; }
 
-        main { padding: 18px 20px 26px; display: grid; grid-template-columns: 2fr 1fr; gap: 16px; }
-        .panel {
-          background: linear-gradient(160deg, rgba(18, 27, 45, 0.96), rgba(14, 20, 34, 0.96));
-          border: 1px solid var(--line);
-          border-radius: 16px;
-          overflow: hidden;
-          box-shadow: var(--shadow);
-          animation: panelIn 420ms ease;
-        }
-        .panel-head { padding: 14px 16px; border-bottom: 1px solid var(--line); display: flex; align-items: baseline; gap: 10px; }
-        .panel-title { font-size: 14px; margin: 0; letter-spacing: 0.4px; }
-        .meta { font-size: 12px; color: var(--muted); }
+        header { padding: 16px 20px; border-bottom: 1px solid var(--line); display: flex; align-items: center; gap: 16px; position: sticky; top: 0; background: var(--surface); backdrop-filter: blur(10px); z-index: 5; }
+        .tabs { display: flex; gap: 8px; }
+        .tab { border: 1px solid var(--line); background: var(--surface-2); color: var(--text); padding: 8px 16px; border-radius: 999px; cursor: pointer; font-size: 12px; transition: 0.2s; }
+        .tab.active { border-color: var(--accent); background: var(--accent); color: #0a0f1c; font-weight: 600; }
 
-        .summary { grid-column: 1 / -1; }
-        .summary-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 10px; padding: 12px; }
-        .summary-item {
-          border: 1px solid var(--line);
-          background: var(--surface-2);
-          border-radius: 12px;
-          padding: 10px 12px;
-          min-height: 64px;
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-        }
-        .summary-item .label {
-          font-size: 10px;
-          text-transform: uppercase;
-          letter-spacing: 0.14em;
-          color: var(--muted);
-        }
-        .summary-item .value { font-size: 15px; font-weight: 600; }
+        .winning { color: var(--accent); font-weight: 800; }
+        @keyframes goal-blink { 0% { background: transparent; } 50% { background: var(--good); color: white; } 100% { background: transparent; } }
+        .blink-goal { animation: goal-blink 0.8s ease 3; }
+
+        main { padding: 20px; display: grid; grid-template-columns: 2fr 1fr; gap: 16px; max-width: 1600px; margin: 0 auto; }
+        .panel { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; overflow: hidden; box-shadow: var(--shadow); }
+        .panel-head { padding: 14px 16px; border-bottom: 1px solid var(--line); font-weight: 600; font-size: 13px; color: var(--muted); text-transform: uppercase; }
+
+        .summary-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 10px; padding: 12px; }
+        .summary-item { background: var(--surface-2); border-radius: 12px; padding: 12px; border: 1px solid var(--line); }
+        .summary-item .label { font-size: 10px; color: var(--muted); text-transform: uppercase; }
+        .summary-item .value { font-size: 13px; font-weight: 600; margin-top: 4px; font-family: 'JetBrains Mono', monospace; }
 
         table { width: 100%; border-collapse: collapse; }
-        th, td { padding: 12px 14px; border-bottom: 1px solid var(--line); font-size: 13px; vertical-align: top; }
-        th { color: var(--muted); font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.12em; }
-        tr:hover { background: rgba(255,255,255,0.03); }
-        tr.clickable { cursor: pointer; }
-        tr.pinned {
-          outline: 2px solid rgba(55, 215, 208, 0.32);
-          outline-offset: -2px;
-          background: rgba(55, 215, 208, 0.08);
-        }
+        th, td { padding: 12px 14px; border-bottom: 1px solid var(--line); font-size: 13px; text-align: left; }
+        tr.clickable:hover { background: rgba(255,255,255,0.03); cursor: pointer; }
 
-        .match { display: flex; flex-direction: column; gap: 4px; }
-        .ids { font-size: 11px; color: var(--muted); }
-        .score { font-weight: 700; font-size: 15px; }
-        .time { font-variant-numeric: tabular-nums; color: var(--muted); }
-        .small { font-size: 12px; color: var(--muted); }
+        .feed { max-height: 500px; overflow-y: auto; padding: 14px; font-family: "JetBrains Mono", monospace; font-size: 11px; }
+        .feed-line { padding: 8px 0; border-bottom: 1px dashed var(--line); line-height: 1.4; }
+        .feed-line.goal { color: var(--good); font-weight: bold; background: rgba(39, 209, 125, 0.05); border-left: 3px solid var(--good); padding-left: 8px; }
+        .feed-line.card { color: var(--warn); border-left: 3px solid var(--warn); padding-left: 8px; }
 
-        .feed {
-          max-height: 560px;
-          overflow: auto;
-          font-family: "JetBrains Mono", "SF Mono", Menlo, Monaco, Consolas, monospace;
-          font-size: 12px;
-          padding: 12px 14px;
-        }
-        .feed-line { padding: 7px 0; border-bottom: 1px dashed rgba(255,255,255,0.12); animation: fadeIn 140ms ease; }
-        .feed-line.subtle { color: var(--muted); }
-        .feed-line:last-child { border-bottom: none; }
-
-        /* Modal */
-        .modal-backdrop {
-          position: fixed; inset: 0;
-          background: rgba(0,0,0,0.55);
-          display: none;
-          align-items: center;
-          justify-content: center;
-          z-index: 10;
-          padding: 16px;
-        }
+        .modal-backdrop { position: fixed; inset: 0; background: rgba(0,0,0,0.8); display: none; align-items: center; justify-content: center; z-index: 10; backdrop-filter: blur(5px); padding: 20px; }
         .modal-backdrop.open { display: flex; }
-        .modal {
-          width: min(980px, 96vw);
-          max-height: min(84vh, 900px);
-          background: linear-gradient(180deg, rgba(18, 27, 45, 0.98), rgba(11, 17, 29, 0.98));
-          border: 1px solid var(--line);
-          border-radius: 16px;
-          overflow: hidden;
-          display: grid;
-          grid-template-columns: 1fr 1fr;
-        }
-        .modal-head {
-          grid-column: 1 / -1;
-          display: flex;
-          gap: 10px;
-          align-items: center;
-          padding: 12px;
-          border-bottom: 1px solid var(--line);
-        }
-        .modal-title { font-size: 13px; margin: 0; }
-        .modal-body { display: grid; grid-template-columns: 1fr 1fr; }
-        .modal-pane { border-right: 1px solid var(--line); }
-        .modal-pane:last-child { border-right: none; }
-        .modal-section-head { padding: 10px 12px; border-bottom: 1px solid var(--line); display: flex; align-items: center; justify-content: space-between; gap: 10px; }
-        .modal-section-title { margin: 0; font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; }
-        .modal-feed {
-          max-height: calc(min(84vh, 900px) - 100px);
-          overflow: auto;
-          padding: 12px 14px;
-          font-family: "JetBrains Mono", "SF Mono", Menlo, Monaco, Consolas, monospace;
-          font-size: 12px;
-        }
-        .loading {
-          display: inline-flex;
-          align-items: center;
-          gap: 8px;
-          padding: 4px 10px;
-          border-radius: 999px;
-          border: 1px solid rgba(255,255,255,0.14);
-          background: rgba(10, 16, 28, 0.6);
-          color: var(--muted);
-          font-size: 11px;
-          letter-spacing: 0.04em;
-        }
-        .loading-dot {
-          width: 6px;
-          height: 6px;
-          border-radius: 50%;
-          background: var(--accent);
-          box-shadow: 0 0 10px rgba(55, 215, 208, 0.7);
-          animation: pulse 1.2s ease-in-out infinite;
-        }
-        @keyframes pulse {
-          0%, 100% { transform: scale(0.8); opacity: 0.6; }
-          50% { transform: scale(1); opacity: 1; }
-        }
-        .kv { display: grid; grid-template-columns: 120px 1fr; gap: 6px 10px; padding: 10px 12px; }
-        .k { color: var(--muted); font-size: 12px; }
-        .v { font-variant-numeric: tabular-nums; font-size: 12px; }
+        .modal { width: min(850px, 100%); background: var(--surface); border-radius: 20px; overflow: hidden; display: flex; flex-direction: column; max-height: 90vh; }
+        .modal-header { padding: 16px 24px; border-bottom: 1px solid var(--line); display: flex; justify-content: space-between; align-items: center; }
+        .modal-body { display: grid; grid-template-columns: 1fr 1fr; overflow-y: auto; }
+        .modal-pane { padding: 24px; border-right: 1px solid var(--line); }
+        .modal-pane:last-child { border-right: none; background: var(--surface-2); }
 
-        @keyframes panelIn {
-          from { opacity: 0; transform: translateY(10px); }
-          to { opacity: 1; transform: translateY(0); }
-        }
-        @keyframes fadeIn {
-          from { opacity: 0; transform: translateY(6px); }
-          to { opacity: 1; transform: translateY(0); }
-        }
-        @media (max-width: 980px) {
-          header { flex-wrap: wrap; }
-          main { grid-template-columns: 1fr; }
-          .modal { grid-template-columns: 1fr; }
-          .modal-body { grid-template-columns: 1fr; }
-          .modal-pane { border-right: none; border-bottom: 1px solid var(--line); }
-          .modal-pane:last-child { border-bottom: none; }
-        }
+        .stats-label { display: flex; justify-content: space-between; font-size: 10px; margin-bottom: 4px; color: var(--muted); text-transform: uppercase; font-weight: 600; }
+        .bar-track { height: 12px; background: var(--line); border-radius: 6px; display: flex; overflow: hidden; margin-bottom: 16px; }
+        .bar-home { background: var(--accent); transition: width 0.4s; width: 50%; }
+        .bar-away { background: var(--accent-2); transition: width 0.4s; width: 50%; border-left: 2px solid var(--surface); }
+
+        .btn { border: 1px solid var(--line); background: var(--surface-2); color: var(--text); padding: 8px 14px; border-radius: 10px; cursor: pointer; font-size: 12px; }
+
+        @media (max-width: 850px) { .modal-body { grid-template-columns: 1fr; } .modal-pane { border-right: none; border-bottom: 1px solid var(--line); } }
     </style>
 </head>
 <body>
-<header>
-    <div class="brand">
-        <div class="brand-title">Football Simulator</div>
-        <div class="brand-sub">Realtime match engine</div>
-    </div>
 
+<header>
+    <div class="brand"><div class="brand-title">Football Simulator</div><div class="brand-sub">Realtime Engine</div></div>
     <div class="tabs" id="tabs">
         <button class="tab active" data-league="PREMIER_LEAGUE">Premier League</button>
         <button class="tab" data-league="SERIE_A">Serie A</button>
         <button class="tab" data-league="LA_LIGA">La Liga</button>
     </div>
-
-    <button class="btn" id="reconnectBtn">Reconnect</button>
-
     <div class="spacer"></div>
+    <button id="themeToggle" class="btn">🌓 Theme</button>
     <div id="connPill" class="pill">disconnected</div>
 </header>
 
 <main>
-    <section class="panel summary">
+    <section class="panel" style="grid-column: 1 / -1;">
         <div class="summary-row">
-            <div class="summary-item">
-                <div class="label">League</div>
-                <div class="value" id="summaryLeague">—</div>
-            </div>
-            <div class="summary-item">
-                <div class="label">Fixture</div>
-                <div class="value" id="summaryFixture">—</div>
-            </div>
-            <div class="summary-item">
-                <div class="label">Round</div>
-                <div class="value" id="summaryRound">—</div>
-            </div>
-            <div class="summary-item">
-                <div class="label">Matches</div>
-                <div class="value" id="summaryMatches">—</div>
-            </div>
-            <div class="summary-item">
-                <div class="label">Status</div>
-                <div class="value" id="summaryStatus">—</div>
-            </div>
+            <div class="summary-item"><div class="label">League</div><div class="value" id="sumLg">—</div></div>
+            <div class="summary-item"><div class="label">Fixture</div><div class="value" id="sumFx">—</div></div>
+            <div class="summary-item"><div class="label">Round</div><div class="value" id="sumRd">—</div></div>
+            <div class="summary-item"><div class="label">Matches</div><div class="value" id="sumMt">—</div></div>
+            <div class="summary-item"><div class="label">Status</div><div class="value" id="sumSt">—</div></div>
         </div>
     </section>
 
     <section class="panel">
-        <div class="panel-head">
-            <h2 class="panel-title">Live Fixture</h2>
-            <div class="meta" id="fixtureMeta">—</div>
-        </div>
-
+        <div class="panel-head">Live Scores</div>
         <table>
-            <thead>
-            <tr>
-                <th>Match</th>
-                <th>Score</th>
-                <th>Status</th>
-                <th>Time</th>
-            </tr>
-            </thead>
+            <thead><tr><th>Match</th><th>Score</th><th>Phase</th><th>Live Clock</th></tr></thead>
             <tbody id="matchesBody"></tbody>
         </table>
-
-        <div style="padding: 10px 12px;">
-            <div class="small">
-                Click a match row to open the match modal. Click the same row again to <b>pin</b> it (saved in your browser).
-            </div>
-        </div>
     </section>
 
-    <aside class="panel">
-        <div class="panel-head">
-            <h2 class="panel-title">Event Feed</h2>
-            <div class="meta">latest first</div>
-        </div>
-        <div class="feed" id="feed"></div>
-    </aside>
+    <aside class="panel"><div class="panel-head">Global Event Feed</div><div class="feed" id="mainFeed"></div></aside>
 </main>
 
-<!-- Match Modal -->
-<div class="modal-backdrop" id="modalBackdrop" aria-hidden="true">
-    <div class="modal" role="dialog" aria-modal="true" aria-label="Match details">
-        <div class="modal-head">
-            <h3 class="modal-title" id="modalTitle">Match</h3>
-            <div class="meta" id="modalMeta">—</div>
-            <div class="spacer"></div>
-            <div id="modalConn" class="pill">disconnected</div>
-            <button class="btn" id="modalCloseBtn">Close</button>
+<div class="modal-backdrop" id="modalBackdrop">
+    <div class="modal">
+        <div class="modal-header">
+            <h3 id="modalTitle" style="margin:0; font-size: 16px;">Match View</h3>
+            <button class="btn" onclick="closeModal()">Close</button>
         </div>
-
         <div class="modal-body">
             <div class="modal-pane">
-                <div class="modal-section-head">
-                    <div class="modal-section-title">Match Snapshot</div>
-                    <div class="small" id="modalClock">—</div>
-                    <div class="loading" id="modalLoading" style="display: none;">
-                        <span class="loading-dot"></span>
-                        Connecting…
-                    </div>
-                </div>
-                <div class="kv">
-                    <div class="k">Score</div><div class="v" id="modalScore">—</div>
-                    <div class="k">Phase</div><div class="v" id="modalPhase">—</div>
-                    <div class="k">Minute</div><div class="v" id="modalMinute">—</div>
-                    <div class="k">Shots</div><div class="v" id="modalShots">—</div>
-                    <div class="k">SOT</div><div class="v" id="modalSot">—</div>
-                    <div class="k">Corners</div><div class="v" id="modalCorners">—</div>
-                    <div class="k">Match ID</div><div class="v" id="modalMatchId">—</div>
-                    <div class="k">Pinned</div><div class="v" id="modalPinned">No</div>
-                </div>
-            </div>
+                <div id="mScore" style="font-size: 42px; font-weight: 800; text-align: center; margin-bottom: 24px;">0 - 0</div>
 
-            <div class="modal-pane">
-                <div class="modal-section-head">
-                    <div class="modal-section-title">Match Events</div>
-                    <div class="small">latest first</div>
+                <div class="stats-container">
+                    <div class="stats-label"><span>Win Probability</span></div>
+                    <div class="bar-track" style="height: 20px; margin-bottom: 4px;">
+                        <div id="probH" class="bar-home" style="display: flex; align-items: center; justify-content: center; font-size: 10px; font-weight: bold; color: #0a0f1c;">50%</div>
+                        <div id="probA" class="bar-away" style="display: flex; align-items: center; justify-content: center; font-size: 10px; font-weight: bold; color: #0a0f1c;">50%</div>
+                    </div>
+                    <div id="predictionText" style="font-size: 10px; text-align: center; color: var(--muted); margin-bottom: 20px; font-style: italic;">Calculating forecast...</div>
+
+                    <div class="stats-label"><span>Shots</span><span id="lShots">0/0</span></div>
+                    <div class="bar-track"><div id="bShotsH" class="bar-home"></div><div id="bShotsA" class="bar-away"></div></div>
+
+                    <div class="stats-label"><span>Corners</span><span id="lCorners">0/0</span></div>
+                    <div class="bar-track"><div id="bCornersH" class="bar-home"></div><div id="bCornersA" class="bar-away"></div></div>
                 </div>
-                <div class="modal-feed" id="modalFeed"></div>
+
+                <div style="display: flex; justify-content: space-around; font-size: 13px; border-top: 1px solid var(--line); padding-top: 15px;">
+                    <div>Phase: <b id="mPhase">-</b></div>
+                    <div>Clock: <b id="mTime">00:00</b></div>
+                </div>
             </div>
+            <div class="modal-pane"><div class="stats-label">Timeline</div><div class="feed" id="mFeed" style="padding: 0;"></div></div>
         </div>
     </div>
 </div>
 
 <script>
     (() => {
-      // --- State ---
-      let league = "PREMIER_LEAGUE";
-      let fixtureWs = null;
+        let league = "PREMIER_LEAGUE";
+        let fixtureWs = null, matchWs = null, selectedId = null;
+        const matchIndex = new Map();
+        const leagueFeeds = new Map();
 
-      let matchWs = null;
-      let selectedMatch = null;
+        const matchClocks = new Map();
+        let timerInterval = null;
 
-      let pinnedMatchId = null;
+        const mainFeed = document.getElementById("mainFeed");
+        const matchesBody = document.getElementById("matchesBody");
 
-      const PIN_KEY = (lg) => `footballSim:pinnedMatchId:${lg}`;
-
-      // --- Elements ---
-      const connPill = document.getElementById("connPill");
-      const fixtureMeta = document.getElementById("fixtureMeta");
-      const matchesBody = document.getElementById("matchesBody");
-      const feed = document.getElementById("feed");
-      const summaryLeague = document.getElementById("summaryLeague");
-      const summaryFixture = document.getElementById("summaryFixture");
-      const summaryRound = document.getElementById("summaryRound");
-      const summaryMatches = document.getElementById("summaryMatches");
-      const summaryStatus = document.getElementById("summaryStatus");
-
-      const modalBackdrop = document.getElementById("modalBackdrop");
-      const modalTitle = document.getElementById("modalTitle");
-      const modalMeta = document.getElementById("modalMeta");
-      const modalConn = document.getElementById("modalConn");
-      const modalClock = document.getElementById("modalClock");
-      const modalLoading = document.getElementById("modalLoading");
-      const modalFeed = document.getElementById("modalFeed");
-      const modalScore = document.getElementById("modalScore");
-      const modalPhase = document.getElementById("modalPhase");
-      const modalMinute = document.getElementById("modalMinute");
-      const modalShots = document.getElementById("modalShots");
-      const modalSot = document.getElementById("modalSot");
-      const modalCorners = document.getElementById("modalCorners");
-      const modalMatchId = document.getElementById("modalMatchId");
-      const modalPinned = document.getElementById("modalPinned");
-
-      if (!matchesBody) throw new Error('Missing element with id="matchesBody"');
-
-      // matchId -> {homeTeam, awayTeam, wsPath}
-      const matchIndex = new Map();
-      // matchId -> last event with match snapshot
-      const lastMatchEvent = new Map();
-      // matchId -> [incident line, ...] (latest first)
-      const incidentCache = new Map();
-      // league -> [line, ...] (latest first)
-      const feedCache = new Map();
-
-      // --- Helpers ---
-      function setConn(state, kind) {
-        connPill.textContent = state;
-        connPill.className = "pill " + (kind || "");
-      }
-
-      function setModalConn(state, kind) {
-        modalConn.textContent = state;
-        modalConn.className = "pill " + (kind || "");
-        if (state === "connecting…") {
-          modalLoading.style.display = "inline-flex";
-        } else {
-          modalLoading.style.display = "none";
-        }
-      }
-
-      function wsUrl(path) {
-        const proto = location.protocol === "https:" ? "wss:" : "ws:";
-        return proto + "//" + location.host + path;
-      }
-
-      function formatLeague(lg) {
-        return lg
-          .toLowerCase()
-          .split("_")
-          .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-          .join(" ");
-      }
-
-      function renderFeedFromCache() {
-        feed.innerHTML = "";
-        const cached = feedCache.get(league) || [];
-        for (const line of cached) {
-          const div = document.createElement("div");
-          div.className = "feed-line";
-          div.textContent = line;
-          feed.appendChild(div);
-        }
-      }
-
-      function clearUI() {
-        fixtureMeta.textContent = "—";
-        matchesBody.innerHTML = "";
-        renderFeedFromCache();
-        matchIndex.clear();
-        summaryFixture.textContent = "—";
-        summaryRound.textContent = "—";
-        summaryMatches.textContent = "—";
-      }
-
-      function addFeed(line) {
-        const div = document.createElement("div");
-        div.className = "feed-line";
-        div.textContent = line;
-        feed.prepend(div);
-
-        const bucket = feedCache.get(league) || [];
-        bucket.unshift(line);
-        if (bucket.length > 200) bucket.length = 200;
-        feedCache.set(league, bucket);
-      }
-
-      function addModalFeed(line, subtle = false) {
-        const div = document.createElement("div");
-        div.className = subtle ? "feed-line subtle" : "feed-line";
-        div.textContent = line;
-        modalFeed.prepend(div);
-      }
-
-      function addIncidentCache(matchId, line) {
-        if (!matchId) return;
-        const bucket = incidentCache.get(matchId) || [];
-        bucket.unshift(line);
-        if (bucket.length > 120) bucket.length = 120;
-        incidentCache.set(matchId, bucket);
-      }
-
-      function loadPinned() {
-        const v = localStorage.getItem(PIN_KEY(league));
-        pinnedMatchId = v && v.trim() ? v : null;
-      }
-
-      function savePinned() {
-        if (pinnedMatchId) localStorage.setItem(PIN_KEY(league), pinnedMatchId);
-        else localStorage.removeItem(PIN_KEY(league));
-      }
-
-      function applyPinnedHighlight() {
-        for (const tr of matchesBody.querySelectorAll("tr[data-match-id]")) {
-          const id = tr.getAttribute("data-match-id");
-          tr.classList.toggle("pinned", pinnedMatchId !== null && id === pinnedMatchId);
-        }
-        modalPinned.textContent = (selectedMatch && pinnedMatchId === selectedMatch) ? "Yes" : "No";
-      }
-
-      function renderMatches(matches) {
-        matchesBody.innerHTML = "";
-        for (const m of matches) {
-          matchIndex.set(m.matchId, { homeTeam: m.homeTeam, awayTeam: m.awayTeam, wsPath: m.ws.match });
-
-          const tr = document.createElement("tr");
-          tr.id = "row-" + m.matchId;
-          tr.className = "clickable";
-          tr.setAttribute("data-match-id", m.matchId);
-
-          tr.innerHTML = `
-            <td>
-              <div class="match">
-                <div><b>${m.homeTeam}</b> vs <b>${m.awayTeam}</b></div>
-                <div class="ids">${m.matchId}</div>
-              </div>
-            </td>
-            <td class="score" id="score-${m.matchId}">0 - 0</td>
-            <td id="phase-${m.matchId}">?</td>
-            <td class="time" id="time-${m.matchId}">0'</td>
-          `;
-          matchesBody.appendChild(tr);
-        }
-
-        applyPinnedHighlight();
-      }
-
-      function updateRow(ev) {
-        const matchId = ev.matchId;
-        const s = ev.match;
-
-        const scoreEl = document.getElementById("score-" + matchId);
-        const phaseEl = document.getElementById("phase-" + matchId);
-        const timeEl  = document.getElementById("time-" + matchId);
-
-        if (!scoreEl || !phaseEl || !timeEl) return;
-
-        scoreEl.textContent = `${s.homeScore} - ${s.awayScore}`;
-        phaseEl.textContent = s.phase;
-
-        const min = Math.floor((s.second || 0) / 60);
-        timeEl.textContent = `${min}'`;
-      }
-
-      function updateModalSnapshot(ev) {
-        const s = ev.match;
-        const min = Math.floor((s.second || 0) / 60);
-
-        modalScore.textContent = `${s.homeScore} - ${s.awayScore}`;
-        modalPhase.textContent = s.phase;
-        modalMinute.textContent = `${min}'`;
-        modalClock.textContent = `t=${s.second}s`;
-
-        const stats = (ev.data && ev.data.stats) ? ev.data.stats : null;
-        if (stats) {
-          modalShots.textContent = `${stats.shotsHome ?? "?"} / ${stats.shotsAway ?? "?"}`;
-          modalSot.textContent = `${stats.sotHome ?? "?"} / ${stats.sotAway ?? "?"}`;
-          modalCorners.textContent = `${stats.cornersHome ?? "?"} / ${stats.cornersAway ?? "?"}`;
-        }
-
-        modalPinned.textContent = (selectedMatch && pinnedMatchId === selectedMatch) ? "Yes" : "No";
-      }
-
-      // --- Connections ---
-      async function connectFixture() {
-        setConn("connecting…", "warn");
-        clearUI();
-
-        loadPinned();
-        summaryLeague.textContent = formatLeague(league);
-
-        if (fixtureWs) { try { fixtureWs.close(); } catch (_) {} fixtureWs = null; }
-
-        const rfRes = await fetch(`/api/runners/${league}/running-fixture`);
-        if (!rfRes.ok) {
-          setConn("REST error " + rfRes.status, "bad");
-          fixtureMeta.textContent = "Failed to load running fixture.";
-          summaryStatus.textContent = "REST error";
-          return;
-        }
-
-        const rf = await rfRes.json();
-
-        if (rf.status !== "RUNNING") {
-          setConn(rf.status, "warn");
-          fixtureMeta.textContent = rf.next
-            ? `Not running. Next: ${rf.next.action} in ${rf.next.startsInSeconds}s`
-            : `Not running. Status: ${rf.status}`;
-          summaryStatus.textContent = rf.status;
-          summaryFixture.textContent = rf.fixtureId || "—";
-          summaryRound.textContent = rf.round || "—";
-          summaryMatches.textContent = rf.matches ? String(rf.matches.length) : "—";
-          return;
-        }
-
-        fixtureMeta.textContent = `Season ${rf.seasonIndex} · Round ${rf.round} · Fixture ${rf.fixtureId}`;
-        summaryStatus.textContent = "RUNNING";
-        summaryFixture.textContent = rf.fixtureId;
-        summaryRound.textContent = String(rf.round);
-        summaryMatches.textContent = String(rf.matches.length);
-        renderMatches(rf.matches);
-
-        fixtureWs = new WebSocket(wsUrl(rf.ws.fixture));
-
-        fixtureWs.onopen = () => setConn("connected", "ok");
-        fixtureWs.onclose = () => setConn("disconnected", "warn");
-        fixtureWs.onerror = () => setConn("ws error", "bad");
-
-        fixtureWs.onmessage = (m) => {
-          let ev;
-          try { ev = JSON.parse(m.data); } catch (_) { return; }
-
-          if (ev.type === "MATCH_SNAPSHOT" ||
-              ev.type === "GOAL" ||
-              ev.type === "HALF_TIME" ||
-              ev.type === "SECOND_HALF_KICK_OFF" ||
-              ev.type === "FULL_TIME") {
-            if (ev.matchId && ev.match) lastMatchEvent.set(ev.matchId, ev);
-            updateRow(ev);
-
-            // if pinned match is also selected, keep modal snapshot updating even if match ws lags
-            if (selectedMatch && pinnedMatchId === selectedMatch && ev.matchId === selectedMatch && ev.match) {
-              updateModalSnapshot(ev);
-            }
-          }
-
-          if (ev.type !== "MATCH_SNAPSHOT") {
-            const min = Math.floor((ev.match?.second || 0) / 60);
-            const teams = matchIndex.get(ev.matchId);
-            const label = teams ? `${teams.homeTeam} vs ${teams.awayTeam}` : ev.matchId;
-            const line = `[${league}] ${min}' ${label} · ${ev.type}`;
-            addFeed(line);
-            addIncidentCache(ev.matchId, `${min}' · ${ev.type}${ev.data ? " · " + JSON.stringify(ev.data) : ""}`);
-
-            if (selectedMatch && ev.matchId === selectedMatch) {
-              if (modalFeed.firstChild && modalFeed.firstChild.textContent &&
-                  (modalFeed.firstChild.textContent === "Waiting for match events…" ||
-                   modalFeed.firstChild.textContent === "Live snapshots only (no incidents yet)")) {
-                modalFeed.innerHTML = "";
-              }
-              addModalFeed(`${min}' · ${ev.type}${ev.data ? " · " + JSON.stringify(ev.data) : ""}`);
-            }
-          }
+        document.getElementById("themeToggle").onclick = () => {
+            const isL = document.documentElement.classList.toggle('light');
+            localStorage.setItem('theme', isL ? 'light' : 'dark');
         };
-      }
+        if(localStorage.getItem('theme') === 'light') document.documentElement.classList.add('light');
 
-      function connectMatchWs(matchId) {
-        const m = matchIndex.get(matchId);
-        if (!m) return;
-
-        setModalConn("connecting…", "warn");
-
-        if (matchWs) { try { matchWs.close(); } catch (_) {} matchWs = null; }
-
-        matchWs = new WebSocket(wsUrl(m.wsPath));
-
-        matchWs.onopen = () => setModalConn("connected", "ok");
-        matchWs.onclose = () => setModalConn("disconnected", "warn");
-        matchWs.onerror = () => setModalConn("ws error", "bad");
-
-        matchWs.onmessage = (msg) => {
-          let ev;
-          try { ev = JSON.parse(msg.data); } catch (_) { return; }
-
-          if (ev.type === "MATCH_SNAPSHOT") {
-            updateModalSnapshot(ev);
-            if (modalFeed.firstChild && modalFeed.firstChild.textContent === "Waiting for match events…") {
-              modalFeed.firstChild.textContent = "Live snapshots only (no incidents yet)";
-            }
-            return;
-          }
-
-          if (ev.match) updateModalSnapshot(ev);
-
-          const min = Math.floor((ev.match?.second || 0) / 60);
-          if (modalFeed.firstChild && modalFeed.firstChild.textContent !== null &&
-              (modalFeed.firstChild.textContent === "Waiting for match events…" ||
-               modalFeed.firstChild.textContent === "Live snapshots only (no incidents yet)")) {
-            modalFeed.innerHTML = "";
-          }
-          addModalFeed(`${min}' · ${ev.type}${ev.data ? " · " + JSON.stringify(ev.data) : ""}`);
+        const formatTime = (s) => {
+            const mins = Math.floor(s / 60).toString().padStart(2, '0');
+            const secs = (s % 60).toString().padStart(2, '0');
+            return `${mins}:${secs}`;
         };
-      }
 
-      // --- Modal controls ---
-      function openModalForMatch(matchId) {
-        const m = matchIndex.get(matchId);
-        if (!m) return;
+        const wsUrl = (path) => (location.protocol === "https:" ? "wss:" : "ws:") + "//" + location.host + path;
 
-        selectedMatch = matchId;
-        modalBackdrop.classList.add("open");
-        modalBackdrop.setAttribute("aria-hidden", "false");
-        modalFeed.innerHTML = "";
-        addModalFeed("Waiting for match events…", true);
-
-        modalTitle.textContent = `${m.homeTeam} vs ${m.awayTeam}`;
-        modalMeta.textContent = league;
-        modalMatchId.textContent = matchId;
-
-        modalScore.textContent = "—";
-        modalPhase.textContent = "—";
-        modalMinute.textContent = "—";
-        modalShots.textContent = "—";
-        modalSot.textContent = "—";
-        modalCorners.textContent = "—";
-        modalClock.textContent = "—";
-        modalPinned.textContent = (pinnedMatchId === matchId) ? "Yes" : "No";
-
-        const cachedIncidents = incidentCache.get(matchId) || [];
-        if (cachedIncidents.length > 0) {
-          modalFeed.innerHTML = "";
-          for (const line of cachedIncidents) addModalFeed(line);
+        function startGlobalTimer() {
+            if (timerInterval) clearInterval(timerInterval);
+            timerInterval = setInterval(() => {
+                matchClocks.forEach((data, id) => {
+                    if (data.phase === "FIRST_HALF" || data.phase === "SECOND_HALF") {
+                        data.seconds += 1;
+                        const tiEl = document.getElementById(`ti-${id}`);
+                        if (tiEl) tiEl.textContent = formatTime(data.seconds);
+                        if (selectedId === id) document.getElementById("mTime").textContent = formatTime(data.seconds);
+                    }
+                });
+            }, 1000);
         }
 
-        const cached = lastMatchEvent.get(matchId);
-        if (cached && cached.match) {
-          updateModalSnapshot(cached);
+        async function connect() {
+            if (fixtureWs) fixtureWs.close();
+            document.getElementById("connPill").textContent = "connecting...";
+            mainFeed.innerHTML = leagueFeeds.get(league) || "";
+            matchClocks.clear();
+
+            try {
+                const res = await fetch(`/api/runners/${league}/running-fixture`);
+                const rf = await res.json();
+                document.getElementById("sumLg").textContent = league.replace('_',' ');
+                document.getElementById("sumFx").textContent = rf.fixtureId || "—";
+                document.getElementById("sumRd").textContent = rf.round || "—";
+                document.getElementById("sumMt").textContent = rf.matches ? rf.matches.length : "0";
+                document.getElementById("sumSt").textContent = rf.status;
+
+                if (rf.status === "RUNNING") {
+                    renderMatches(rf.matches);
+                    startGlobalTimer();
+                    fixtureWs = new WebSocket(wsUrl(rf.ws.fixture));
+                    fixtureWs.onopen = () => document.getElementById("connPill").textContent = "connected";
+                    fixtureWs.onmessage = (m) => handleMsg(JSON.parse(m.data));
+                }
+            } catch (e) { console.error(e); }
         }
 
-        connectMatchWs(matchId);
-      }
-
-      function closeModal() {
-        modalBackdrop.classList.remove("open");
-        modalBackdrop.setAttribute("aria-hidden", "true");
-        selectedMatch = null;
-
-        if (matchWs) { try { matchWs.close(); } catch (_) {} matchWs = null; }
-        setModalConn("disconnected", "warn");
-        applyPinnedHighlight();
-      }
-
-      // --- Click behavior ---
-      // Click a row:
-      //   - if it's already the selected match -> toggle pin
-      //   - otherwise -> open modal for that match
-      matchesBody.addEventListener("click", (e) => {
-        const tr = e.target.closest("tr[data-match-id]");
-        if (!tr) return;
-
-        const matchId = tr.getAttribute("data-match-id");
-
-        if (selectedMatch && selectedMatch === matchId) {
-          pinnedMatchId = (pinnedMatchId === matchId) ? null : matchId;
-          savePinned();
-          applyPinnedHighlight();
-          return;
+        function renderMatches(matches) {
+            matchesBody.innerHTML = "";
+            matches.forEach(m => {
+                matchIndex.set(m.matchId, m);
+                matchClocks.set(m.matchId, { seconds: 0, phase: "WAITING" });
+                const tr = document.createElement("tr");
+                tr.id = `row-${m.matchId}`;
+                tr.className = "clickable";
+                tr.innerHTML = `<td><b class="h">${m.homeTeam}</b> vs <b class="a">${m.awayTeam}</b></td><td id="sc-${m.matchId}" style="font-weight:bold;">0-0</td><td id="ph-${m.matchId}">-</td><td id="ti-${m.matchId}">00:00</td>`;
+                tr.onclick = () => openModal(m.matchId);
+                matchesBody.appendChild(tr);
+            });
         }
 
-        openModalForMatch(matchId);
-        applyPinnedHighlight();
-      });
+        function handleMsg(ev) {
+            const m = matchIndex.get(ev.matchId);
+            if (!m) return;
 
-      document.getElementById("modalCloseBtn").addEventListener("click", closeModal);
-      modalBackdrop.addEventListener("click", (e) => { if (e.target === modalBackdrop) closeModal(); });
-      document.addEventListener("keydown", (e) => { if (e.key === "Escape" && modalBackdrop.classList.contains("open")) closeModal(); });
+            if (ev.type === "MATCH_SNAPSHOT" || ev.type === "GOAL" || ev.type.includes("HALF") || ev.type.includes("TIME")) {
+                const s = ev.match;
+                matchClocks.set(ev.matchId, { seconds: s.second, phase: s.phase });
 
-      // --- Tabs / reconnect ---
-      document.getElementById("tabs").addEventListener("click", (e) => {
-        const btn = e.target.closest("button[data-league]");
-        if (!btn) return;
+                const scEl = document.getElementById(`sc-${ev.matchId}`);
+                if (scEl) {
+                    if (scEl.textContent !== "0-0" && scEl.textContent !== `${s.homeScore}-${s.awayScore}`) {
+                        scEl.classList.add("blink-goal"); setTimeout(() => scEl.classList.remove("blink-goal"), 2000);
+                    }
+                    scEl.textContent = `${s.homeScore}-${s.awayScore}`;
+                    document.getElementById(`ph-${ev.matchId}`).textContent = s.phase;
+                    document.getElementById(`ti-${ev.matchId}`).textContent = formatTime(s.second);
 
-        for (const b of document.querySelectorAll(".tab")) b.classList.remove("active");
-        btn.classList.add("active");
+                    const tr = document.getElementById(`row-${ev.matchId}`);
+                    tr.querySelector(".h").classList.toggle("winning", s.homeScore > s.awayScore);
+                    tr.querySelector(".a").classList.toggle("winning", s.awayScore > s.homeScore);
+                }
+                if (selectedId === ev.matchId) updateModal(ev);
+            }
 
-        league = btn.getAttribute("data-league");
+            if (ev.type !== "MATCH_SNAPSHOT") {
+                const side = ev.data?.side ? `(${ev.data.side === 'HOME' ? m.homeTeam : m.awayTeam}) ` : "";
+                const line = `[${league}] ${Math.floor(ev.match.second/60)}' ${m.homeTeam} vs ${m.awayTeam} · ${side}${ev.type}`;
+                const div = document.createElement("div");
+                div.className = "feed-line" + (ev.type === 'GOAL' ? ' goal' : (ev.type.includes('CARD') ? ' card' : ''));
+                div.textContent = line;
+                div.setAttribute('data-mid', ev.matchId);
+                div.setAttribute('data-txt', `${Math.floor(ev.match.second/60)}' · ${side}${ev.type}`);
+                mainFeed.prepend(div);
+                leagueFeeds.set(league, mainFeed.innerHTML);
+                if (selectedId === ev.matchId) {
+                    const md = div.cloneNode(true); md.textContent = div.getAttribute('data-txt');
+                    document.getElementById("mFeed").prepend(md);
+                }
+            }
+        }
 
-        // close modal on league switch
-        if (modalBackdrop.classList.contains("open")) closeModal();
+        function openModal(id) {
+            selectedId = id; const m = matchIndex.get(id);
+            document.getElementById("modalTitle").textContent = `${m.homeTeam} vs ${m.awayTeam}`;
+            const mFeed = document.getElementById("mFeed"); mFeed.innerHTML = "";
+            const clock = matchClocks.get(id);
+            if (clock) document.getElementById("mTime").textContent = formatTime(clock.seconds);
 
-        loadPinned();
+            mainFeed.querySelectorAll('.feed-line').forEach(evt => {
+                if(evt.getAttribute('data-mid') === id) {
+                    const d = document.createElement("div"); d.className = evt.className;
+                    d.textContent = evt.getAttribute('data-txt'); mFeed.appendChild(d);
+                }
+            });
+            document.getElementById("modalBackdrop").classList.add("open");
+            if (matchWs) matchWs.close();
+            matchWs = new WebSocket(wsUrl(m.ws.match));
+            matchWs.onmessage = (msg) => handleMsg(JSON.parse(msg.data));
+        }
 
-        connectFixture().catch(err => {
-          setConn("error", "bad");
-          fixtureMeta.textContent = String(err);
-        });
-      });
+        function updateModal(ev) {
+            const s = ev.match;
+            document.getElementById("mScore").textContent = `${s.homeScore} - ${s.awayScore}`;
+            document.getElementById("mPhase").textContent = s.phase;
+            document.getElementById("mTime").textContent = formatTime(s.second);
 
-      document.getElementById("reconnectBtn").addEventListener("click", () => {
-        if (modalBackdrop.classList.contains("open")) closeModal();
-        connectFixture().catch(err => {
-          setConn("error", "bad");
-          fixtureMeta.textContent = String(err);
-        });
-      });
+            if (ev.data?.stats) {
+                const st = ev.data.stats;
+                const ub = (h, a, lId, hb, ab) => {
+                    document.getElementById(lId).textContent = `${h}/${a}`;
+                    const t = h + a; const hp = t === 0 ? 50 : (h/t*100);
+                    document.getElementById(hb).style.width = hp + "%"; document.getElementById(ab).style.width = (100-hp) + "%";
+                };
+                ub(st.shotsHome, st.shotsAway, "lShots", "bShotsH", "bShotsA");
+                ub(st.cornersHome, st.cornersAway, "lCorners", "bCornersH", "bCornersA");
 
-      // --- Start ---
-      setModalConn("disconnected", "warn");
-      loadPinned();
-      connectFixture().catch(err => {
-        setConn("error", "bad");
-        fixtureMeta.textContent = String(err);
-      });
+                // Probability Engine
+                const timeLeft = Math.max(0, 5400 - s.second);
+                const homeAdv = (s.homeScore - s.awayScore) * 35;
+                const shotAdv = (st.shotsHome - st.shotsAway) * 2.5;
+                let hProb = 50 + homeAdv + shotAdv;
+                if (timeLeft > 300) hProb = Math.min(96, Math.max(4, hProb));
+                else { if (s.homeScore > s.awayScore) hProb = 99; else if (s.awayScore > s.homeScore) hProb = 1; else hProb = 50; }
+                const aProb = 100 - hProb;
+                document.getElementById("probH").style.width = hProb + "%";
+                document.getElementById("probH").textContent = Math.round(hProb) + "%";
+                document.getElementById("probA").style.width = aProb + "%";
+                document.getElementById("probA").textContent = Math.round(aProb) + "%";
+
+                let v = "Highly Competitive";
+                if (hProb > 80) v = `${matchIndex.get(ev.matchId).homeTeam} dominant`;
+                else if (aProb > 80) v = `${matchIndex.get(ev.matchId).awayTeam} dominant`;
+                document.getElementById("predictionText").textContent = `Forecast: ${v}`;
+            }
+        }
+
+        window.closeModal = () => { document.getElementById("modalBackdrop").classList.remove("open"); selectedId = null; if (matchWs) matchWs.close(); };
+        document.getElementById("tabs").onclick = (e) => {
+            const b = e.target.closest("button"); if (!b) return;
+            document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
+            b.classList.add("active"); league = b.dataset.league; connect();
+        };
+        connect();
     })();
 </script>
 </body>
